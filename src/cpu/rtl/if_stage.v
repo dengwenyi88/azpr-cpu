@@ -15,8 +15,8 @@
 
 /********** 個別ヘッダファイル **********/
 `include "cpu.vh"
-`include "bus_if.v"
-`include "if_reg.v"
+// `include "bus_if.v"
+// `include "if_reg.v"
 
 /********** モジュール **********/
 module if_stage (

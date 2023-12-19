@@ -19,11 +19,11 @@
 `include "spm.vh"
 `include "bus.vh"
 
-`include "if_stage.v"
-`include "id_stage.v"
-`include "ex_stage.v"
-`include "mem_stage.v"
-`include "gpr.v"
+// `include "if_stage.v"
+// `include "id_stage.v"
+// `include "ex_stage.v"
+// `include "mem_stage.v"
+// `include "gpr.v"
 
 /********** ƒ‚ƒWƒ…[ƒ‹ **********/
 module cpu (

@@ -9,7 +9,7 @@
 */
 
 /********** 共通ヘッダファイル **********/
-`include "nettype.h"
+`include "nettype.vh"
 
 /********** モジュール **********/
 module x_s3e_dcm (

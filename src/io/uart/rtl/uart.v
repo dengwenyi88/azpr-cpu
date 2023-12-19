@@ -15,9 +15,9 @@
 
 /********** 個別ヘッダファイル **********/
 `include "uart.vh"
-`include "uart_ctrl.v"
-`include "uart_rx.v"
-`include "uart_tx.v"
+// `include "uart_ctrl.v"
+// `include "uart_rx.v"
+// `include "uart_tx.v"
 
 /********** モジュール **********/
 module uart (

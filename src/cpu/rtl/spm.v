@@ -15,7 +15,7 @@
 
 /********** 個別ヘッダファイル **********/
 `include "spm.vh"
-`include "x_s3e_dpram.v"
+// `include "x_s3e_dpram.v"
 
 /********** モジュール **********/
 module spm (

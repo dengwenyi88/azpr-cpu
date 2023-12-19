@@ -15,10 +15,10 @@
 
 /********** 個別ヘッダファイル **********/
 `include "bus.vh"
-`include "bus_arbiter.v"
-`include "bus_addr_dec.v"
-`include "bus_master_mux.v"
-`include "bus_slave_mux.v"
+// `include "bus_arbiter.v"
+// `include "bus_addr_dec.v"
+// `include "bus_master_mux.v"
+// `include "bus_slave_mux.v"
 
 /********** モジュール **********/
 module bus (

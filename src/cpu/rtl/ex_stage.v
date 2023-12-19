@@ -16,8 +16,8 @@
 /********** 個別ヘッダファイル **********/
 `include "isa.vh"
 `include "cpu.vh"
-`include "ex_alu.v"
-`include "ex_reg.v"
+// `include "ex_alu.v"
+// `include "ex_reg.v"
 
 /********** モジュール **********/
 module ex_stage (

@@ -17,6 +17,9 @@
 `include "cpu.vh"
 `include "bus.vh"
 
+`ifndef __BUS_IF__
+`define __BUS_IF__
+
 /********** モジュール **********/
 module bus_if (
 	/********** クロック & リセット **********/
@@ -173,3 +176,5 @@ module bus_if (
 	end
 
 endmodule
+
+`endif

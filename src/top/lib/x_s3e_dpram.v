@@ -9,9 +9,9 @@
 */
 
 /********** 共通ヘッダファイル **********/
-`include "nettype.h"
-`include "stddef.h"
-`include "global_config.h"
+`include "nettype.vh"
+`include "stddef.vh"
+`include "global_config.vh"
 
 /********** 個別ヘッダファイル **********/
 `include "spm.vh"

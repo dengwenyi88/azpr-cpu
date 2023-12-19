@@ -21,6 +21,8 @@
 `include "uart.vh"
 `include "gpio.vh"
 
+// `include "cpu.v"
+
 /********** モジュール **********/
 module chip (
 	/********** クロック & リセット **********/

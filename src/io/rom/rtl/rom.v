@@ -15,7 +15,7 @@
 
 /********** 個別ヘッダファイル **********/
 `include "rom.vh"
-`include "x_s3e_sprom.v"
+// `include "x_s3e_sprom.v"
 
 /********** モジュール **********/
 module rom (

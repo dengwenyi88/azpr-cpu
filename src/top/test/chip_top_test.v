@@ -12,14 +12,15 @@
 `timescale 1ns/1ps					 // タイムスケール
 
 /********** 共通ヘッダファイル **********/
-`include "nettype.h"
-`include "stddef.h"
-`include "global_config.h"
+`include "nettype.vh"
+`include "stddef.vh"
+`include "global_config.vh"
 
 /********** 個別ヘッダファイル **********/
-`include "bus.h"
-`include "cpu.h"
-`include "gpio.h"
+`include "bus.vh"
+`include "cpu.vh"
+`include "gpio.vh"
+// `include "chip_top.v"
 
 /********** モジュール **********/
 module chip_top_test;

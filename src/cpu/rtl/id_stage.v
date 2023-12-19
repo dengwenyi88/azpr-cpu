@@ -16,8 +16,8 @@
 /********** 個別ヘッダファイル **********/
 `include "isa.vh"
 `include "cpu.vh"
-`include "id_decoder.v"
-`include "id_reg.v"
+// `include "id_decoder.v"
+// `include "id_reg.v"
 
 /********** モジュール **********/
 module id_stage (

@@ -16,9 +16,9 @@
 /********** 個別ヘッダファイル **********/
 `include "isa.vh"
 `include "cpu.vh"
-`include "mem_ctrl.v"
-`include "mem_reg.v"
-`include "bus_if.v"
+// `include "mem_ctrl.v"
+// `include "mem_reg.v"
+// `include "bus_if.v"
 
 /********** モジュール **********/
 module mem_stage (

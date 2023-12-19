@@ -13,7 +13,7 @@
 `include "stddef.vh"
 `include "global_config.vh"
 
-`include "x_s3e_dcm.v"
+// `include "x_s3e_dcm.v"
 
 /********** モジュール **********/
 module clk_gen (
