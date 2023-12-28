@@ -1,74 +1,74 @@
 /*
  -- ============================================================================
  -- FILE NAME	: spm.v
- -- DESCRIPTION : ƒXƒNƒ‰ƒbƒ`ƒpƒbƒhƒƒ‚ƒŠ
+ -- DESCRIPTION : ã‚¹ã‚¯ãƒ©ãƒƒãƒãƒ‘ãƒƒãƒ‰ãƒ¡ãƒ¢ãƒª
  -- ----------------------------------------------------------------------------
  -- Revision  Date		  Coding_by	 Comment
- -- 1.0.0	  2011/06/27  suito		 V‹Kì¬
+ -- 1.0.0	  2011/06/27  suito		 æ–°è¦ä½œæˆ
  -- ============================================================================
 */
 
-/********** ‹¤’Êƒwƒbƒ_ƒtƒ@ƒCƒ‹ **********/
+/********** å…±é€šãƒ˜ãƒƒãƒ€ãƒ•ã‚¡ã‚¤ãƒ« **********/
 `include "nettype.vh"
 `include "global_config.vh"
 `include "stddef.vh"
 
-/********** ŒÂ•Êƒwƒbƒ_ƒtƒ@ƒCƒ‹ **********/
+/********** å€‹åˆ¥ãƒ˜ãƒƒãƒ€ãƒ•ã‚¡ã‚¤ãƒ« **********/
 `include "spm.vh"
 // `include "x_s3e_dpram.v"
 
-/********** ƒ‚ƒWƒ…[ƒ‹ **********/
+/********** ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ« **********/
 module spm (
-	/********** ƒNƒƒbƒN **********/
-	input  wire				   clk,				// ƒNƒƒbƒN
-	/********** ƒ|[ƒgA : IFƒXƒe[ƒW **********/
-	input  wire [`SpmAddrBus]  if_spm_addr,		// ƒAƒhƒŒƒX
-	input  wire				   if_spm_as_,		// ƒAƒhƒŒƒXƒXƒgƒ[ƒu
-	input  wire				   if_spm_rw,		// “Ç‚İ^‘‚«
-	input  wire [`WordDataBus] if_spm_wr_data,	// ‘‚«‚İƒf[ƒ^
-	output wire [`WordDataBus] if_spm_rd_data,	// “Ç‚İo‚µƒf[ƒ^
-	/********** ƒ|[ƒgB : MEMƒXƒe[ƒW **********/
-	input  wire [`SpmAddrBus]  mem_spm_addr,	// ƒAƒhƒŒƒX
-	input  wire				   mem_spm_as_,		// ƒAƒhƒŒƒXƒXƒgƒ[ƒu
-	input  wire				   mem_spm_rw,		// “Ç‚İ^‘‚«
-	input  wire [`WordDataBus] mem_spm_wr_data, // ‘‚«‚İƒf[ƒ^
-	output wire [`WordDataBus] mem_spm_rd_data	// “Ç‚İo‚µƒf[ƒ^
+	/********** ã‚¯ãƒ­ãƒƒã‚¯ **********/
+	input  wire				   clk,				// ã‚¯ãƒ­ãƒƒã‚¯
+	/********** ãƒãƒ¼ãƒˆA : IFã‚¹ãƒ†ãƒ¼ã‚¸ **********/
+	input  wire [`SpmAddrBus]  if_spm_addr,		// ã‚¢ãƒ‰ãƒ¬ã‚¹
+	input  wire				   if_spm_as_,		// ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–
+	input  wire				   if_spm_rw,		// èª­ã¿ï¼æ›¸ã
+	input  wire [`WordDataBus] if_spm_wr_data,	// æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿
+	output wire [`WordDataBus] if_spm_rd_data,	// èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿
+	/********** ãƒãƒ¼ãƒˆB : MEMã‚¹ãƒ†ãƒ¼ã‚¸ **********/
+	input  wire [`SpmAddrBus]  mem_spm_addr,	// ã‚¢ãƒ‰ãƒ¬ã‚¹
+	input  wire				   mem_spm_as_,		// ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–
+	input  wire				   mem_spm_rw,		// èª­ã¿ï¼æ›¸ã
+	input  wire [`WordDataBus] mem_spm_wr_data, // æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿
+	output wire [`WordDataBus] mem_spm_rd_data	// èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿
 );
 
-	/********** ‘‚«‚İ—LŒøM† **********/
-	reg						   wea;			// ƒ|[ƒg A
-	reg						   web;			// ƒ|[ƒg B
+	/********** æ›¸ãè¾¼ã¿æœ‰åŠ¹ä¿¡å· **********/
+	reg						   wea;			// ãƒãƒ¼ãƒˆ A
+	reg						   web;			// ãƒãƒ¼ãƒˆ B
 
-	/********** ‘‚«‚İ—LŒøM†‚Ì¶¬ **********/
+	/********** æ›¸ãè¾¼ã¿æœ‰åŠ¹ä¿¡å·ã®ç”Ÿæˆ **********/
 	always @(*) begin
-		/* ƒ|[ƒg A */
+		/* ãƒãƒ¼ãƒˆ A */
 		if ((if_spm_as_ == `ENABLE_) && (if_spm_rw == `WRITE)) begin   
-			wea = `MEM_ENABLE;	// ‘‚«‚İ—LŒø
+			wea = `MEM_ENABLE;	// æ›¸ãè¾¼ã¿æœ‰åŠ¹
 		end else begin
-			wea = `MEM_DISABLE; // ‘‚«‚İ–³Œø
+			wea = `MEM_DISABLE; // æ›¸ãè¾¼ã¿ç„¡åŠ¹
 		end
-		/* ƒ|[ƒg B */
+		/* ãƒãƒ¼ãƒˆ B */
 		if ((mem_spm_as_ == `ENABLE_) && (mem_spm_rw == `WRITE)) begin
-			web = `MEM_ENABLE;	// ‘‚«‚İ—LŒø
+			web = `MEM_ENABLE;	// æ›¸ãè¾¼ã¿æœ‰åŠ¹
 		end else begin
-			web = `MEM_DISABLE; // ‘‚«‚İ–³Œø
+			web = `MEM_DISABLE; // æ›¸ãè¾¼ã¿ç„¡åŠ¹
 		end
 	end
 
-	/********** Xilinx FPGA Block RAM : ƒfƒ…ƒAƒ‹ƒ|[ƒgRAM **********/
+	/********** Xilinx FPGA Block RAM : ãƒ‡ãƒ¥ã‚¢ãƒ«ãƒãƒ¼ãƒˆRAM **********/
 	x_s3e_dpram x_s3e_dpram (
-		/********** ƒ|[ƒg A : IFƒXƒe[ƒW **********/
-		.clka  (clk),			  // ƒNƒƒbƒN
-		.addra (if_spm_addr),	  // ƒAƒhƒŒƒX
-		.dina  (if_spm_wr_data),  // ‘‚«‚İƒf[ƒ^i–¢Ú‘±j
-		.wea   (wea),			  // ‘‚«‚İ—LŒøiƒlƒQ[ƒgj
-		.douta (if_spm_rd_data),  // “Ç‚İo‚µƒf[ƒ^
-		/********** ƒ|[ƒg B : MEMƒXƒe[ƒW **********/
-		.clkb  (clk),			  // ƒNƒƒbƒN
-		.addrb (mem_spm_addr),	  // ƒAƒhƒŒƒX
-		.dinb  (mem_spm_wr_data), // ‘‚«‚İƒf[ƒ^
-		.web   (web),			  // ‘‚«‚İ—LŒø
-		.doutb (mem_spm_rd_data)  // “Ç‚İo‚µƒf[ƒ^
+		/********** ãƒãƒ¼ãƒˆ A : IFã‚¹ãƒ†ãƒ¼ã‚¸ **********/
+		.clka  (clk),			  // ã‚¯ãƒ­ãƒƒã‚¯
+		.addra (if_spm_addr),	  // ã‚¢ãƒ‰ãƒ¬ã‚¹
+		.dina  (if_spm_wr_data),  // æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿ï¼ˆæœªæ¥ç¶šï¼‰
+		.wea   (wea),			  // æ›¸ãè¾¼ã¿æœ‰åŠ¹ï¼ˆãƒã‚²ãƒ¼ãƒˆï¼‰
+		.douta (if_spm_rd_data),  // èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿
+		/********** ãƒãƒ¼ãƒˆ B : MEMã‚¹ãƒ†ãƒ¼ã‚¸ **********/
+		.clkb  (clk),			  // ã‚¯ãƒ­ãƒƒã‚¯
+		.addrb (mem_spm_addr),	  // ã‚¢ãƒ‰ãƒ¬ã‚¹
+		.dinb  (mem_spm_wr_data), // æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿
+		.web   (web),			  // æ›¸ãè¾¼ã¿æœ‰åŠ¹
+		.doutb (mem_spm_rd_data)  // èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿
 	);
   
 endmodule

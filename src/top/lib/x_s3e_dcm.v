@@ -1,26 +1,26 @@
 /*
  -- ============================================================================
  -- FILE NAME	: x_s3e_dcm.v
- -- DESCRIPTION : Xilinx Spartan-3E DCM ‹^—ƒ‚ƒfƒ‹
+ -- DESCRIPTION : Xilinx Spartan-3E DCM ç–‘ä¼¼ãƒ¢ãƒ‡ãƒ«
  -- ----------------------------------------------------------------------------
  -- Revision  Date		  Coding_by	 Comment
- -- 1.0.0	  2011/06/27  suito		 V‹Kì¬
+ -- 1.0.0	  2011/06/27  suito		 æ–°è¦ä½œæˆ
  -- ============================================================================
 */
 
-/********** ‹¤’Êƒwƒbƒ_ƒtƒ@ƒCƒ‹ **********/
+/********** å…±é€šãƒ˜ãƒƒãƒ€ãƒ•ã‚¡ã‚¤ãƒ« **********/
 `include "nettype.vh"
 
-/********** ƒ‚ƒWƒ…[ƒ‹ **********/
+/********** ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ« **********/
 module x_s3e_dcm (
-	input  wire CLKIN_IN,		 // Šù’èƒNƒƒbƒN
-	input  wire RST_IN,			 // ƒŠƒZƒbƒg
-	output wire CLK0_OUT,		 // ƒNƒƒbƒNiƒÓ0j
-	output wire CLK180_OUT,		 // ƒNƒƒbƒNiƒÓ180j
-	output wire LOCKED_OUT		 // ƒƒbƒN
+	input  wire CLKIN_IN,		 // æ—¢å®šã‚¯ãƒ­ãƒƒã‚¯
+	input  wire RST_IN,			 // ãƒªã‚»ãƒƒãƒˆ
+	output wire CLK0_OUT,		 // ã‚¯ãƒ­ãƒƒã‚¯ï¼ˆÏ†0ï¼‰
+	output wire CLK180_OUT,		 // ã‚¯ãƒ­ãƒƒã‚¯ï¼ˆÏ†180ï¼‰
+	output wire LOCKED_OUT		 // ãƒ­ãƒƒã‚¯
 );
 
-	/********** ƒNƒƒbƒNo—Í **********/
+	/********** ã‚¯ãƒ­ãƒƒã‚¯å‡ºåŠ› **********/
 	assign CLK0_OUT	  = CLKIN_IN;
 	assign CLK180_OUT = ~CLKIN_IN;
 	assign LOCKED_OUT = ~RST_IN;

@@ -1,0 +1,1099 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/01b9fc86/
+ALU_OP_ADDS	src/cpu/include/cpu.vh	/^	`define ALU_OP_ADDS			 4'h4 \/\/ ç¬¦å·ä»˜ãåŠ ç®—$/;"	c	line:32
+ALU_OP_ADDU	src/cpu/include/cpu.vh	/^	`define ALU_OP_ADDU			 4'h5 \/\/ ç¬¦å·ãªã—åŠ ç®—$/;"	c	line:33
+ALU_OP_AND	src/cpu/include/cpu.vh	/^	`define ALU_OP_AND			 4'h1 \/\/ AND$/;"	c	line:29
+ALU_OP_NOP	src/cpu/include/cpu.vh	/^	`define ALU_OP_NOP			 4'h0 \/\/ No Operation$/;"	c	line:28
+ALU_OP_OR	src/cpu/include/cpu.vh	/^	`define ALU_OP_OR			 4'h2 \/\/ OR$/;"	c	line:30
+ALU_OP_SHLL	src/cpu/include/cpu.vh	/^	`define ALU_OP_SHLL			 4'h9 \/\/ è«–ç†å·¦ã‚·ãƒ•ãƒˆ$/;"	c	line:37
+ALU_OP_SHRL	src/cpu/include/cpu.vh	/^	`define ALU_OP_SHRL			 4'h8 \/\/ è«–ç†å³ã‚·ãƒ•ãƒˆ$/;"	c	line:36
+ALU_OP_SUBS	src/cpu/include/cpu.vh	/^	`define ALU_OP_SUBS			 4'h6 \/\/ ç¬¦å·ä»˜ãæ¸›ç®—$/;"	c	line:34
+ALU_OP_SUBU	src/cpu/include/cpu.vh	/^	`define ALU_OP_SUBU			 4'h7 \/\/ ç¬¦å·ãªã—æ¸›ç®—$/;"	c	line:35
+ALU_OP_W	src/cpu/include/cpu.vh	/^	`define ALU_OP_W			 4	  \/\/ ALUã‚ªãƒšã‚³ãƒ¼ãƒ‰å¹…$/;"	c	line:25
+ALU_OP_XOR	src/cpu/include/cpu.vh	/^	`define ALU_OP_XOR			 4'h3 \/\/ XOR$/;"	c	line:31
+AluOpBus	src/cpu/include/cpu.vh	/^	`define AluOpBus			 3:0  \/\/ ALUã‚ªãƒšã‚³ãƒ¼ãƒ‰ãƒã‚¹$/;"	c	line:26
+BUS_IF_STATE_ACCESS	src/cpu/include/cpu.vh	/^	`define BUS_IF_STATE_ACCESS	 2'h2  \/\/ ãƒã‚¹ã‚¢ã‚¯ã‚»ã‚¹$/;"	c	line:94
+BUS_IF_STATE_IDLE	src/cpu/include/cpu.vh	/^	`define BUS_IF_STATE_IDLE	 2'h0  \/\/ ã‚¢ã‚¤ãƒ‰ãƒ«$/;"	c	line:92
+BUS_IF_STATE_REQ	src/cpu/include/cpu.vh	/^	`define BUS_IF_STATE_REQ	 2'h1  \/\/ ãƒã‚¹ãƒªã‚¯ã‚¨ã‚¹ãƒˆ$/;"	c	line:93
+BUS_IF_STATE_STALL	src/cpu/include/cpu.vh	/^	`define BUS_IF_STATE_STALL	 2'h3  \/\/ ã‚¹ãƒˆãƒ¼ãƒ«$/;"	c	line:95
+BUS_MASTER_CH	src/bus/include/bus.vh	/^	`define BUS_MASTER_CH	   4	 \/\/ ãƒã‚¹ãƒã‚¹ã‚¿ãƒãƒ£ãƒãƒ«æ•°$/;"	c	line:15
+BUS_MASTER_INDEX_W	src/bus/include/bus.vh	/^	`define BUS_MASTER_INDEX_W 2	 \/\/ ãƒã‚¹ãƒã‚¹ã‚¿ã‚¤ãƒ³ãƒ‡ãƒƒã‚¯ã‚¹å¹…$/;"	c	line:16
+BUS_OWNER_MASTER_0	src/bus/include/bus.vh	/^	`define BUS_OWNER_MASTER_0 2'h0	 \/\/ ãƒã‚¹æ¨©ã®æ‰€æœ‰è€… ï¼š ãƒã‚¹ãƒã‚¹ã‚¿0ç•ª$/;"	c	line:20
+BUS_OWNER_MASTER_1	src/bus/include/bus.vh	/^	`define BUS_OWNER_MASTER_1 2'h1	 \/\/ ãƒã‚¹æ¨©ã®æ‰€æœ‰è€… ï¼š ãƒã‚¹ãƒã‚¹ã‚¿1ç•ª$/;"	c	line:21
+BUS_OWNER_MASTER_2	src/bus/include/bus.vh	/^	`define BUS_OWNER_MASTER_2 2'h2	 \/\/ ãƒã‚¹æ¨©ã®æ‰€æœ‰è€… ï¼š ãƒã‚¹ãƒã‚¹ã‚¿2ç•ª$/;"	c	line:22
+BUS_OWNER_MASTER_3	src/bus/include/bus.vh	/^	`define BUS_OWNER_MASTER_3 2'h3	 \/\/ ãƒã‚¹æ¨©ã®æ‰€æœ‰è€… ï¼š ãƒã‚¹ãƒã‚¹ã‚¿3ç•ª$/;"	c	line:23
+BUS_SLAVE_0	src/bus/include/bus.vh	/^	`define BUS_SLAVE_0		   0	 \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–0ç•ª$/;"	c	line:31
+BUS_SLAVE_1	src/bus/include/bus.vh	/^	`define BUS_SLAVE_1		   1	 \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–1ç•ª$/;"	c	line:32
+BUS_SLAVE_2	src/bus/include/bus.vh	/^	`define BUS_SLAVE_2		   2	 \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–2ç•ª$/;"	c	line:33
+BUS_SLAVE_3	src/bus/include/bus.vh	/^	`define BUS_SLAVE_3		   3	 \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–3ç•ª$/;"	c	line:34
+BUS_SLAVE_4	src/bus/include/bus.vh	/^	`define BUS_SLAVE_4		   4	 \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–4ç•ª$/;"	c	line:35
+BUS_SLAVE_5	src/bus/include/bus.vh	/^	`define BUS_SLAVE_5		   5	 \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–5ç•ª$/;"	c	line:36
+BUS_SLAVE_6	src/bus/include/bus.vh	/^	`define BUS_SLAVE_6		   6	 \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–6ç•ª$/;"	c	line:37
+BUS_SLAVE_7	src/bus/include/bus.vh	/^	`define BUS_SLAVE_7		   7	 \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–7ç•ª$/;"	c	line:38
+BUS_SLAVE_CH	src/bus/include/bus.vh	/^	`define BUS_SLAVE_CH	   8	 \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–ãƒãƒ£ãƒãƒ«æ•°$/;"	c	line:26
+BUS_SLAVE_INDEX_W	src/bus/include/bus.vh	/^	`define BUS_SLAVE_INDEX_W  3	 \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–ã‚¤ãƒ³ãƒ‡ãƒƒã‚¯ã‚¹å¹…$/;"	c	line:27
+BYTE_DATA_W	src/top/include/stddef.vh	/^	`define BYTE_DATA_W			8		 \/\/ ãƒ‡ãƒ¼ã‚¿å¹…$/;"	c	line:37
+BYTE_MSB	src/top/include/stddef.vh	/^	`define BYTE_MSB			7		 \/\/ æœ€ä¸Šä½ãƒ“ãƒƒãƒˆ$/;"	c	line:38
+BYTE_OFFSET_W	src/top/include/stddef.vh	/^	`define BYTE_OFFSET_W		2		 \/\/ ã‚ªãƒ•ã‚»ãƒƒãƒˆå¹…$/;"	c	line:53
+BYTE_OFFSET_WORD	src/top/include/stddef.vh	/^	`define BYTE_OFFSET_WORD	2'b00	 \/\/ ãƒ¯ãƒ¼ãƒ‰å¢ƒç•Œ$/;"	c	line:59
+BusIfStateBus	src/cpu/include/cpu.vh	/^	`define BusIfStateBus		 1:0   \/\/ çŠ¶æ…‹ãƒã‚¹$/;"	c	line:90
+BusOwnerBus	src/bus/include/bus.vh	/^	`define BusOwnerBus		   1:0	 \/\/ ãƒã‚¹æ¨©çŠ¶æ…‹ãƒã‚¹$/;"	c	line:19
+BusSlaveIndexBus	src/bus/include/bus.vh	/^	`define BusSlaveIndexBus   2:0	 \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–ã‚¤ãƒ³ãƒ‡ãƒƒã‚¯ã‚¹ãƒã‚¹$/;"	c	line:28
+BusSlaveIndexLoc	src/bus/include/bus.vh	/^	`define BusSlaveIndexLoc   29:27 \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–ã‚¤ãƒ³ãƒ‡ãƒƒã‚¯ã‚¹ã®ä½ç½®$/;"	c	line:29
+ByteDataBus	src/top/include/stddef.vh	/^	`define ByteDataBus			7:0		 \/\/ ãƒ‡ãƒ¼ã‚¿ãƒã‚¹$/;"	c	line:39
+ByteOffsetBus	src/top/include/stddef.vh	/^	`define ByteOffsetBus		1:0		 \/\/ ã‚ªãƒ•ã‚»ãƒƒãƒˆãƒã‚¹$/;"	c	line:54
+ByteOffsetLoc	src/top/include/stddef.vh	/^	`define ByteOffsetLoc		1:0		 \/\/ ãƒã‚¤ãƒˆã‚ªãƒ•ã‚»ãƒƒãƒˆã®ä½ç½®$/;"	c	line:57
+CLK0_OUT	src/top/lib/x_s3e_dcm.v	/^	output wire CLK0_OUT,		 \/\/ ƒNƒƒbƒNiƒÓ0j$/;"	p	line:18	module:x_s3e_dcm
+CLK180_OUT	src/top/lib/x_s3e_dcm.v	/^	output wire CLK180_OUT,		 \/\/ ƒNƒƒbƒNiƒÓ180j$/;"	p	line:19	module:x_s3e_dcm
+CLKIN_IN	src/top/lib/x_s3e_dcm.v	/^	input  wire CLKIN_IN,		 \/\/ Šù’èƒNƒƒbƒN$/;"	p	line:16	module:x_s3e_dcm
+CPU_EXE_MODE_W	src/cpu/include/cpu.vh	/^	`define CPU_EXE_MODE_W		 1	  \/\/ å®Ÿè¡Œãƒ¢ãƒ¼ãƒ‰å¹…$/;"	c	line:57
+CPU_IRQ_CH	src/cpu/include/cpu.vh	/^	`define CPU_IRQ_CH			 8	  \/\/ IRQå¹…$/;"	c	line:22
+CPU_KERNEL_MODE	src/cpu/include/cpu.vh	/^	`define CPU_KERNEL_MODE		 1'b0 \/\/ ã‚«ãƒ¼ãƒãƒ«ãƒ¢ãƒ¼ãƒ‰$/;"	c	line:60
+CPU_USER_MODE	src/cpu/include/cpu.vh	/^	`define CPU_USER_MODE		 1'b1 \/\/ ãƒ¦ãƒ¼ã‚¶ãƒ¢ãƒ¼ãƒ‰$/;"	c	line:61
+CREG_ADDR_CAUSE	src/cpu/include/cpu.vh	/^	`define CREG_ADDR_CAUSE		 5'h5  \/\/ ä¾‹å¤–åŸå› ãƒ¬ã‚¸ã‚¹ã‚¿$/;"	c	line:72
+CREG_ADDR_CPU_INFO	src/cpu/include/cpu.vh	/^	`define CREG_ADDR_CPU_INFO	 5'h1f \/\/ CPUæƒ…å ±$/;"	c	line:78
+CREG_ADDR_EPC	src/cpu/include/cpu.vh	/^	`define CREG_ADDR_EPC		 5'h3  \/\/ ä¾‹å¤–ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚«ã‚¦ãƒ³ã‚¿$/;"	c	line:70
+CREG_ADDR_EXP_VECTOR	src/cpu/include/cpu.vh	/^	`define CREG_ADDR_EXP_VECTOR 5'h4  \/\/ ä¾‹å¤–ãƒ™ã‚¯ã‚¿$/;"	c	line:71
+CREG_ADDR_INT_MASK	src/cpu/include/cpu.vh	/^	`define CREG_ADDR_INT_MASK	 5'h6  \/\/ å‰²ã‚Šè¾¼ã¿ãƒã‚¹ã‚¯$/;"	c	line:73
+CREG_ADDR_IRQ	src/cpu/include/cpu.vh	/^	`define CREG_ADDR_IRQ		 5'h7  \/\/ å‰²ã‚Šè¾¼ã¿è¦æ±‚$/;"	c	line:74
+CREG_ADDR_PC	src/cpu/include/cpu.vh	/^	`define CREG_ADDR_PC		 5'h2  \/\/ ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚«ã‚¦ãƒ³ã‚¿$/;"	c	line:69
+CREG_ADDR_PRE_STATUS	src/cpu/include/cpu.vh	/^	`define CREG_ADDR_PRE_STATUS 5'h1  \/\/ å‰ã®ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹$/;"	c	line:68
+CREG_ADDR_ROM_SIZE	src/cpu/include/cpu.vh	/^	`define CREG_ADDR_ROM_SIZE	 5'h1d \/\/ ROMã‚µã‚¤ã‚º$/;"	c	line:76
+CREG_ADDR_SPM_SIZE	src/cpu/include/cpu.vh	/^	`define CREG_ADDR_SPM_SIZE	 5'h1e \/\/ SPMã‚µã‚¤ã‚º$/;"	c	line:77
+CREG_ADDR_STATUS	src/cpu/include/cpu.vh	/^	`define CREG_ADDR_STATUS	 5'h0  \/\/ ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹$/;"	c	line:67
+CTRL_OP_EXRT	src/cpu/include/cpu.vh	/^	`define CTRL_OP_EXRT		 2'h2 \/\/ ä¾‹å¤–ã‹ã‚‰ã®å¾©å¸°$/;"	c	line:53
+CTRL_OP_NOP	src/cpu/include/cpu.vh	/^	`define CTRL_OP_NOP			 2'h0 \/\/ No Operation$/;"	c	line:51
+CTRL_OP_W	src/cpu/include/cpu.vh	/^	`define CTRL_OP_W			 2	  \/\/ åˆ¶å¾¡ã‚ªãƒšã‚³ãƒ¼ãƒ‰å¹…$/;"	c	line:48
+CTRL_OP_WRCR	src/cpu/include/cpu.vh	/^	`define CTRL_OP_WRCR		 2'h1 \/\/ åˆ¶å¾¡ãƒ¬ã‚¸ã‚¹ã‚¿ã¸ã®æ›¸ãè¾¼ã¿$/;"	c	line:52
+CpuExeModeBus	src/cpu/include/cpu.vh	/^	`define CpuExeModeBus		 0:0  \/\/ å®Ÿè¡Œãƒ¢ãƒ¼ãƒ‰ãƒã‚¹$/;"	c	line:58
+CregDlyFlagLoc	src/cpu/include/cpu.vh	/^	`define CregDlyFlagLoc		 3	   \/\/ ãƒ‡ã‚£ãƒ¬ã‚¤ã‚¹ãƒ­ãƒƒãƒˆãƒ•ãƒ©ã‚°ã®ä½ç½®$/;"	c	line:83
+CregExeModeLoc	src/cpu/include/cpu.vh	/^	`define CregExeModeLoc		 0	   \/\/ å®Ÿè¡Œãƒ¢ãƒ¼ãƒ‰ã®ä½ç½®$/;"	c	line:80
+CregExpCodeLoc	src/cpu/include/cpu.vh	/^	`define CregExpCodeLoc		 2:0   \/\/ ä¾‹å¤–ã‚³ãƒ¼ãƒ‰ã®ä½ç½®$/;"	c	line:82
+CregIntEnableLoc	src/cpu/include/cpu.vh	/^	`define CregIntEnableLoc	 1	   \/\/ å‰²ã‚Šè¾¼ã¿æœ‰åŠ¹ã®ä½ç½®$/;"	c	line:81
+CtrlOpBus	src/cpu/include/cpu.vh	/^	`define CtrlOpBus			 1:0  \/\/ åˆ¶å¾¡ã‚ªãƒšã‚³ãƒ¼ãƒ‰ãƒã‚¹$/;"	c	line:49
+DISABLE	src/top/include/stddef.vh	/^	`define DISABLE				1'b0	 \/\/ ç„¡åŠ¹$/;"	c	line:22
+DISABLE_	src/top/include/stddef.vh	/^	`define DISABLE_			1'b1	 \/\/ ç„¡åŠ¹$/;"	c	line:25
+ENABLE	src/top/include/stddef.vh	/^	`define ENABLE				1'b1	 \/\/ æœ‰åŠ¹$/;"	c	line:23
+ENABLE_	src/top/include/stddef.vh	/^	`define ENABLE_				1'b0	 \/\/ æœ‰åŠ¹$/;"	c	line:26
+GPIO_ADDR_IN_DATA	src/io/gpio/include/gpio.vh	/^	`define GPIO_ADDR_IN_DATA  2'h0 \/\/ åˆ¶å¾¡ãƒ¬ã‚¸ã‚¹ã‚¿ 0 : å…¥åŠ›ãƒãƒ¼ãƒˆ$/;"	c	line:24
+GPIO_ADDR_IO_DATA	src/io/gpio/include/gpio.vh	/^	`define GPIO_ADDR_IO_DATA  2'h2 \/\/ åˆ¶å¾¡ãƒ¬ã‚¸ã‚¹ã‚¿ 2 : å…¥å‡ºåŠ›ãƒãƒ¼ãƒˆ$/;"	c	line:26
+GPIO_ADDR_IO_DIR	src/io/gpio/include/gpio.vh	/^	`define GPIO_ADDR_IO_DIR   2'h3 \/\/ åˆ¶å¾¡ãƒ¬ã‚¸ã‚¹ã‚¿ 3 : å…¥å‡ºåŠ›æ–¹å‘$/;"	c	line:27
+GPIO_ADDR_OUT_DATA	src/io/gpio/include/gpio.vh	/^	`define GPIO_ADDR_OUT_DATA 2'h1 \/\/ åˆ¶å¾¡ãƒ¬ã‚¸ã‚¹ã‚¿ 1 : å‡ºåŠ›ãƒãƒ¼ãƒˆ$/;"	c	line:25
+GPIO_ADDR_W	src/io/gpio/include/gpio.vh	/^	`define GPIO_ADDR_W		   2	\/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹å¹…$/;"	c	line:21
+GPIO_DIR_IN	src/io/gpio/include/gpio.vh	/^	`define GPIO_DIR_IN		   1'b0 \/\/ å…¥åŠ›$/;"	c	line:29
+GPIO_DIR_OUT	src/io/gpio/include/gpio.vh	/^	`define GPIO_DIR_OUT	   1'b1 \/\/ å‡ºåŠ›$/;"	c	line:30
+GPIO_IN_CH	src/io/gpio/include/gpio.vh	/^	`define GPIO_IN_CH		   4	\/\/ å…¥åŠ›ãƒãƒ¼ãƒˆæ•°$/;"	c	line:15
+GPIO_IO_CH	src/io/gpio/include/gpio.vh	/^	`define GPIO_IO_CH		   16	\/\/ å…¥å‡ºåŠ›ãƒãƒ¼ãƒˆæ•°$/;"	c	line:17
+GPIO_OUT_CH	src/io/gpio/include/gpio.vh	/^	`define GPIO_OUT_CH		   18	\/\/ å‡ºåŠ›ãƒãƒ¼ãƒˆæ•°$/;"	c	line:16
+GpioAddrBus	src/io/gpio/include/gpio.vh	/^	`define GpioAddrBus		   1:0	\/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ãƒã‚¹$/;"	c	line:20
+GpioAddrLoc	src/io/gpio/include/gpio.vh	/^	`define GpioAddrLoc		   1:0	\/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã®ä½ç½®$/;"	c	line:22
+HIGH	src/top/include/stddef.vh	/^	`define HIGH				1'b1	 \/\/ Highãƒ¬ãƒ™ãƒ«$/;"	c	line:18
+IMPLEMENT_GPIO	src/top/include/global_config.vh	/^	`define IMPLEMENT_GPIO				\/\/ General Purpose I\/O$/;"	c	line:32
+IMPLEMENT_TIMER	src/top/include/global_config.vh	/^	`define IMPLEMENT_TIMER				\/\/ ã‚¿ã‚¤ãƒ$/;"	c	line:30
+IMPLEMENT_UART	src/top/include/global_config.vh	/^	`define IMPLEMENT_UART				\/\/ UART$/;"	c	line:31
+IO_DIR	src/io/gpio/rtl/gpio.v	/^		for (i = 0; i < `GPIO_IO_CH; i = i + 1) begin : IO_DIR$/;"	b	line:58	module:gpio
+ISA_EXP_EXT_INT	src/cpu/include/isa.vh	/^	`define ISA_EXP_EXT_INT	   3'h1	 \/\/ å¤–éƒ¨å‰²ã‚Šè¾¼ã¿$/;"	c	line:77
+ISA_EXP_MISS_ALIGN	src/cpu/include/isa.vh	/^	`define ISA_EXP_MISS_ALIGN 3'h4	 \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ãƒŸã‚¹ã‚¢ãƒ©ã‚¤ãƒ³$/;"	c	line:80
+ISA_EXP_NO_EXP	src/cpu/include/isa.vh	/^	`define ISA_EXP_NO_EXP	   3'h0	 \/\/ ä¾‹å¤–ãªã—$/;"	c	line:76
+ISA_EXP_OVERFLOW	src/cpu/include/isa.vh	/^	`define ISA_EXP_OVERFLOW   3'h3	 \/\/ ç®—è¡“ã‚ªãƒ¼ãƒãƒ•ãƒ­ãƒ¼$/;"	c	line:79
+ISA_EXP_PRV_VIO	src/cpu/include/isa.vh	/^	`define ISA_EXP_PRV_VIO	   3'h6	 \/\/ ç‰¹æ¨©é•å$/;"	c	line:82
+ISA_EXP_TRAP	src/cpu/include/isa.vh	/^	`define ISA_EXP_TRAP	   3'h5	 \/\/ ãƒˆãƒ©ãƒƒãƒ—$/;"	c	line:81
+ISA_EXP_UNDEF_INSN	src/cpu/include/isa.vh	/^	`define ISA_EXP_UNDEF_INSN 3'h2	 \/\/ æœªå®šç¾©å‘½ä»¤$/;"	c	line:78
+ISA_EXP_W	src/cpu/include/isa.vh	/^	`define ISA_EXP_W		   3	 \/\/ ä¾‹å¤–ã‚³ãƒ¼ãƒ‰å¹…$/;"	c	line:73
+ISA_EXT_W	src/cpu/include/isa.vh	/^	`define ISA_EXT_W		   16	 \/\/ å³å€¤ã®ç¬¦å·æ‹¡å¼µå¹…$/;"	c	line:63
+ISA_IMM_MSB	src/cpu/include/isa.vh	/^	`define ISA_IMM_MSB		   15	 \/\/ å³å€¤ã®æœ€ä¸Šä½ãƒ“ãƒƒãƒˆ$/;"	c	line:64
+ISA_IMM_W	src/cpu/include/isa.vh	/^	`define ISA_IMM_W		   16	 \/\/ å³å€¤ã®å¹…$/;"	c	line:62
+ISA_NOP	src/cpu/include/isa.vh	/^	`define ISA_NOP			   32'h0 \/\/ No Operation$/;"	c	line:18
+ISA_OP_ADDSI	src/cpu/include/isa.vh	/^	`define ISA_OP_ADDSI	   6'h07 \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿ã¨å®šæ•°ã®ç¬¦å·ä»˜ãåŠ ç®—$/;"	c	line:32
+ISA_OP_ADDSR	src/cpu/include/isa.vh	/^	`define ISA_OP_ADDSR	   6'h06 \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿åŒå£«ã®ç¬¦å·ä»˜ãåŠ ç®—$/;"	c	line:31
+ISA_OP_ADDUI	src/cpu/include/isa.vh	/^	`define ISA_OP_ADDUI	   6'h09 \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿ã¨å®šæ•°ã®ç¬¦å·ãªã—åŠ ç®—$/;"	c	line:34
+ISA_OP_ADDUR	src/cpu/include/isa.vh	/^	`define ISA_OP_ADDUR	   6'h08 \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿åŒå£«ã®ç¬¦å·ãªã—åŠ ç®—$/;"	c	line:33
+ISA_OP_ANDI	src/cpu/include/isa.vh	/^	`define ISA_OP_ANDI		   6'h01 \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿ã¨å®šæ•°ã®è«–ç†ç©$/;"	c	line:26
+ISA_OP_ANDR	src/cpu/include/isa.vh	/^	`define ISA_OP_ANDR		   6'h00 \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿åŒå£«ã®è«–ç†ç©$/;"	c	line:25
+ISA_OP_BE	src/cpu/include/isa.vh	/^	`define ISA_OP_BE		   6'h10 \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿åŒå£«ã®ç¬¦å·ä»˜ãæ¯”è¼ƒ(==)$/;"	c	line:41
+ISA_OP_BNE	src/cpu/include/isa.vh	/^	`define ISA_OP_BNE		   6'h11 \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿åŒå£«ã®ç¬¦å·ä»˜ãæ¯”è¼ƒ(!=)$/;"	c	line:42
+ISA_OP_BSGT	src/cpu/include/isa.vh	/^	`define ISA_OP_BSGT		   6'h12 \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿åŒå£«ã®ç¬¦å·ä»˜ãæ¯”è¼ƒ(<)$/;"	c	line:43
+ISA_OP_BUGT	src/cpu/include/isa.vh	/^	`define ISA_OP_BUGT		   6'h13 \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿åŒå£«ã®ç¬¦å·ãªã—æ¯”è¼ƒ(<)$/;"	c	line:44
+ISA_OP_CALL	src/cpu/include/isa.vh	/^	`define ISA_OP_CALL		   6'h15 \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿æŒ‡å®šã®ã‚µãƒ–ãƒ«ãƒ¼ãƒãƒ³ã‚³ãƒ¼ãƒ«$/;"	c	line:46
+ISA_OP_EXRT	src/cpu/include/isa.vh	/^	`define ISA_OP_EXRT		   6'h1b \/\/ ä¾‹å¤–ã‹ã‚‰ã®å¾©å¸°$/;"	c	line:52
+ISA_OP_JMP	src/cpu/include/isa.vh	/^	`define ISA_OP_JMP		   6'h14 \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿æŒ‡å®šã®çµ¶å¯¾åˆ†å²$/;"	c	line:45
+ISA_OP_LDW	src/cpu/include/isa.vh	/^	`define ISA_OP_LDW		   6'h16 \/\/ ãƒ¯ãƒ¼ãƒ‰èª­ã¿å‡ºã—$/;"	c	line:47
+ISA_OP_ORI	src/cpu/include/isa.vh	/^	`define ISA_OP_ORI		   6'h03 \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿ã¨å®šæ•°ã®è«–ç†å’Œ$/;"	c	line:28
+ISA_OP_ORR	src/cpu/include/isa.vh	/^	`define ISA_OP_ORR		   6'h02 \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿åŒå£«ã®è«–ç†å’Œ$/;"	c	line:27
+ISA_OP_RDCR	src/cpu/include/isa.vh	/^	`define ISA_OP_RDCR		   6'h19 \/\/ åˆ¶å¾¡ãƒ¬ã‚¸ã‚¹ã‚¿ã®èª­ã¿å‡ºã—$/;"	c	line:50
+ISA_OP_SHLLI	src/cpu/include/isa.vh	/^	`define ISA_OP_SHLLI	   6'h0f \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿ã¨å®šæ•°ã®è«–ç†å·¦ã‚·ãƒ•ãƒˆ$/;"	c	line:40
+ISA_OP_SHLLR	src/cpu/include/isa.vh	/^	`define ISA_OP_SHLLR	   6'h0e \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿åŒå£«ã®è«–ç†å·¦ã‚·ãƒ•ãƒˆ$/;"	c	line:39
+ISA_OP_SHRLI	src/cpu/include/isa.vh	/^	`define ISA_OP_SHRLI	   6'h0d \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿ã¨å®šæ•°ã®è«–ç†å³ã‚·ãƒ•ãƒˆ$/;"	c	line:38
+ISA_OP_SHRLR	src/cpu/include/isa.vh	/^	`define ISA_OP_SHRLR	   6'h0c \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿åŒå£«ã®è«–ç†å³ã‚·ãƒ•ãƒˆ$/;"	c	line:37
+ISA_OP_STW	src/cpu/include/isa.vh	/^	`define ISA_OP_STW		   6'h17 \/\/ ãƒ¯ãƒ¼ãƒ‰æ›¸ãè¾¼ã¿$/;"	c	line:48
+ISA_OP_SUBSR	src/cpu/include/isa.vh	/^	`define ISA_OP_SUBSR	   6'h0a \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿åŒå£«ã®ç¬¦å·ä»˜ãæ¸›ç®—$/;"	c	line:35
+ISA_OP_SUBUR	src/cpu/include/isa.vh	/^	`define ISA_OP_SUBUR	   6'h0b \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿åŒå£«ã®ç¬¦å·ãªã—æ¸›ç®—$/;"	c	line:36
+ISA_OP_TRAP	src/cpu/include/isa.vh	/^	`define ISA_OP_TRAP		   6'h18 \/\/ ãƒˆãƒ©ãƒƒãƒ—$/;"	c	line:49
+ISA_OP_W	src/cpu/include/isa.vh	/^	`define ISA_OP_W		   6	 \/\/ ã‚ªãƒšã‚³ãƒ¼ãƒ‰å¹…$/;"	c	line:21
+ISA_OP_WRCR	src/cpu/include/isa.vh	/^	`define ISA_OP_WRCR		   6'h1a \/\/ åˆ¶å¾¡ãƒ¬ã‚¸ã‚¹ã‚¿ã¸ã®æ›¸ãè¾¼ã¿$/;"	c	line:51
+ISA_OP_XORI	src/cpu/include/isa.vh	/^	`define ISA_OP_XORI		   6'h05 \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿ã¨å®šæ•°ã®æ’ä»–çš„è«–ç†å’Œ$/;"	c	line:30
+ISA_OP_XORR	src/cpu/include/isa.vh	/^	`define ISA_OP_XORR		   6'h04 \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿åŒå£«ã®æ’ä»–çš„è«–ç†å’Œ$/;"	c	line:29
+ISA_REG_ADDR_W	src/cpu/include/isa.vh	/^	`define ISA_REG_ADDR_W	   5	 \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿ã‚¢ãƒ‰ãƒ¬ã‚¹å¹…$/;"	c	line:55
+IsaExpBus	src/cpu/include/isa.vh	/^	`define IsaExpBus		   2:0	 \/\/ ä¾‹å¤–ã‚³ãƒ¼ãƒ‰ãƒã‚¹$/;"	c	line:74
+IsaImmBus	src/cpu/include/isa.vh	/^	`define IsaImmBus		   15:0	 \/\/ å³å€¤ã®ãƒã‚¹$/;"	c	line:65
+IsaImmLoc	src/cpu/include/isa.vh	/^	`define IsaImmLoc		   15:0	 \/\/ å³å€¤ã®ä½ç½®$/;"	c	line:66
+IsaOpBus	src/cpu/include/isa.vh	/^	`define IsaOpBus		   5:0	 \/\/ ã‚ªãƒšã‚³ãƒ¼ãƒ‰ãƒã‚¹$/;"	c	line:22
+IsaOpLoc	src/cpu/include/isa.vh	/^	`define IsaOpLoc		   31:26 \/\/ ã‚ªãƒšã‚³ãƒ¼ãƒ‰ã®ä½ç½®$/;"	c	line:23
+IsaRaAddrLoc	src/cpu/include/isa.vh	/^	`define IsaRaAddrLoc	   25:21 \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿Raã®ä½ç½®$/;"	c	line:57
+IsaRbAddrLoc	src/cpu/include/isa.vh	/^	`define IsaRbAddrLoc	   20:16 \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿Rbã®ä½ç½®$/;"	c	line:58
+IsaRcAddrLoc	src/cpu/include/isa.vh	/^	`define IsaRcAddrLoc	   15:11 \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿Rcã®ä½ç½®$/;"	c	line:59
+IsaRegAddrBus	src/cpu/include/isa.vh	/^	`define IsaRegAddrBus	   4:0	 \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿ã‚¢ãƒ‰ãƒ¬ã‚¹ãƒã‚¹$/;"	c	line:56
+LOCKED_OUT	src/top/lib/x_s3e_dcm.v	/^	output wire LOCKED_OUT		 \/\/ ƒƒbƒN$/;"	p	line:20	module:x_s3e_dcm
+LOW	src/top/include/stddef.vh	/^	`define LOW					1'b0	 \/\/ Lowãƒ¬ãƒ™ãƒ«$/;"	c	line:19
+LSB	src/top/include/stddef.vh	/^	`define LSB					0		 \/\/ æœ€ä¸‹ä½ãƒ“ãƒƒãƒˆ$/;"	c	line:35
+MEM_DISABLE	src/top/include/global_config.vh	/^		`define MEM_DISABLE	  1'b0		\/\/ ãƒ¡ãƒ¢ãƒªç„¡åŠ¹$/;"	c	line:55
+MEM_DISABLE	src/top/include/global_config.vh	/^		`define MEM_DISABLE	  1'b1		\/\/ ãƒ¡ãƒ¢ãƒªç„¡åŠ¹$/;"	c	line:60
+MEM_ENABLE	src/top/include/global_config.vh	/^		`define MEM_ENABLE	  1'b0		\/\/ ãƒ¡ãƒ¢ãƒªæœ‰åŠ¹$/;"	c	line:59
+MEM_ENABLE	src/top/include/global_config.vh	/^		`define MEM_ENABLE	  1'b1		\/\/ ãƒ¡ãƒ¢ãƒªæœ‰åŠ¹$/;"	c	line:54
+MEM_OP_LDW	src/cpu/include/cpu.vh	/^	`define MEM_OP_LDW			 2'h1 \/\/ ãƒ¯ãƒ¼ãƒ‰èª­ã¿å‡ºã—$/;"	c	line:44
+MEM_OP_NOP	src/cpu/include/cpu.vh	/^	`define MEM_OP_NOP			 2'h0 \/\/ No Operation$/;"	c	line:43
+MEM_OP_STW	src/cpu/include/cpu.vh	/^	`define MEM_OP_STW			 2'h2 \/\/ ãƒ¯ãƒ¼ãƒ‰æ›¸ãè¾¼ã¿$/;"	c	line:45
+MEM_OP_W	src/cpu/include/cpu.vh	/^	`define MEM_OP_W			 2	  \/\/ ãƒ¡ãƒ¢ãƒªã‚ªãƒšã‚³ãƒ¼ãƒ‰å¹…$/;"	c	line:40
+MemOpBus	src/cpu/include/cpu.vh	/^	`define MemOpBus			 1:0  \/\/ ãƒ¡ãƒ¢ãƒªã‚ªãƒšã‚³ãƒ¼ãƒ‰ãƒã‚¹$/;"	c	line:41
+NEGATIVE_RESET	src/top/include/global_config.vh	/^	`define NEGATIVE_RESET				\/\/ Active Low$/;"	c	line:23
+POSITIVE_MEMORY	src/top/include/global_config.vh	/^	`define POSITIVE_MEMORY				\/\/ Active High$/;"	c	line:26
+READ	src/top/include/stddef.vh	/^	`define READ				1'b1	 \/\/ èª­ã¿å‡ºã—$/;"	c	line:28
+REG_ADDR_W	src/cpu/include/cpu.vh	/^	`define REG_ADDR_W			 5	  \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿ã‚¢ãƒ‰ãƒ¬ã‚¹å¹…$/;"	c	line:19
+REG_NUM	src/cpu/include/cpu.vh	/^	`define REG_NUM				 32	  \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿æ•°$/;"	c	line:18
+RELEASE_MONTH	src/cpu/include/cpu.vh	/^	`define RELEASE_MONTH		 8'd7  \/\/ ä½œæˆæœˆ$/;"	c	line:108
+RELEASE_REVISION	src/cpu/include/cpu.vh	/^	`define RELEASE_REVISION	 8'd0  \/\/ ãƒªãƒ“ã‚¸ãƒ§ãƒ³$/;"	c	line:110
+RELEASE_VERSION	src/cpu/include/cpu.vh	/^	`define RELEASE_VERSION		 8'd1  \/\/ ãƒãƒ¼ã‚¸ãƒ§ãƒ³$/;"	c	line:109
+RELEASE_YEAR	src/cpu/include/cpu.vh	/^	`define RELEASE_YEAR		 8'd41 \/\/ ä½œæˆå¹´ (YYYY - 1970)$/;"	c	line:107
+RESET_DISABLE	src/top/include/global_config.vh	/^		`define RESET_DISABLE 1'b0		\/\/ ãƒªã‚»ãƒƒãƒˆç„¡åŠ¹$/;"	c	line:42
+RESET_DISABLE	src/top/include/global_config.vh	/^		`define RESET_DISABLE 1'b1		\/\/ ãƒªã‚»ãƒƒãƒˆç„¡åŠ¹$/;"	c	line:48
+RESET_EDGE	src/top/include/global_config.vh	/^		`define RESET_EDGE	  negedge	\/\/ ãƒªã‚»ãƒƒãƒˆã‚¨ãƒƒã‚¸$/;"	c	line:46
+RESET_EDGE	src/top/include/global_config.vh	/^		`define RESET_EDGE	  posedge	\/\/ ãƒªã‚»ãƒƒãƒˆã‚¨ãƒƒã‚¸$/;"	c	line:40
+RESET_ENABLE	src/top/include/global_config.vh	/^		`define RESET_ENABLE  1'b0		\/\/ ãƒªã‚»ãƒƒãƒˆæœ‰åŠ¹$/;"	c	line:47
+RESET_ENABLE	src/top/include/global_config.vh	/^		`define RESET_ENABLE  1'b1		\/\/ ãƒªã‚»ãƒƒãƒˆæœ‰åŠ¹$/;"	c	line:41
+RESET_VECTOR	src/cpu/include/cpu.vh	/^	`define RESET_VECTOR		 30'h0 \/\/ ãƒªã‚»ãƒƒãƒˆãƒ™ã‚¯ã‚¿$/;"	c	line:101
+ROM_ADDR_W	src/io/rom/include/rom.vh	/^	`define ROM_ADDR_W 11	\/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹å¹…$/;"	c	line:35
+ROM_DEPTH	src/io/rom/include/rom.vh	/^	`define ROM_DEPTH  2048	\/\/ ROMã®æ·±ã•$/;"	c	line:34
+ROM_SIZE	src/io/rom/include/rom.vh	/^	`define ROM_SIZE   8192	\/\/ ROMã®ã‚µã‚¤ã‚º$/;"	c	line:33
+RST_IN	src/top/lib/x_s3e_dcm.v	/^	input  wire RST_IN,			 \/\/ ƒŠƒZƒbƒg$/;"	p	line:17	module:x_s3e_dcm
+RegAddrBus	src/cpu/include/cpu.vh	/^	`define RegAddrBus			 4:0  \/\/ ãƒ¬ã‚¸ã‚¹ã‚¿ã‚¢ãƒ‰ãƒ¬ã‚¹ãƒã‚¹$/;"	c	line:20
+RomAddrBus	src/io/rom/include/rom.vh	/^	`define RomAddrBus 10:0 \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ãƒã‚¹$/;"	c	line:36
+RomAddrLoc	src/io/rom/include/rom.vh	/^	`define RomAddrLoc 10:0 \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã®ä½ç½®$/;"	c	line:37
+SPM_ADDR_W	src/cpu/include/spm.vh	/^	`define SPM_ADDR_W 12	 \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹å¹…$/;"	c	line:35
+SPM_DEPTH	src/cpu/include/spm.vh	/^	`define SPM_DEPTH  4096	 \/\/ SPMã®æ·±ã•$/;"	c	line:34
+SPM_SIZE	src/cpu/include/spm.vh	/^	`define SPM_SIZE   16384 \/\/ SPMã®ã‚µã‚¤ã‚º$/;"	c	line:33
+STEP	src/top/test/chip_top_test.v	/^	parameter				 STEP = 100.0000; \/\/ 10 M$/;"	c	line:57	module:chip_top_test
+ShAmountBus	src/cpu/include/cpu.vh	/^	`define ShAmountBus			 4:0   \/\/ ã‚·ãƒ•ãƒˆé‡ãƒã‚¹$/;"	c	line:103
+ShAmountLoc	src/cpu/include/cpu.vh	/^	`define ShAmountLoc			 4:0   \/\/ ã‚·ãƒ•ãƒˆé‡ã®ä½ç½®$/;"	c	line:104
+SpmAddrBus	src/cpu/include/spm.vh	/^	`define SpmAddrBus 11:0	 \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ãƒã‚¹$/;"	c	line:36
+SpmAddrLoc	src/cpu/include/spm.vh	/^	`define SpmAddrLoc 11:0	 \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã®ä½ç½®$/;"	c	line:37
+TARGET_DEV_AZPR_EV_BOARD	src/top/include/global_config.vh	/^	`define TARGET_DEV_AZPR_EV_BOARD	\/\/ AZPRã‚ªãƒªã‚¸ãƒŠãƒ«è©•ä¾¡ãƒœãƒ¼ãƒ‰$/;"	c	line:19
+TIMER_ADDR_COUNTER	src/io/timer/include/timer.vh	/^	`define TIMER_ADDR_COUNTER	2'h3 \/\/ åˆ¶å¾¡ãƒ¬ã‚¸ã‚¹ã‚¿ 3 : ã‚«ã‚¦ãƒ³ã‚¿$/;"	c	line:22
+TIMER_ADDR_CTRL	src/io/timer/include/timer.vh	/^	`define TIMER_ADDR_CTRL		2'h0 \/\/ åˆ¶å¾¡ãƒ¬ã‚¸ã‚¹ã‚¿ 0 : ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«$/;"	c	line:19
+TIMER_ADDR_EXPR	src/io/timer/include/timer.vh	/^	`define TIMER_ADDR_EXPR		2'h2 \/\/ åˆ¶å¾¡ãƒ¬ã‚¸ã‚¹ã‚¿ 2 : æº€äº†å€¤$/;"	c	line:21
+TIMER_ADDR_INTR	src/io/timer/include/timer.vh	/^	`define TIMER_ADDR_INTR		2'h1 \/\/ åˆ¶å¾¡ãƒ¬ã‚¸ã‚¹ã‚¿ 1 : å‰²ã‚Šè¾¼ã¿$/;"	c	line:20
+TIMER_ADDR_W	src/io/timer/include/timer.vh	/^	`define TIMER_ADDR_W		2	 \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹å¹…$/;"	c	line:15
+TIMER_MODE_ONE_SHOT	src/io/timer/include/timer.vh	/^	`define TIMER_MODE_ONE_SHOT 1'b0 \/\/ ãƒ¢ãƒ¼ãƒ‰ : ãƒ¯ãƒ³ã‚·ãƒ§ãƒƒãƒˆã‚¿ã‚¤ãƒ$/;"	c	line:27
+TIMER_MODE_PERIODIC	src/io/timer/include/timer.vh	/^	`define TIMER_MODE_PERIODIC 1'b1 \/\/ ãƒ¢ãƒ¼ãƒ‰ : å‘¨æœŸã‚¿ã‚¤ãƒ$/;"	c	line:28
+TimerAddrBus	src/io/timer/include/timer.vh	/^	`define TimerAddrBus		1:0	 \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ãƒã‚¹$/;"	c	line:16
+TimerAddrLoc	src/io/timer/include/timer.vh	/^	`define TimerAddrLoc		1:0	 \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã®ä½ç½®$/;"	c	line:17
+TimerIrqLoc	src/io/timer/include/timer.vh	/^	`define TimerIrqLoc			0	 \/\/ å‰²ã‚Šè¾¼ã¿è¦æ±‚ãƒ“ãƒƒãƒˆã®ä½ç½®$/;"	c	line:30
+TimerModeLoc	src/io/timer/include/timer.vh	/^	`define TimerModeLoc		1	 \/\/ ãƒ¢ãƒ¼ãƒ‰ãƒ“ãƒƒãƒˆã®ä½ç½®$/;"	c	line:26
+TimerStartLoc	src/io/timer/include/timer.vh	/^	`define TimerStartLoc		0	 \/\/ ã‚¹ã‚¿ãƒ¼ãƒˆãƒ“ãƒƒãƒˆã®ä½ç½®$/;"	c	line:25
+UART_ADDR_DATA	src/io/uart/include/uart.vh	/^	`define UART_ADDR_DATA	   1'h1 \/\/ åˆ¶å¾¡ãƒ¬ã‚¸ã‚¹ã‚¿ 1 : é€å—ä¿¡ãƒ‡ãƒ¼ã‚¿$/;"	c	line:42
+UART_ADDR_STATUS	src/io/uart/include/uart.vh	/^	`define UART_ADDR_STATUS   1'h0 \/\/ åˆ¶å¾¡ãƒ¬ã‚¸ã‚¹ã‚¿ 0 : ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹$/;"	c	line:41
+UART_ADDR_W	src/io/uart/include/uart.vh	/^	`define UART_ADDR_W		   1	\/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹å¹…$/;"	c	line:38
+UART_BIT_CNT_MSB	src/io/uart/include/uart.vh	/^	`define UART_BIT_CNT_MSB   4'h8 \/\/ ã‚«ã‚¦ãƒ³ãƒˆå€¤ : ãƒ‡ãƒ¼ã‚¿ã®MSB$/;"	c	line:57
+UART_BIT_CNT_START	src/io/uart/include/uart.vh	/^	`define UART_BIT_CNT_START 4'h0 \/\/ ã‚«ã‚¦ãƒ³ãƒˆå€¤ : ã‚¹ã‚¿ãƒ¼ãƒˆãƒ“ãƒƒãƒˆ$/;"	c	line:56
+UART_BIT_CNT_STOP	src/io/uart/include/uart.vh	/^	`define UART_BIT_CNT_STOP  4'h9 \/\/ ã‚«ã‚¦ãƒ³ãƒˆå€¤ : ã‚¹ãƒˆãƒƒãƒ—ãƒ“ãƒƒãƒˆ$/;"	c	line:58
+UART_BIT_CNT_W	src/io/uart/include/uart.vh	/^	`define UART_BIT_CNT_W	   4	\/\/ ãƒ“ãƒƒãƒˆã‚«ã‚¦ãƒ³ã‚¿å¹…$/;"	c	line:55
+UART_DIV_CNT_W	src/io/uart/include/uart.vh	/^	`define UART_DIV_CNT_W	   9	   \/\/ åˆ†å‘¨ã‚«ã‚¦ãƒ³ã‚¿å¹…$/;"	c	line:34
+UART_DIV_RATE	src/io/uart/include/uart.vh	/^	`define UART_DIV_RATE	   9'd260  \/\/ åˆ†å‘¨ãƒ¬ãƒ¼ãƒˆ$/;"	c	line:33
+UART_START_BIT	src/io/uart/include/uart.vh	/^	`define UART_START_BIT	   1'b0 \/\/ ã‚¹ã‚¿ãƒ¼ãƒˆãƒ“ãƒƒãƒˆ$/;"	c	line:60
+UART_STATE_IDLE	src/io/uart/include/uart.vh	/^	`define UART_STATE_IDLE	   1'b0 \/\/ ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ : ã‚¢ã‚¤ãƒ‰ãƒ«çŠ¶æ…‹$/;"	c	line:50
+UART_STATE_RX	src/io/uart/include/uart.vh	/^	`define UART_STATE_RX	   1'b1 \/\/ ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ : å—ä¿¡ä¸­$/;"	c	line:52
+UART_STATE_TX	src/io/uart/include/uart.vh	/^	`define UART_STATE_TX	   1'b1 \/\/ ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ : é€ä¿¡ä¸­$/;"	c	line:51
+UART_STOP_BIT	src/io/uart/include/uart.vh	/^	`define UART_STOP_BIT	   1'b1 \/\/ ã‚¹ãƒˆãƒƒãƒ—ãƒ“ãƒƒãƒˆ$/;"	c	line:61
+UartAddrBus	src/io/uart/include/uart.vh	/^	`define UartAddrBus		   0:0	\/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ãƒã‚¹$/;"	c	line:37
+UartAddrLoc	src/io/uart/include/uart.vh	/^	`define UartAddrLoc		   0:0	\/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã®ä½ç½®$/;"	c	line:39
+UartBitCntBus	src/io/uart/include/uart.vh	/^	`define UartBitCntBus	   3:0	\/\/ ãƒ“ãƒƒãƒˆã‚«ã‚¦ãƒ³ã‚¿ãƒã‚¹$/;"	c	line:54
+UartCtrlBusyRx	src/io/uart/include/uart.vh	/^	`define UartCtrlBusyRx	   2	\/\/ å—ä¿¡ä¸­ãƒ•ãƒ©ã‚°$/;"	c	line:46
+UartCtrlBusyTx	src/io/uart/include/uart.vh	/^	`define UartCtrlBusyTx	   3	\/\/ é€ä¿¡ä¸­ãƒ•ãƒ©ã‚°$/;"	c	line:47
+UartCtrlIrqRx	src/io/uart/include/uart.vh	/^	`define UartCtrlIrqRx	   0	\/\/ å—ä¿¡å®Œäº†å‰²ã‚Šè¾¼ã¿$/;"	c	line:44
+UartCtrlIrqTx	src/io/uart/include/uart.vh	/^	`define UartCtrlIrqTx	   1	\/\/ é€ä¿¡å®Œäº†å‰²ã‚Šè¾¼ã¿$/;"	c	line:45
+UartDivCntBus	src/io/uart/include/uart.vh	/^	`define UartDivCntBus	   8:0	   \/\/ åˆ†å‘¨ã‚«ã‚¦ãƒ³ã‚¿ãƒã‚¹$/;"	c	line:35
+UartStateBus	src/io/uart/include/uart.vh	/^	`define UartStateBus	   0:0	\/\/ ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ãƒã‚¹$/;"	c	line:49
+WORD_ADDR_MSB	src/top/include/stddef.vh	/^	`define WORD_ADDR_MSB		29		 \/\/ æœ€ä¸Šä½ãƒ“ãƒƒãƒˆ$/;"	c	line:50
+WORD_ADDR_W	src/top/include/stddef.vh	/^	`define WORD_ADDR_W			30		 \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹å¹…$/;"	c	line:49
+WORD_DATA_W	src/top/include/stddef.vh	/^	`define WORD_DATA_W			32		 \/\/ ãƒ‡ãƒ¼ã‚¿å¹…$/;"	c	line:41
+WORD_MSB	src/top/include/stddef.vh	/^	`define WORD_MSB			31		 \/\/ æœ€ä¸Šä½ãƒ“ãƒƒãƒˆ$/;"	c	line:42
+WRITE	src/top/include/stddef.vh	/^	`define WRITE				1'b0	 \/\/ æ›¸ãè¾¼ã¿$/;"	c	line:29
+WordAddrBus	src/top/include/stddef.vh	/^	`define WordAddrBus			29:0	 \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ãƒã‚¹$/;"	c	line:51
+WordAddrLoc	src/top/include/stddef.vh	/^	`define WordAddrLoc			31:2	 \/\/ ãƒ¯ãƒ¼ãƒ‰ã‚¢ãƒ‰ãƒ¬ã‚¹ã®ä½ç½®$/;"	c	line:56
+WordDataBus	src/top/include/stddef.vh	/^	`define WordDataBus			31:0	 \/\/ ãƒ‡ãƒ¼ã‚¿ãƒã‚¹$/;"	c	line:43
+__BUS_HEADER__	src/bus/include/bus.vh	/^	`define __BUS_HEADER__			 \/\/ ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰ã‚¬ãƒ¼ãƒ‰$/;"	c	line:12
+__BUS_IF__	src/cpu/rtl/bus_if.v	/^`define __BUS_IF__$/;"	c	line:21
+__CPU_HEADER__	src/cpu/include/cpu.vh	/^	`define __CPU_HEADER__	\/\/ ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰ã‚¬ãƒ¼ãƒ‰$/;"	c	line:12
+__GLOBAL_CONFIG_HEADER__	src/top/include/global_config.vh	/^	`define __GLOBAL_CONFIG_HEADER__	\/\/ ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰ã‚¬ãƒ¼ãƒ‰$/;"	c	line:12
+__GPIO_HEADER__	src/io/gpio/include/gpio.vh	/^   `define __GPIO_HEADER__			\/\/ ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰ã‚¬ãƒ¼ãƒ‰$/;"	c	line:12
+__ISA_HEADER__	src/cpu/include/isa.vh	/^	`define __ISA_HEADER__			 \/\/ Include Guard$/;"	c	line:12
+__NETTYPE_HEADER__	src/top/include/nettype.vh	/^	`define __NETTYPE_HEADER__$/;"	c	line:12
+__ROM_HEADER__	src/io/rom/include/rom.vh	/^	`define __ROM_HEADER__			  \/\/ ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰ã‚¬ãƒ¼ãƒ‰$/;"	c	line:12
+__SPM_HEADER__	src/cpu/include/spm.vh	/^	`define __SPM_HEADER__			  \/\/ ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰ã‚¬ãƒ¼ãƒ‰$/;"	c	line:12
+__STDDEF_HEADER__	src/top/include/stddef.vh	/^	`define __STDDEF_HEADER__$/;"	c	line:12
+__TIMER_HEADER__	src/io/timer/include/timer.vh	/^	`define __TIMER_HEADER__		 \/\/ ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰ã‚¬ãƒ¼ãƒ‰$/;"	c	line:12
+__UART_HEADER__	src/io/uart/include/uart.vh	/^	`define __UART_HEADER__			\/\/ ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰ã‚¬ãƒ¼ãƒ‰$/;"	c	line:12
+addr	src/cpu/rtl/bus_if.v	/^	input  wire [`WordAddrBus] addr,		   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹$/;"	p	line:33	module:bus_if
+addr	src/cpu/rtl/mem_ctrl.v	/^	output wire [`WordAddrBus] addr,		   \/\/ ƒAƒhƒŒƒX$/;"	p	line:30	module:mem_ctrl
+addr	src/cpu/rtl/mem_stage.v	/^	wire [`WordAddrBus]		   addr;		   \/\/ ƒAƒhƒŒƒX$/;"	n	line:73	module:mem_stage
+addr	src/io/gpio/rtl/gpio.v	/^	input  wire [`GpioAddrBus]		addr,	 \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹$/;"	p	line:28	module:gpio
+addr	src/io/rom/rtl/rom.v	/^	input  wire [`RomAddrBus]  addr,	\/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹$/;"	p	line:28	module:rom
+addr	src/io/timer/rtl/timer.v	/^	input  wire [`TimerAddrBus] addr,	   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹$/;"	p	line:28	module:timer
+addr	src/io/uart/rtl/uart.v	/^	input  wire [`UartAddrBus] addr,	 \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹$/;"	p	line:31	module:uart
+addr	src/io/uart/rtl/uart_ctrl.v	/^	input  wire [`UartAddrBus] addr,	 \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹$/;"	p	line:28	module:uart_ctrl
+addra	src/top/lib/x_s3e_dpram.v	/^	input  wire [`SpmAddrBus]  addra, \/\/ ƒAƒhƒŒƒX$/;"	p	line:23	module:x_s3e_dpram
+addra	src/top/lib/x_s3e_sprom.v	/^	input wire [`RomAddrBus]  addra, \/\/ ƒAƒhƒŒƒX$/;"	p	line:22	module:x_s3e_sprom
+addrb	src/top/lib/x_s3e_dpram.v	/^	input  wire [`SpmAddrBus]  addrb, \/\/ ƒAƒhƒŒƒX$/;"	p	line:29	module:x_s3e_dpram
+alu	src/cpu/rtl/ex_alu.v	/^module alu ($/;"	m	line:20
+alu_in_0	src/cpu/rtl/id_decoder.v	/^	output reg	[`WordDataBus]	 alu_in_0,		\/\/ ALU“ü—Í 0$/;"	p	line:50	module:decoder
+alu_in_0	src/cpu/rtl/id_reg.v	/^	input  wire [`WordDataBus] alu_in_0,	   \/\/ ALU“ü—Í 0$/;"	p	line:27	module:id_reg
+alu_in_0	src/cpu/rtl/id_stage.v	/^	wire  [`WordDataBus]		 alu_in_0;		 \/\/ ALU“ü—Í 0$/;"	n	line:71	module:id_stage
+alu_in_1	src/cpu/rtl/id_decoder.v	/^	output reg	[`WordDataBus]	 alu_in_1,		\/\/ ALU“ü—Í 1$/;"	p	line:51	module:decoder
+alu_in_1	src/cpu/rtl/id_reg.v	/^	input  wire [`WordDataBus] alu_in_1,	   \/\/ ALU“ü—Í 1$/;"	p	line:28	module:id_reg
+alu_in_1	src/cpu/rtl/id_stage.v	/^	wire  [`WordDataBus]		 alu_in_1;		 \/\/ ALU“ü—Í 1$/;"	n	line:72	module:id_stage
+alu_of	src/cpu/rtl/ex_reg.v	/^	input  wire				   alu_of,		   \/\/ ƒI[ƒoƒtƒ[$/;"	p	line:27	module:ex_reg
+alu_of	src/cpu/rtl/ex_stage.v	/^	wire					   alu_of;		   \/\/ ƒI[ƒoƒtƒ[$/;"	n	line:61	module:ex_stage
+alu_op	src/cpu/rtl/id_decoder.v	/^	output reg	[`AluOpBus]		 alu_op,		\/\/ ALUƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:49	module:decoder
+alu_op	src/cpu/rtl/id_reg.v	/^	input  wire [`AluOpBus]	   alu_op,		   \/\/ ALUƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:26	module:id_reg
+alu_op	src/cpu/rtl/id_stage.v	/^	wire  [`AluOpBus]			 alu_op;		 \/\/ ALUƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	n	line:70	module:id_stage
+alu_out	src/cpu/rtl/ex_reg.v	/^	input  wire [`WordDataBus] alu_out,		   \/\/ ‰‰ZŒ‹‰Ê$/;"	p	line:26	module:ex_reg
+alu_out	src/cpu/rtl/ex_stage.v	/^	wire [`WordDataBus]		   alu_out;		   \/\/ ‰‰ZŒ‹‰Ê$/;"	n	line:60	module:ex_stage
+as_	src/cpu/rtl/bus_if.v	/^	input  wire				   as_,			   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹æœ‰åŠ¹$/;"	p	line:34	module:bus_if
+as_	src/cpu/rtl/mem_ctrl.v	/^	output reg				   as_,			   \/\/ ƒAƒhƒŒƒX—LŒø$/;"	p	line:31	module:mem_ctrl
+as_	src/cpu/rtl/mem_stage.v	/^	wire					   as_;			   \/\/ ƒAƒhƒŒƒX—LŒø$/;"	n	line:74	module:mem_stage
+as_	src/io/gpio/rtl/gpio.v	/^	input  wire						as_,	 \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–$/;"	p	line:26	module:gpio
+as_	src/io/rom/rtl/rom.v	/^	input  wire				   as_,		\/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–$/;"	p	line:27	module:rom
+as_	src/io/timer/rtl/timer.v	/^	input  wire					as_,	   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–$/;"	p	line:26	module:timer
+as_	src/io/uart/rtl/uart.v	/^	input  wire				   as_,		 \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–$/;"	p	line:29	module:uart
+as_	src/io/uart/rtl/uart_ctrl.v	/^	input  wire				   as_,		 \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–$/;"	p	line:26	module:uart_ctrl
+bit_cnt	src/io/uart/rtl/uart_rx.v	/^	reg [`UartBitCntBus]	   bit_cnt;	 \/\/ ãƒ“ãƒƒãƒˆã‚«ã‚¦ãƒ³ã‚¿$/;"	r	line:35	module:uart_rx
+bit_cnt	src/io/uart/rtl/uart_tx.v	/^	reg [`UartBitCntBus]	   bit_cnt;	 \/\/ ãƒ“ãƒƒãƒˆã‚«ã‚¦ãƒ³ã‚¿$/;"	r	line:36	module:uart_tx
+br_addr	src/cpu/rtl/cpu.v	/^	wire [`WordAddrBus]			 br_addr;		 \/\/ •ªŠòƒAƒhƒŒƒX$/;"	n	line:111	module:cpu
+br_addr	src/cpu/rtl/id_decoder.v	/^	output reg	[`WordAddrBus]	 br_addr,		\/\/ •ªŠòƒAƒhƒŒƒX$/;"	p	line:52	module:decoder
+br_addr	src/cpu/rtl/id_stage.v	/^	output wire [`WordAddrBus]	 br_addr,		 \/\/ •ªŠòƒAƒhƒŒƒX$/;"	p	line:47	module:id_stage
+br_addr	src/cpu/rtl/if_reg.v	/^	input  wire [`WordAddrBus] br_addr,	   \/\/ •ªŠòæƒAƒhƒŒƒX$/;"	p	line:32	module:if_reg
+br_addr	src/cpu/rtl/if_stage.v	/^	input  wire [`WordAddrBus] br_addr,		\/\/ •ªŠòæƒAƒhƒŒƒX$/;"	p	line:46	module:if_stage
+br_flag	src/cpu/rtl/ctrl.v	/^	reg						  br_flag;			\/\/ •ªŠòƒtƒ‰ƒO$/;"	r	line:74	module:ctrl
+br_flag	src/cpu/rtl/id_decoder.v	/^	output reg					 br_flag,		\/\/ •ªŠòƒtƒ‰ƒO$/;"	p	line:54	module:decoder
+br_flag	src/cpu/rtl/id_reg.v	/^	input  wire				   br_flag,		   \/\/ •ªŠòƒtƒ‰ƒO$/;"	p	line:29	module:id_reg
+br_flag	src/cpu/rtl/id_stage.v	/^	wire						 br_flag;		 \/\/ •ªŠòƒtƒ‰ƒO$/;"	n	line:73	module:id_stage
+br_taken	src/cpu/rtl/cpu.v	/^	wire						 br_taken;		 \/\/ •ªŠò‚Ì¬—§$/;"	n	line:112	module:cpu
+br_taken	src/cpu/rtl/id_decoder.v	/^	output reg					 br_taken,		\/\/ •ªŠò‚Ì¬—§$/;"	p	line:53	module:decoder
+br_taken	src/cpu/rtl/id_stage.v	/^	output wire					 br_taken,		 \/\/ •ªŠò‚Ì¬—§$/;"	p	line:48	module:id_stage
+br_taken	src/cpu/rtl/if_reg.v	/^	input  wire				   br_taken,   \/\/ •ªŠò‚Ì¬—§$/;"	p	line:31	module:if_reg
+br_taken	src/cpu/rtl/if_stage.v	/^	input  wire				   br_taken,	\/\/ •ªŠò‚Ì¬—§$/;"	p	line:45	module:if_stage
+br_target	src/cpu/rtl/id_decoder.v	/^	wire [`WordAddrBus] br_target = if_pc + imm_s[`WORD_ADDR_MSB:0]; \/\/ •ªŠòæ$/;"	n	line:87	module:decoder
+bus	src/bus/rtl/bus.v	/^module bus ($/;"	m	line:24
+bus_addr	src/cpu/rtl/bus_if.v	/^	output reg	[`WordAddrBus] bus_addr,	   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹$/;"	p	line:49	module:bus_if
+bus_addr	src/cpu/rtl/if_stage.v	/^	output wire [`WordAddrBus] bus_addr,	\/\/ ƒAƒhƒŒƒX$/;"	p	line:37	module:if_stage
+bus_addr	src/cpu/rtl/mem_stage.v	/^	output wire [`WordAddrBus] bus_addr,	   \/\/ ƒAƒhƒŒƒX$/;"	p	line:45	module:mem_stage
+bus_addr_dec	src/bus/rtl/bus_addr_dec.v	/^module bus_addr_dec ($/;"	m	line:20
+bus_arbiter	src/bus/rtl/bus_arbiter.v	/^module bus_arbiter ($/;"	m	line:20
+bus_as_	src/cpu/rtl/bus_if.v	/^	output reg				   bus_as_,		   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–$/;"	p	line:50	module:bus_if
+bus_as_	src/cpu/rtl/if_stage.v	/^	output wire				   bus_as_,		\/\/ ƒAƒhƒŒƒXƒXƒgƒ[ƒu$/;"	p	line:38	module:if_stage
+bus_as_	src/cpu/rtl/mem_stage.v	/^	output wire				   bus_as_,		   \/\/ ƒAƒhƒŒƒXƒXƒgƒ[ƒu$/;"	p	line:46	module:mem_stage
+bus_grnt_	src/cpu/rtl/bus_if.v	/^	input  wire				   bus_grnt_,	   \/\/ ãƒã‚¹ã‚°ãƒ©ãƒ³ãƒˆ$/;"	p	line:47	module:bus_if
+bus_grnt_	src/cpu/rtl/if_stage.v	/^	input  wire				   bus_grnt_,	\/\/ ƒoƒXƒOƒ‰ƒ“ƒg$/;"	p	line:35	module:if_stage
+bus_grnt_	src/cpu/rtl/mem_stage.v	/^	input  wire				   bus_grnt_,	   \/\/ ƒoƒXƒOƒ‰ƒ“ƒg$/;"	p	line:43	module:mem_stage
+bus_if	src/cpu/rtl/bus_if.v	/^module bus_if ($/;"	m	line:24
+bus_master_mux	src/bus/rtl/bus_master_mux.v	/^module bus_master_mux ($/;"	m	line:20
+bus_rd_data	src/cpu/rtl/bus_if.v	/^	input  wire [`WordDataBus] bus_rd_data,	   \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	p	line:45	module:bus_if
+bus_rd_data	src/cpu/rtl/if_stage.v	/^	input  wire [`WordDataBus] bus_rd_data, \/\/ “Ç‚İo‚µƒf[ƒ^$/;"	p	line:33	module:if_stage
+bus_rd_data	src/cpu/rtl/mem_stage.v	/^	input  wire [`WordDataBus] bus_rd_data,	   \/\/ “Ç‚İo‚µƒf[ƒ^$/;"	p	line:41	module:mem_stage
+bus_rdy_	src/cpu/rtl/bus_if.v	/^	input  wire				   bus_rdy_,	   \/\/ ãƒ¬ãƒ‡ã‚£$/;"	p	line:46	module:bus_if
+bus_rdy_	src/cpu/rtl/if_stage.v	/^	input  wire				   bus_rdy_,	\/\/ ƒŒƒfƒB$/;"	p	line:34	module:if_stage
+bus_rdy_	src/cpu/rtl/mem_stage.v	/^	input  wire				   bus_rdy_,	   \/\/ ƒŒƒfƒB$/;"	p	line:42	module:mem_stage
+bus_req_	src/cpu/rtl/bus_if.v	/^	output reg				   bus_req_,	   \/\/ ãƒã‚¹ãƒªã‚¯ã‚¨ã‚¹ãƒˆ$/;"	p	line:48	module:bus_if
+bus_req_	src/cpu/rtl/if_stage.v	/^	output wire				   bus_req_,	\/\/ ƒoƒXƒŠƒNƒGƒXƒg$/;"	p	line:36	module:if_stage
+bus_req_	src/cpu/rtl/mem_stage.v	/^	output wire				   bus_req_,	   \/\/ ƒoƒXƒŠƒNƒGƒXƒg$/;"	p	line:44	module:mem_stage
+bus_rw	src/cpu/rtl/bus_if.v	/^	output reg				   bus_rw,		   \/\/ èª­ã¿ï¼æ›¸ã$/;"	p	line:51	module:bus_if
+bus_rw	src/cpu/rtl/if_stage.v	/^	output wire				   bus_rw,		\/\/ “Ç‚İ^‘‚«$/;"	p	line:39	module:if_stage
+bus_rw	src/cpu/rtl/mem_stage.v	/^	output wire				   bus_rw,		   \/\/ “Ç‚İ^‘‚«$/;"	p	line:47	module:mem_stage
+bus_slave_mux	src/bus/rtl/bus_slave_mux.v	/^module bus_slave_mux ($/;"	m	line:20
+bus_wr_data	src/cpu/rtl/bus_if.v	/^	output reg	[`WordDataBus] bus_wr_data	   \/\/ æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿$/;"	p	line:52	module:bus_if
+bus_wr_data	src/cpu/rtl/if_stage.v	/^	output wire [`WordDataBus] bus_wr_data, \/\/ ‘‚«‚İƒf[ƒ^$/;"	p	line:40	module:if_stage
+bus_wr_data	src/cpu/rtl/mem_stage.v	/^	output wire [`WordDataBus] bus_wr_data,	   \/\/ ‘‚«‚İƒf[ƒ^$/;"	p	line:48	module:mem_stage
+busy	src/cpu/rtl/bus_if.v	/^	output reg				   busy,		   \/\/ ãƒ“ã‚¸ãƒ¼ä¿¡å·$/;"	p	line:31	module:bus_if
+busy	src/cpu/rtl/if_stage.v	/^	output wire				   busy,		\/\/ ƒrƒW[M†$/;"	p	line:47	module:if_stage
+busy	src/cpu/rtl/mem_stage.v	/^	output wire				   busy,		   \/\/ ƒrƒW[M†$/;"	p	line:31	module:mem_stage
+chip	src/top/rtl/chip.v	/^module chip ($/;"	m	line:27
+chip_reset	src/top/rtl/chip_top.v	/^	wire					   chip_reset;	  \/\/ ãƒãƒƒãƒ—ãƒªã‚»ãƒƒãƒˆ$/;"	n	line:49	module:chip_top
+chip_reset	src/top/rtl/clk_gen.v	/^	output wire chip_reset \/\/ ãƒãƒƒãƒ—ãƒªã‚»ãƒƒãƒˆ$/;"	p	line:27	module:clk_gen
+chip_top	src/top/rtl/chip_top.v	/^module chip_top ($/;"	m	line:23
+chip_top_test	src/top/test/chip_top_test.v	/^module chip_top_test;$/;"	m	line:26
+clk	src/bus/rtl/bus.v	/^	input  wire				   clk,		   \/\/ ã‚¯ãƒ­ãƒƒã‚¯$/;"	p	line:26	module:bus
+clk	src/bus/rtl/bus_arbiter.v	/^	input  wire		   clk,		 \/\/ ã‚¯ãƒ­ãƒƒã‚¯$/;"	p	line:22	module:bus_arbiter
+clk	src/cpu/rtl/bus_if.v	/^	input  wire				   clk,			   \/\/ ã‚¯ãƒ­ãƒƒã‚¯$/;"	p	line:26	module:bus_if
+clk	src/cpu/rtl/cpu.v	/^	input  wire					  clk,			   \/\/ ƒNƒƒbƒN$/;"	p	line:31	module:cpu
+clk	src/cpu/rtl/ctrl.v	/^	input  wire					  clk,			\/\/ ƒNƒƒbƒN$/;"	p	line:25	module:ctrl
+clk	src/cpu/rtl/ex_reg.v	/^	input  wire				   clk,			   \/\/ ƒNƒƒbƒN$/;"	p	line:23	module:ex_reg
+clk	src/cpu/rtl/ex_stage.v	/^	input  wire				   clk,			   \/\/ ƒNƒƒbƒN$/;"	p	line:25	module:ex_stage
+clk	src/cpu/rtl/gpr.v	/^	input  wire				   clk,				   \/\/ ƒNƒƒbƒN$/;"	p	line:22	module:gpr
+clk	src/cpu/rtl/id_reg.v	/^	input  wire				   clk,			   \/\/ ƒNƒƒbƒN$/;"	p	line:23	module:id_reg
+clk	src/cpu/rtl/id_stage.v	/^	input  wire					 clk,			 \/\/ ƒNƒƒbƒN$/;"	p	line:25	module:id_stage
+clk	src/cpu/rtl/if_reg.v	/^	input  wire				   clk,		   \/\/ ƒNƒƒbƒN$/;"	p	line:23	module:if_reg
+clk	src/cpu/rtl/if_stage.v	/^	input  wire				   clk,			\/\/ ƒNƒƒbƒN$/;"	p	line:24	module:if_stage
+clk	src/cpu/rtl/mem_reg.v	/^	input  wire				   clk,			 \/\/ ƒNƒƒbƒN$/;"	p	line:23	module:mem_reg
+clk	src/cpu/rtl/mem_stage.v	/^	input  wire				   clk,			   \/\/ ƒNƒƒbƒN$/;"	p	line:26	module:mem_stage
+clk	src/cpu/rtl/spm.v	/^	input  wire				   clk,				\/\/ ƒNƒƒbƒN$/;"	p	line:23	module:spm
+clk	src/io/gpio/rtl/gpio.v	/^	input  wire						clk,	 \/\/ ã‚¯ãƒ­ãƒƒã‚¯$/;"	p	line:22	module:gpio
+clk	src/io/rom/rtl/rom.v	/^	input  wire				   clk,		\/\/ ã‚¯ãƒ­ãƒƒã‚¯$/;"	p	line:23	module:rom
+clk	src/io/timer/rtl/timer.v	/^	input  wire					clk,	   \/\/ ã‚¯ãƒ­ãƒƒã‚¯$/;"	p	line:22	module:timer
+clk	src/io/uart/rtl/uart.v	/^	input  wire				   clk,		 \/\/ ã‚¯ãƒ­ãƒƒã‚¯$/;"	p	line:25	module:uart
+clk	src/io/uart/rtl/uart_ctrl.v	/^	input  wire				   clk,		 \/\/ ã‚¯ãƒ­ãƒƒã‚¯$/;"	p	line:22	module:uart_ctrl
+clk	src/io/uart/rtl/uart_rx.v	/^	input  wire				   clk,		\/\/ ã‚¯ãƒ­ãƒƒã‚¯$/;"	p	line:22	module:uart_rx
+clk	src/io/uart/rtl/uart_tx.v	/^	input  wire				   clk,		 \/\/ ã‚¯ãƒ­ãƒƒã‚¯$/;"	p	line:22	module:uart_tx
+clk	src/top/rtl/chip.v	/^	input  wire						 clk,		  \/\/ ã‚¯ãƒ­ãƒƒã‚¯$/;"	p	line:29	module:chip
+clk	src/top/rtl/chip_top.v	/^	wire					   clk;			  \/\/ ã‚¯ãƒ­ãƒƒã‚¯$/;"	n	line:47	module:chip_top
+clk	src/top/rtl/clk_gen.v	/^	output wire clk,	   \/\/ ã‚¯ãƒ­ãƒƒã‚¯$/;"	p	line:24	module:clk_gen
+clk	src/top/temp/counter.v	/^    input clk, reset, enable;$/;"	p	line:4	module:counter
+clk	src/top/temp/counter_tb.v	/^    reg clk, enable, reset; $/;"	r	line:6	module:counter_tb
+clk_	src/cpu/rtl/cpu.v	/^	input  wire					  clk_,			   \/\/ ”½“]ƒNƒƒbƒN$/;"	p	line:32	module:cpu
+clk_	src/top/rtl/chip.v	/^	input  wire						 clk_,		  \/\/ åè»¢ã‚¯ãƒ­ãƒƒã‚¯$/;"	p	line:30	module:chip
+clk_	src/top/rtl/chip_top.v	/^	wire					   clk_;		  \/\/ åè»¢ã‚¯ãƒ­ãƒƒã‚¯$/;"	n	line:48	module:chip_top
+clk_	src/top/rtl/clk_gen.v	/^	output wire clk_,	   \/\/ åè»¢ã‚¯ãƒ­ãƒƒã‚¯$/;"	p	line:25	module:clk_gen
+clk_gen	src/top/rtl/clk_gen.v	/^module clk_gen ($/;"	m	line:19
+clk_ref	src/top/rtl/chip_top.v	/^	input wire				   clk_ref,		  \/\/ åŸºåº•ã‚¯ãƒ­ãƒƒã‚¯$/;"	p	line:25	module:chip_top
+clk_ref	src/top/rtl/clk_gen.v	/^	input wire	clk_ref,   \/\/ åŸºåº•ã‚¯ãƒ­ãƒƒã‚¯$/;"	p	line:21	module:clk_gen
+clk_ref	src/top/test/chip_top_test.v	/^	reg						clk_ref;	   \/\/ åŸºåº•ã‚¯ãƒ­ãƒƒã‚¯$/;"	r	line:29	module:chip_top_test
+clka	src/top/lib/x_s3e_dpram.v	/^	input  wire				   clka,  \/\/ ƒNƒƒbƒN$/;"	p	line:22	module:x_s3e_dpram
+clka	src/top/lib/x_s3e_sprom.v	/^	input wire				  clka,	 \/\/ ƒNƒƒbƒN$/;"	p	line:21	module:x_s3e_sprom
+clkb	src/top/lib/x_s3e_dpram.v	/^	input  wire				   clkb,  \/\/ ƒNƒƒbƒN$/;"	p	line:28	module:x_s3e_dpram
+counter	src/io/timer/rtl/timer.v	/^	reg [`WordDataBus]			counter;   \/\/ ã‚«ã‚¦ãƒ³ã‚¿$/;"	r	line:43	module:timer
+counter	src/top/temp/counter.v	/^module counter(out, clk, enable,reset);$/;"	m	line:2
+counter_tb	src/top/temp/counter_tb.v	/^module counter_tb; $/;"	m	line:4
+cpu	src/cpu/rtl/cpu.v	/^module cpu ($/;"	m	line:29
+cpu_irq	src/cpu/rtl/cpu.v	/^	input  wire [`CPU_IRQ_CH-1:0] cpu_irq		   \/\/ Š„‚è‚İ—v‹$/;"	p	line:54	module:cpu
+cpu_irq	src/top/rtl/chip.v	/^	wire [`CPU_IRQ_CH-1:0] cpu_irq;				  \/\/ CPU IRQ$/;"	n	line:125	module:chip
+creg_rd_addr	src/cpu/rtl/cpu.v	/^	wire [`RegAddrBus]			 creg_rd_addr;	 \/\/ “Ç‚İo‚µƒAƒhƒŒƒX$/;"	n	line:122	module:cpu
+creg_rd_addr	src/cpu/rtl/ctrl.v	/^	input  wire [`RegAddrBus]	  creg_rd_addr, \/\/ “Ç‚İo‚µƒAƒhƒŒƒX$/;"	p	line:28	module:ctrl
+creg_rd_addr	src/cpu/rtl/id_decoder.v	/^	output wire [`RegAddrBus]	 creg_rd_addr,	\/\/ “Ç‚İo‚µƒAƒhƒŒƒX$/;"	p	line:47	module:decoder
+creg_rd_addr	src/cpu/rtl/id_stage.v	/^	output wire [`RegAddrBus]	 creg_rd_addr,	 \/\/ “Ç‚İo‚µƒAƒhƒŒƒX$/;"	p	line:43	module:id_stage
+creg_rd_data	src/cpu/rtl/cpu.v	/^	wire [`WordDataBus]			 creg_rd_data;	 \/\/ “Ç‚İo‚µƒf[ƒ^$/;"	n	line:121	module:cpu
+creg_rd_data	src/cpu/rtl/ctrl.v	/^	output reg	[`WordDataBus]	  creg_rd_data, \/\/ “Ç‚İo‚µƒf[ƒ^$/;"	p	line:29	module:ctrl
+creg_rd_data	src/cpu/rtl/id_decoder.v	/^	input  wire [`WordDataBus]	 creg_rd_data,	\/\/ “Ç‚İo‚µƒf[ƒ^$/;"	p	line:46	module:decoder
+creg_rd_data	src/cpu/rtl/id_stage.v	/^	input  wire [`WordDataBus]	 creg_rd_data,	 \/\/ “Ç‚İo‚µƒf[ƒ^$/;"	p	line:42	module:id_stage
+cs_	src/io/gpio/rtl/gpio.v	/^	input  wire						cs_,	 \/\/ ãƒãƒƒãƒ—ã‚»ãƒ¬ã‚¯ãƒˆ$/;"	p	line:25	module:gpio
+cs_	src/io/rom/rtl/rom.v	/^	input  wire				   cs_,		\/\/ ãƒãƒƒãƒ—ã‚»ãƒ¬ã‚¯ãƒˆ$/;"	p	line:26	module:rom
+cs_	src/io/timer/rtl/timer.v	/^	input  wire					cs_,	   \/\/ ãƒãƒƒãƒ—ã‚»ãƒ¬ã‚¯ãƒˆ$/;"	p	line:25	module:timer
+cs_	src/io/uart/rtl/uart.v	/^	input  wire				   cs_,		 \/\/ ãƒãƒƒãƒ—ã‚»ãƒ¬ã‚¯ãƒˆ$/;"	p	line:28	module:uart
+cs_	src/io/uart/rtl/uart_ctrl.v	/^	input  wire				   cs_,		 \/\/ ãƒãƒƒãƒ—ã‚»ãƒ¬ã‚¯ãƒˆ$/;"	p	line:25	module:uart_ctrl
+ctrl	src/cpu/rtl/ctrl.v	/^module ctrl ($/;"	m	line:23
+ctrl_op	src/cpu/rtl/id_decoder.v	/^	output reg	[`CtrlOpBus]	 ctrl_op,		\/\/ §ŒäƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:57	module:decoder
+ctrl_op	src/cpu/rtl/id_reg.v	/^	input  wire [`CtrlOpBus]   ctrl_op,		   \/\/ §ŒäƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:32	module:id_reg
+ctrl_op	src/cpu/rtl/id_stage.v	/^	wire  [`CtrlOpBus]			 ctrl_op;		 \/\/ §ŒäƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	n	line:76	module:id_stage
+dcm_reset	src/top/rtl/clk_gen.v	/^	wire		dcm_reset; \/\/ ãƒªã‚»ãƒƒãƒˆ$/;"	n	line:32	module:clk_gen
+decoder	src/cpu/rtl/id_decoder.v	/^module decoder ($/;"	m	line:21
+dina	src/top/lib/x_s3e_dpram.v	/^	input  wire [`WordDataBus] dina,  \/\/ ‘‚«‚İƒf[ƒ^$/;"	p	line:24	module:x_s3e_dpram
+dinb	src/top/lib/x_s3e_dpram.v	/^	input  wire [`WordDataBus] dinb,  \/\/ ‘‚«‚İƒf[ƒ^$/;"	p	line:30	module:x_s3e_dpram
+div_cnt	src/io/uart/rtl/uart_rx.v	/^	reg [`UartDivCntBus]	   div_cnt;	 \/\/ åˆ†å‘¨ã‚«ã‚¦ãƒ³ã‚¿$/;"	r	line:34	module:uart_rx
+div_cnt	src/io/uart/rtl/uart_tx.v	/^	reg [`UartDivCntBus]	   div_cnt;	 \/\/ åˆ†å‘¨ã‚«ã‚¦ãƒ³ã‚¿$/;"	r	line:35	module:uart_tx
+dly_flag	src/cpu/rtl/ctrl.v	/^	reg							 dly_flag;		\/\/ 6”Ô : ƒfƒBƒŒƒCƒXƒƒbƒgƒtƒ‰ƒO$/;"	r	line:69	module:ctrl
+douta	src/top/lib/x_s3e_dpram.v	/^	output reg	[`WordDataBus] douta, \/\/ “Ç‚İo‚µƒf[ƒ^$/;"	p	line:26	module:x_s3e_dpram
+douta	src/top/lib/x_s3e_sprom.v	/^	output reg [`WordDataBus] douta	 \/\/ “Ç‚İo‚µƒf[ƒ^$/;"	p	line:23	module:x_s3e_sprom
+doutb	src/top/lib/x_s3e_dpram.v	/^	output reg	[`WordDataBus] doutb  \/\/ “Ç‚İo‚µƒf[ƒ^$/;"	p	line:32	module:x_s3e_dpram
+dst_addr	src/cpu/rtl/id_decoder.v	/^	output reg	[`RegAddrBus]	 dst_addr,		\/\/ ”Ä—pƒŒƒWƒXƒ^‘‚«‚İƒAƒhƒŒƒX$/;"	p	line:58	module:decoder
+dst_addr	src/cpu/rtl/id_reg.v	/^	input  wire [`RegAddrBus]  dst_addr,	   \/\/ ”Ä—pƒŒƒWƒXƒ^‘‚«‚İƒAƒhƒŒƒX$/;"	p	line:33	module:id_reg
+dst_addr	src/cpu/rtl/id_stage.v	/^	wire  [`RegAddrBus]			 dst_addr;		 \/\/ GPR‘‚«‚İƒAƒhƒŒƒX$/;"	n	line:77	module:id_stage
+enable	src/top/temp/counter.v	/^    input clk, reset, enable;$/;"	p	line:4	module:counter
+enable	src/top/temp/counter_tb.v	/^    reg clk, enable, reset; $/;"	r	line:6	module:counter_tb
+epc	src/cpu/rtl/ctrl.v	/^	reg	 [`WordAddrBus]			 epc;			\/\/ 3”Ô : —áŠOƒvƒƒOƒ‰ƒ€ƒJƒEƒ“ƒ^$/;"	r	line:66	module:ctrl
+ex_br_flag	src/cpu/rtl/cpu.v	/^	wire						 ex_br_flag;	 \/\/ •ªŠòƒtƒ‰ƒO$/;"	n	line:78	module:cpu
+ex_br_flag	src/cpu/rtl/ex_reg.v	/^	output reg				   ex_br_flag,	   \/\/ •ªŠòƒtƒ‰ƒO$/;"	p	line:45	module:ex_reg
+ex_br_flag	src/cpu/rtl/ex_stage.v	/^	output wire				   ex_br_flag,	   \/\/ •ªŠòƒtƒ‰ƒO$/;"	p	line:49	module:ex_stage
+ex_br_flag	src/cpu/rtl/mem_reg.v	/^	input  wire				   ex_br_flag,	 \/\/ •ªŠòƒtƒ‰ƒO$/;"	p	line:34	module:mem_reg
+ex_br_flag	src/cpu/rtl/mem_stage.v	/^	input  wire				   ex_br_flag,	   \/\/ •ªŠòƒtƒ‰ƒO$/;"	p	line:52	module:mem_stage
+ex_ctrl_op	src/cpu/rtl/cpu.v	/^	wire [`CtrlOpBus]			 ex_ctrl_op;	 \/\/ §ŒäƒŒƒWƒXƒ^ƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	n	line:81	module:cpu
+ex_ctrl_op	src/cpu/rtl/ex_reg.v	/^	output reg	[`CtrlOpBus]   ex_ctrl_op,	   \/\/ §ŒäƒŒƒWƒXƒ^ƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:48	module:ex_reg
+ex_ctrl_op	src/cpu/rtl/ex_stage.v	/^	output wire [`CtrlOpBus]   ex_ctrl_op,	   \/\/ §ŒäƒŒƒWƒXƒ^ƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:52	module:ex_stage
+ex_ctrl_op	src/cpu/rtl/mem_reg.v	/^	input  wire [`CtrlOpBus]   ex_ctrl_op,	 \/\/ §ŒäƒŒƒWƒXƒ^ƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:35	module:mem_reg
+ex_ctrl_op	src/cpu/rtl/mem_stage.v	/^	input  wire [`CtrlOpBus]   ex_ctrl_op,	   \/\/ §ŒäƒŒƒWƒXƒ^ƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:55	module:mem_stage
+ex_dst_addr	src/cpu/rtl/cpu.v	/^	wire [`RegAddrBus]			 ex_dst_addr;	 \/\/ ”Ä—pƒŒƒWƒXƒ^‘‚«‚İƒAƒhƒŒƒX$/;"	n	line:82	module:cpu
+ex_dst_addr	src/cpu/rtl/ex_reg.v	/^	output reg	[`RegAddrBus]  ex_dst_addr,	   \/\/ ”Ä—pƒŒƒWƒXƒ^‘‚«‚İƒAƒhƒŒƒX$/;"	p	line:49	module:ex_reg
+ex_dst_addr	src/cpu/rtl/ex_stage.v	/^	output wire [`RegAddrBus]  ex_dst_addr,	   \/\/ ”Ä—pƒŒƒWƒXƒ^‘‚«‚İƒAƒhƒŒƒX$/;"	p	line:53	module:ex_stage
+ex_dst_addr	src/cpu/rtl/id_decoder.v	/^	input  wire [`RegAddrBus]	 ex_dst_addr,	\/\/ ‘‚«‚İƒAƒhƒŒƒX$/;"	p	line:39	module:decoder
+ex_dst_addr	src/cpu/rtl/id_stage.v	/^	input  wire [`RegAddrBus]	 ex_dst_addr,	 \/\/ ‘‚«‚İƒAƒhƒŒƒX$/;"	p	line:36	module:id_stage
+ex_dst_addr	src/cpu/rtl/mem_reg.v	/^	input  wire [`RegAddrBus]  ex_dst_addr,	 \/\/ ”Ä—pƒŒƒWƒXƒ^‘‚«‚İƒAƒhƒŒƒX$/;"	p	line:36	module:mem_reg
+ex_dst_addr	src/cpu/rtl/mem_stage.v	/^	input  wire [`RegAddrBus]  ex_dst_addr,	   \/\/ ”Ä—pƒŒƒWƒXƒ^‘‚«‚İƒAƒhƒŒƒX$/;"	p	line:56	module:mem_stage
+ex_en	src/cpu/rtl/cpu.v	/^	wire						 ex_en;			 \/\/ ƒpƒCƒvƒ‰ƒCƒ“ƒf[ƒ^‚Ì—LŒø$/;"	n	line:77	module:cpu
+ex_en	src/cpu/rtl/ex_reg.v	/^	output reg				   ex_en,		   \/\/ ƒpƒCƒvƒ‰ƒCƒ“ƒf[ƒ^‚Ì—LŒø$/;"	p	line:44	module:ex_reg
+ex_en	src/cpu/rtl/ex_stage.v	/^	output wire				   ex_en,		   \/\/ ƒpƒCƒvƒ‰ƒCƒ“ƒf[ƒ^‚Ì—LŒø$/;"	p	line:48	module:ex_stage
+ex_en	src/cpu/rtl/id_decoder.v	/^	input  wire					 ex_en,			\/\/ ƒpƒCƒvƒ‰ƒCƒ“ƒf[ƒ^‚Ì—LŒø$/;"	p	line:38	module:decoder
+ex_en	src/cpu/rtl/id_stage.v	/^	input  wire					 ex_en,			\/\/ ƒpƒCƒvƒ‰ƒCƒ“ƒf[ƒ^‚Ì—LŒø$/;"	p	line:34	module:id_stage
+ex_en	src/cpu/rtl/mem_ctrl.v	/^	input  wire				   ex_en,		   \/\/ ƒpƒCƒvƒ‰ƒCƒ“ƒf[ƒ^‚Ì—LŒø$/;"	p	line:24	module:mem_ctrl
+ex_en	src/cpu/rtl/mem_reg.v	/^	input  wire				   ex_en,		 \/\/ ƒpƒCƒvƒ‰ƒCƒ“ƒf[ƒ^‚Ì—LŒø$/;"	p	line:33	module:mem_reg
+ex_en	src/cpu/rtl/mem_stage.v	/^	input  wire				   ex_en,		   \/\/ ƒpƒCƒvƒ‰ƒCƒ“ƒf[ƒ^‚Ì—LŒø$/;"	p	line:51	module:mem_stage
+ex_exp_code	src/cpu/rtl/cpu.v	/^	wire [`IsaExpBus]			 ex_exp_code;	 \/\/ —áŠOƒR[ƒh$/;"	n	line:84	module:cpu
+ex_exp_code	src/cpu/rtl/ex_reg.v	/^	output reg	[`IsaExpBus]   ex_exp_code,	   \/\/ —áŠOƒR[ƒh$/;"	p	line:51	module:ex_reg
+ex_exp_code	src/cpu/rtl/ex_stage.v	/^	output wire [`IsaExpBus]   ex_exp_code,	   \/\/ —áŠOƒR[ƒh$/;"	p	line:55	module:ex_stage
+ex_exp_code	src/cpu/rtl/mem_reg.v	/^	input  wire [`IsaExpBus]   ex_exp_code,	 \/\/ —áŠOƒR[ƒh$/;"	p	line:38	module:mem_reg
+ex_exp_code	src/cpu/rtl/mem_stage.v	/^	input  wire [`IsaExpBus]   ex_exp_code,	   \/\/ —áŠOƒR[ƒh$/;"	p	line:58	module:mem_stage
+ex_flush	src/cpu/rtl/cpu.v	/^	wire						 ex_flush;		 \/\/ EXƒXƒe[ƒW$/;"	n	line:104	module:cpu
+ex_flush	src/cpu/rtl/ctrl.v	/^	output wire					  ex_flush,		\/\/ EXƒXƒe[ƒWƒtƒ‰ƒbƒVƒ…$/;"	p	line:57	module:ctrl
+ex_fwd_data	src/cpu/rtl/cpu.v	/^	wire [`WordDataBus]			 ex_fwd_data;	  \/\/ EXƒXƒe[ƒW$/;"	n	line:139	module:cpu
+ex_fwd_data	src/cpu/rtl/id_decoder.v	/^	input  wire [`WordDataBus]	 ex_fwd_data,	\/\/ ƒtƒHƒ[ƒfƒBƒ“ƒOƒf[ƒ^$/;"	p	line:41	module:decoder
+ex_fwd_data	src/cpu/rtl/id_stage.v	/^	input  wire [`WordDataBus]	 ex_fwd_data,	 \/\/ ƒtƒHƒ[ƒfƒBƒ“ƒOƒf[ƒ^$/;"	p	line:35	module:id_stage
+ex_gpr_we_	src/cpu/rtl/cpu.v	/^	wire						 ex_gpr_we_;	 \/\/ ”Ä—pƒŒƒWƒXƒ^‘‚«‚İ—LŒø$/;"	n	line:83	module:cpu
+ex_gpr_we_	src/cpu/rtl/ex_reg.v	/^	output reg				   ex_gpr_we_,	   \/\/ ”Ä—pƒŒƒWƒXƒ^‘‚«‚İ—LŒø$/;"	p	line:50	module:ex_reg
+ex_gpr_we_	src/cpu/rtl/ex_stage.v	/^	output wire				   ex_gpr_we_,	   \/\/ ”Ä—pƒŒƒWƒXƒ^‘‚«‚İ—LŒø$/;"	p	line:54	module:ex_stage
+ex_gpr_we_	src/cpu/rtl/id_decoder.v	/^	input  wire					 ex_gpr_we_,	\/\/ ‘‚«‚İ—LŒø$/;"	p	line:40	module:decoder
+ex_gpr_we_	src/cpu/rtl/id_stage.v	/^	input  wire					 ex_gpr_we_,	 \/\/ ‘‚«‚İ—LŒø$/;"	p	line:37	module:id_stage
+ex_gpr_we_	src/cpu/rtl/mem_reg.v	/^	input  wire				   ex_gpr_we_,	 \/\/ ”Ä—pƒŒƒWƒXƒ^‘‚«‚İ—LŒø$/;"	p	line:37	module:mem_reg
+ex_gpr_we_	src/cpu/rtl/mem_stage.v	/^	input  wire				   ex_gpr_we_,	   \/\/ ”Ä—pƒŒƒWƒXƒ^‘‚«‚İ—LŒø$/;"	p	line:57	module:mem_stage
+ex_mem_op	src/cpu/rtl/cpu.v	/^	wire [`MemOpBus]			 ex_mem_op;		 \/\/ ƒƒ‚ƒŠƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	n	line:79	module:cpu
+ex_mem_op	src/cpu/rtl/ex_reg.v	/^	output reg	[`MemOpBus]	   ex_mem_op,	   \/\/ ƒƒ‚ƒŠƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:46	module:ex_reg
+ex_mem_op	src/cpu/rtl/ex_stage.v	/^	output wire [`MemOpBus]	   ex_mem_op,	   \/\/ ƒƒ‚ƒŠƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:50	module:ex_stage
+ex_mem_op	src/cpu/rtl/mem_ctrl.v	/^	input  wire [`MemOpBus]	   ex_mem_op,	   \/\/ ƒƒ‚ƒŠƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:25	module:mem_ctrl
+ex_mem_op	src/cpu/rtl/mem_stage.v	/^	input  wire [`MemOpBus]	   ex_mem_op,	   \/\/ ƒƒ‚ƒŠƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:53	module:mem_stage
+ex_mem_wr_data	src/cpu/rtl/cpu.v	/^	wire [`WordDataBus]			 ex_mem_wr_data; \/\/ ƒƒ‚ƒŠ‘‚«‚İƒf[ƒ^$/;"	n	line:80	module:cpu
+ex_mem_wr_data	src/cpu/rtl/ex_reg.v	/^	output reg	[`WordDataBus] ex_mem_wr_data, \/\/ ƒƒ‚ƒŠ‘‚«‚İƒf[ƒ^$/;"	p	line:47	module:ex_reg
+ex_mem_wr_data	src/cpu/rtl/ex_stage.v	/^	output wire [`WordDataBus] ex_mem_wr_data, \/\/ ƒƒ‚ƒŠ‘‚«‚İƒf[ƒ^$/;"	p	line:51	module:ex_stage
+ex_mem_wr_data	src/cpu/rtl/mem_ctrl.v	/^	input  wire [`WordDataBus] ex_mem_wr_data, \/\/ ƒƒ‚ƒŠ‘‚«‚İƒf[ƒ^$/;"	p	line:26	module:mem_ctrl
+ex_mem_wr_data	src/cpu/rtl/mem_stage.v	/^	input  wire [`WordDataBus] ex_mem_wr_data, \/\/ ƒƒ‚ƒŠ‘‚«‚İƒf[ƒ^$/;"	p	line:54	module:mem_stage
+ex_out	src/cpu/rtl/cpu.v	/^	wire [`WordDataBus]			 ex_out;		 \/\/ ˆ—Œ‹‰Ê$/;"	n	line:85	module:cpu
+ex_out	src/cpu/rtl/ex_reg.v	/^	output reg	[`WordDataBus] ex_out		   \/\/ ˆ—Œ‹‰Ê$/;"	p	line:52	module:ex_reg
+ex_out	src/cpu/rtl/ex_stage.v	/^	output wire [`WordDataBus] ex_out		   \/\/ ˆ—Œ‹‰Ê$/;"	p	line:56	module:ex_stage
+ex_out	src/cpu/rtl/mem_ctrl.v	/^	input  wire [`WordDataBus] ex_out,		   \/\/ ˆ—Œ‹‰Ê$/;"	p	line:27	module:mem_ctrl
+ex_out	src/cpu/rtl/mem_stage.v	/^	input  wire [`WordDataBus] ex_out,		   \/\/ ˆ—Œ‹‰Ê$/;"	p	line:59	module:mem_stage
+ex_pc	src/cpu/rtl/cpu.v	/^	wire [`WordAddrBus]			 ex_pc;			 \/\/ ƒvƒƒOƒ‰ƒ€ƒJƒEƒ“ƒ^$/;"	n	line:76	module:cpu
+ex_pc	src/cpu/rtl/ex_reg.v	/^	output reg	[`WordAddrBus] ex_pc,		   \/\/ ƒvƒƒOƒ‰ƒ€ƒJƒEƒ“ƒ^$/;"	p	line:43	module:ex_reg
+ex_pc	src/cpu/rtl/ex_stage.v	/^	output wire [`WordAddrBus] ex_pc,		   \/\/ ƒvƒƒOƒ‰ƒ€ƒJƒEƒ“ƒ^$/;"	p	line:47	module:ex_stage
+ex_pc	src/cpu/rtl/mem_reg.v	/^	input  wire [`WordAddrBus] ex_pc,		 \/\/ ƒvƒƒOƒ‰ƒ“ƒJƒEƒ“ƒ^$/;"	p	line:32	module:mem_reg
+ex_pc	src/cpu/rtl/mem_stage.v	/^	input  wire [`WordAddrBus] ex_pc,		   \/\/ ƒvƒƒOƒ‰ƒ€ƒJƒEƒ“ƒ^$/;"	p	line:50	module:mem_stage
+ex_reg	src/cpu/rtl/ex_reg.v	/^module ex_reg ($/;"	m	line:21
+ex_stage	src/cpu/rtl/ex_stage.v	/^module ex_stage ($/;"	m	line:23
+ex_stall	src/cpu/rtl/cpu.v	/^	wire						 ex_stall;		 \/\/ EXƒXƒe[ƒW$/;"	n	line:99	module:cpu
+ex_stall	src/cpu/rtl/ctrl.v	/^	output wire					  ex_stall,		\/\/ EXƒXƒe[ƒWƒXƒg[ƒ‹$/;"	p	line:52	module:ctrl
+exe_mode	src/cpu/rtl/cpu.v	/^	wire [`CpuExeModeBus]		 exe_mode;		 \/\/ Àsƒ‚[ƒh$/;"	n	line:120	module:cpu
+exe_mode	src/cpu/rtl/ctrl.v	/^	output reg	[`CpuExeModeBus]  exe_mode,		\/\/ Àsƒ‚[ƒh$/;"	p	line:30	module:ctrl
+exe_mode	src/cpu/rtl/id_decoder.v	/^	input  wire [`CpuExeModeBus] exe_mode,		\/\/ Àsƒ‚[ƒh$/;"	p	line:45	module:decoder
+exe_mode	src/cpu/rtl/id_stage.v	/^	input  wire [`CpuExeModeBus] exe_mode,		 \/\/ Àsƒ‚[ƒh$/;"	p	line:41	module:id_stage
+exp_code	src/cpu/rtl/ctrl.v	/^	reg	 [`IsaExpBus]			 exp_code;		\/\/ 5”Ô : —áŠOƒR[ƒh$/;"	r	line:68	module:ctrl
+exp_code	src/cpu/rtl/id_decoder.v	/^	output reg	[`IsaExpBus]	 exp_code,		\/\/ —áŠOƒR[ƒh$/;"	p	line:60	module:decoder
+exp_code	src/cpu/rtl/id_reg.v	/^	input  wire [`IsaExpBus]   exp_code,	   \/\/ —áŠOƒR[ƒh$/;"	p	line:35	module:id_reg
+exp_code	src/cpu/rtl/id_stage.v	/^	wire  [`IsaExpBus]			 exp_code;		 \/\/ —áŠOƒR[ƒh$/;"	n	line:79	module:id_stage
+exp_vector	src/cpu/rtl/ctrl.v	/^	reg	 [`WordAddrBus]			 exp_vector;	\/\/ 4”Ô : —áŠOƒxƒNƒ^$/;"	r	line:67	module:ctrl
+expr_flag	src/io/timer/rtl/timer.v	/^	wire expr_flag = ((start == `ENABLE) && (counter == expr_val)) ?$/;"	n	line:46	module:timer
+expr_val	src/io/timer/rtl/timer.v	/^	reg [`WordDataBus]			expr_val;  \/\/ æº€äº†å€¤$/;"	r	line:41	module:timer
+flush	src/cpu/rtl/bus_if.v	/^	input  wire				   flush,		   \/\/ ãƒ•ãƒ©ãƒƒã‚·ãƒ¥ä¿¡å·$/;"	p	line:30	module:bus_if
+flush	src/cpu/rtl/ctrl.v	/^	reg	   flush;$/;"	r	line:84	module:ctrl
+flush	src/cpu/rtl/ex_reg.v	/^	input  wire				   flush,		   \/\/ ƒtƒ‰ƒbƒVƒ…$/;"	p	line:30	module:ex_reg
+flush	src/cpu/rtl/ex_stage.v	/^	input  wire				   flush,		   \/\/ ƒtƒ‰ƒbƒVƒ…$/;"	p	line:29	module:ex_stage
+flush	src/cpu/rtl/id_reg.v	/^	input  wire				   flush,		   \/\/ ƒtƒ‰ƒbƒVƒ…$/;"	p	line:38	module:id_reg
+flush	src/cpu/rtl/id_stage.v	/^	input  wire					 flush,			 \/\/ ƒtƒ‰ƒbƒVƒ…$/;"	p	line:46	module:id_stage
+flush	src/cpu/rtl/if_reg.v	/^	input  wire				   flush,	   \/\/ ƒtƒ‰ƒbƒVƒ…$/;"	p	line:29	module:if_reg
+flush	src/cpu/rtl/if_stage.v	/^	input  wire				   flush,		\/\/ ƒtƒ‰ƒbƒVƒ…$/;"	p	line:43	module:if_stage
+flush	src/cpu/rtl/mem_reg.v	/^	input  wire				   flush,		 \/\/ ƒtƒ‰ƒbƒVƒ…$/;"	p	line:30	module:mem_reg
+flush	src/cpu/rtl/mem_stage.v	/^	input  wire				   flush,		   \/\/ ƒtƒ‰ƒbƒVƒ…$/;"	p	line:30	module:mem_stage
+fwd_data	src/cpu/rtl/ex_stage.v	/^	output wire [`WordDataBus] fwd_data,	   \/\/ ƒtƒHƒ[ƒfƒBƒ“ƒOƒf[ƒ^$/;"	p	line:32	module:ex_stage
+fwd_data	src/cpu/rtl/mem_stage.v	/^	output wire [`WordDataBus] fwd_data,	   \/\/ ƒtƒHƒ[ƒfƒBƒ“ƒOƒf[ƒ^$/;"	p	line:33	module:mem_stage
+gpio	src/io/gpio/rtl/gpio.v	/^module gpio ($/;"	m	line:20
+gpio_in	src/io/gpio/rtl/gpio.v	/^	, input wire [`GPIO_IN_CH-1:0]	gpio_in	 \/\/ å…¥åŠ›ãƒãƒ¼ãƒˆï¼ˆåˆ¶å¾¡ãƒ¬ã‚¸ã‚¹ã‚¿0ï¼‰$/;"	p	line:34	module:gpio
+gpio_in	src/top/rtl/chip.v	/^	, input wire [`GPIO_IN_CH-1:0]	 gpio_in	  \/\/ å…¥åŠ›ãƒãƒ¼ãƒˆ$/;"	p	line:40	module:chip
+gpio_in	src/top/rtl/chip_top.v	/^	, input wire [`GPIO_IN_CH-1:0]	 gpio_in  \/\/ å…¥åŠ›ãƒãƒ¼ãƒˆ$/;"	p	line:35	module:chip_top
+gpio_in	src/top/test/chip_top_test.v	/^	wire [`GPIO_IN_CH-1:0]	gpio_in = {`GPIO_IN_CH{1'b0}}; \/\/ å…¥åŠ›ãƒãƒ¼ãƒˆ$/;"	n	line:39	module:chip_top_test
+gpio_io	src/io/gpio/rtl/gpio.v	/^	, inout wire [`GPIO_IO_CH-1:0]	gpio_io	 \/\/ å…¥å‡ºåŠ›ãƒãƒ¼ãƒˆï¼ˆåˆ¶å¾¡ãƒ¬ã‚¸ã‚¹ã‚¿2ï¼‰$/;"	p	line:40	module:gpio
+gpio_io	src/top/rtl/chip.v	/^	, inout wire [`GPIO_IO_CH-1:0]	 gpio_io	  \/\/ å…¥å‡ºåŠ›ãƒãƒ¼ãƒˆ$/;"	p	line:46	module:chip
+gpio_io	src/top/rtl/chip_top.v	/^	, inout wire [`GPIO_IO_CH-1:0]	 gpio_io  \/\/ å…¥å‡ºåŠ›ãƒãƒ¼ãƒˆ$/;"	p	line:41	module:chip_top
+gpio_io	src/top/test/chip_top_test.v	/^	wire [`GPIO_IO_CH-1:0]	gpio_io = {`GPIO_IO_CH{1'bz}}; \/\/ å…¥å‡ºåŠ›ãƒãƒ¼ãƒˆ$/;"	n	line:45	module:chip_top_test
+gpio_out	src/io/gpio/rtl/gpio.v	/^	, output reg [`GPIO_OUT_CH-1:0] gpio_out \/\/ å‡ºåŠ›ãƒãƒ¼ãƒˆï¼ˆåˆ¶å¾¡ãƒ¬ã‚¸ã‚¹ã‚¿1ï¼‰$/;"	p	line:37	module:gpio
+gpio_out	src/top/rtl/chip.v	/^	, output wire [`GPIO_OUT_CH-1:0] gpio_out	  \/\/ å‡ºåŠ›ãƒãƒ¼ãƒˆ$/;"	p	line:43	module:chip
+gpio_out	src/top/rtl/chip_top.v	/^	, output wire [`GPIO_OUT_CH-1:0] gpio_out \/\/ å‡ºåŠ›ãƒãƒ¼ãƒˆ$/;"	p	line:38	module:chip_top
+gpio_out	src/top/test/chip_top_test.v	/^	wire [`GPIO_OUT_CH-1:0] gpio_out;					   \/\/ å‡ºåŠ›ãƒãƒ¼ãƒˆ$/;"	n	line:42	module:chip_top_test
+gpr	src/cpu/rtl/gpr.v	/^	reg [`WordDataBus]		   gpr [`REG_NUM-1:0]; \/\/ ƒŒƒWƒXƒ^”z—ñ$/;"	r	line:37	module:gpr
+gpr	src/cpu/rtl/gpr.v	/^module gpr ($/;"	m	line:20
+gpr_rd_addr_0	src/cpu/rtl/cpu.v	/^	wire [`RegAddrBus]			 gpr_rd_addr_0;	 \/\/ “Ç‚İo‚µƒAƒhƒŒƒX 0$/;"	n	line:117	module:cpu
+gpr_rd_addr_0	src/cpu/rtl/id_decoder.v	/^	output wire [`RegAddrBus]	 gpr_rd_addr_0, \/\/ “Ç‚İo‚µƒAƒhƒŒƒX 0$/;"	p	line:29	module:decoder
+gpr_rd_addr_0	src/cpu/rtl/id_stage.v	/^	output wire [`RegAddrBus]	 gpr_rd_addr_0,	 \/\/ “Ç‚İo‚µƒAƒhƒŒƒX 0$/;"	p	line:30	module:id_stage
+gpr_rd_addr_1	src/cpu/rtl/cpu.v	/^	wire [`RegAddrBus]			 gpr_rd_addr_1;	 \/\/ “Ç‚İo‚µƒAƒhƒŒƒX 1$/;"	n	line:118	module:cpu
+gpr_rd_addr_1	src/cpu/rtl/id_decoder.v	/^	output wire [`RegAddrBus]	 gpr_rd_addr_1, \/\/ “Ç‚İo‚µƒAƒhƒŒƒX 1$/;"	p	line:30	module:decoder
+gpr_rd_addr_1	src/cpu/rtl/id_stage.v	/^	output wire [`RegAddrBus]	 gpr_rd_addr_1,	 \/\/ “Ç‚İo‚µƒAƒhƒŒƒX 1$/;"	p	line:31	module:id_stage
+gpr_rd_data_0	src/cpu/rtl/cpu.v	/^	wire [`WordDataBus]			 gpr_rd_data_0;	 \/\/ “Ç‚İo‚µƒf[ƒ^ 0$/;"	n	line:115	module:cpu
+gpr_rd_data_0	src/cpu/rtl/id_decoder.v	/^	input  wire [`WordDataBus]	 gpr_rd_data_0, \/\/ “Ç‚İo‚µƒf[ƒ^ 0$/;"	p	line:27	module:decoder
+gpr_rd_data_0	src/cpu/rtl/id_stage.v	/^	input  wire [`WordDataBus]	 gpr_rd_data_0,	 \/\/ “Ç‚İo‚µƒf[ƒ^ 0$/;"	p	line:28	module:id_stage
+gpr_rd_data_1	src/cpu/rtl/cpu.v	/^	wire [`WordDataBus]			 gpr_rd_data_1;	 \/\/ “Ç‚İo‚µƒf[ƒ^ 1$/;"	n	line:116	module:cpu
+gpr_rd_data_1	src/cpu/rtl/id_decoder.v	/^	input  wire [`WordDataBus]	 gpr_rd_data_1, \/\/ “Ç‚İo‚µƒf[ƒ^ 1$/;"	p	line:28	module:decoder
+gpr_rd_data_1	src/cpu/rtl/id_stage.v	/^	input  wire [`WordDataBus]	 gpr_rd_data_1,	 \/\/ “Ç‚İo‚µƒf[ƒ^ 1$/;"	p	line:29	module:id_stage
+gpr_we_	src/cpu/rtl/id_decoder.v	/^	output reg					 gpr_we_,		\/\/ ”Ä—pƒŒƒWƒXƒ^‘‚«‚İ—LŒø$/;"	p	line:59	module:decoder
+gpr_we_	src/cpu/rtl/id_reg.v	/^	input  wire				   gpr_we_,		   \/\/ ”Ä—pƒŒƒWƒXƒ^‘‚«‚İ—LŒø$/;"	p	line:34	module:id_reg
+gpr_we_	src/cpu/rtl/id_stage.v	/^	wire						 gpr_we_;		 \/\/ GPR‘‚«‚İ—LŒø$/;"	n	line:78	module:id_stage
+i	src/cpu/rtl/gpr.v	/^	integer					   i;				   \/\/ ƒCƒeƒŒ[ƒ^$/;"	r	line:38	module:gpr
+i	src/io/gpio/rtl/gpio.v	/^	integer							i;		 \/\/ ã‚¤ãƒ†ãƒ¬ãƒ¼ã‚¿$/;"	r	line:50	module:gpio
+id_alu_in_0	src/cpu/rtl/cpu.v	/^	wire [`WordDataBus]			 id_alu_in_0;	 \/\/ ALU“ü—Í 0$/;"	n	line:66	module:cpu
+id_alu_in_0	src/cpu/rtl/ex_stage.v	/^	input  wire [`WordDataBus] id_alu_in_0,	   \/\/ ALU“ü—Í 0$/;"	p	line:37	module:ex_stage
+id_alu_in_0	src/cpu/rtl/id_reg.v	/^	output reg	[`WordDataBus] id_alu_in_0,	   \/\/ ALU“ü—Í 0$/;"	p	line:46	module:id_reg
+id_alu_in_0	src/cpu/rtl/id_stage.v	/^	output wire [`WordDataBus]	 id_alu_in_0,	 \/\/ ALU“ü—Í 0$/;"	p	line:58	module:id_stage
+id_alu_in_1	src/cpu/rtl/cpu.v	/^	wire [`WordDataBus]			 id_alu_in_1;	 \/\/ ALU“ü—Í 1$/;"	n	line:67	module:cpu
+id_alu_in_1	src/cpu/rtl/ex_stage.v	/^	input  wire [`WordDataBus] id_alu_in_1,	   \/\/ ALU“ü—Í 1$/;"	p	line:38	module:ex_stage
+id_alu_in_1	src/cpu/rtl/id_reg.v	/^	output reg	[`WordDataBus] id_alu_in_1,	   \/\/ ALU“ü—Í 1$/;"	p	line:47	module:id_reg
+id_alu_in_1	src/cpu/rtl/id_stage.v	/^	output wire [`WordDataBus]	 id_alu_in_1,	 \/\/ ALU“ü—Í 1$/;"	p	line:59	module:id_stage
+id_alu_op	src/cpu/rtl/cpu.v	/^	wire [`AluOpBus]			 id_alu_op;		 \/\/ ALUƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	n	line:65	module:cpu
+id_alu_op	src/cpu/rtl/ex_stage.v	/^	input  wire [`AluOpBus]	   id_alu_op,	   \/\/ ALUƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:36	module:ex_stage
+id_alu_op	src/cpu/rtl/id_reg.v	/^	output reg	[`AluOpBus]	   id_alu_op,	   \/\/ ALUƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:45	module:id_reg
+id_alu_op	src/cpu/rtl/id_stage.v	/^	output wire [`AluOpBus]		 id_alu_op,		 \/\/ ALUƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:57	module:id_stage
+id_br_flag	src/cpu/rtl/cpu.v	/^	wire						 id_br_flag;	 \/\/ •ªŠòƒtƒ‰ƒO$/;"	n	line:68	module:cpu
+id_br_flag	src/cpu/rtl/ex_reg.v	/^	input  wire				   id_br_flag,	   \/\/ •ªŠòƒtƒ‰ƒO$/;"	p	line:35	module:ex_reg
+id_br_flag	src/cpu/rtl/ex_stage.v	/^	input  wire				   id_br_flag,	   \/\/ •ªŠòƒtƒ‰ƒO$/;"	p	line:39	module:ex_stage
+id_br_flag	src/cpu/rtl/id_reg.v	/^	output reg				   id_br_flag,	   \/\/ •ªŠòƒtƒ‰ƒO$/;"	p	line:48	module:id_reg
+id_br_flag	src/cpu/rtl/id_stage.v	/^	output wire					 id_br_flag,	 \/\/ •ªŠòƒtƒ‰ƒO$/;"	p	line:60	module:id_stage
+id_ctrl_op	src/cpu/rtl/cpu.v	/^	wire [`CtrlOpBus]			 id_ctrl_op;	 \/\/ §ŒäƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	n	line:71	module:cpu
+id_ctrl_op	src/cpu/rtl/ex_reg.v	/^	input  wire [`CtrlOpBus]   id_ctrl_op,	   \/\/ §ŒäƒŒƒWƒXƒ^ƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:38	module:ex_reg
+id_ctrl_op	src/cpu/rtl/ex_stage.v	/^	input  wire [`CtrlOpBus]   id_ctrl_op,	   \/\/ §ŒäƒŒƒWƒXƒ^ƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:42	module:ex_stage
+id_ctrl_op	src/cpu/rtl/id_reg.v	/^	output reg	[`CtrlOpBus]   id_ctrl_op,	   \/\/ §ŒäƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:51	module:id_reg
+id_ctrl_op	src/cpu/rtl/id_stage.v	/^	output wire [`CtrlOpBus]	 id_ctrl_op,	 \/\/ §ŒäƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:63	module:id_stage
+id_dst_addr	src/cpu/rtl/cpu.v	/^	wire [`RegAddrBus]			 id_dst_addr;	 \/\/ GPR‘‚«‚İƒAƒhƒŒƒX$/;"	n	line:72	module:cpu
+id_dst_addr	src/cpu/rtl/ex_reg.v	/^	input  wire [`RegAddrBus]  id_dst_addr,	   \/\/ ”Ä—pƒŒƒWƒXƒ^‘‚«‚İƒAƒhƒŒƒX$/;"	p	line:39	module:ex_reg
+id_dst_addr	src/cpu/rtl/ex_stage.v	/^	input  wire [`RegAddrBus]  id_dst_addr,	   \/\/ ”Ä—pƒŒƒWƒXƒ^‘‚«‚İƒAƒhƒŒƒX$/;"	p	line:43	module:ex_stage
+id_dst_addr	src/cpu/rtl/id_decoder.v	/^	input  wire [`RegAddrBus]	 id_dst_addr,	\/\/ ‘‚«‚İƒAƒhƒŒƒX$/;"	p	line:34	module:decoder
+id_dst_addr	src/cpu/rtl/id_reg.v	/^	output reg	[`RegAddrBus]  id_dst_addr,	   \/\/ ”Ä—pƒŒƒWƒXƒ^‘‚«‚İƒAƒhƒŒƒX$/;"	p	line:52	module:id_reg
+id_dst_addr	src/cpu/rtl/id_stage.v	/^	output wire [`RegAddrBus]	 id_dst_addr,	 \/\/ GPR‘‚«‚İƒAƒhƒŒƒX$/;"	p	line:64	module:id_stage
+id_en	src/cpu/rtl/cpu.v	/^	wire						 id_en;			 \/\/ ƒpƒCƒvƒ‰ƒCƒ“ƒf[ƒ^‚Ì—LŒø$/;"	n	line:64	module:cpu
+id_en	src/cpu/rtl/ex_reg.v	/^	input  wire				   id_en,		   \/\/ ƒpƒCƒvƒ‰ƒCƒ“ƒf[ƒ^‚Ì—LŒø$/;"	p	line:34	module:ex_reg
+id_en	src/cpu/rtl/ex_stage.v	/^	input  wire				   id_en,		   \/\/ ƒpƒCƒvƒ‰ƒCƒ“ƒf[ƒ^‚Ì—LŒø$/;"	p	line:35	module:ex_stage
+id_en	src/cpu/rtl/id_decoder.v	/^	input  wire					 id_en,			\/\/ ƒpƒCƒvƒ‰ƒCƒ“ƒf[ƒ^‚Ì—LŒø$/;"	p	line:33	module:decoder
+id_en	src/cpu/rtl/id_reg.v	/^	output reg				   id_en,		   \/\/ ƒpƒCƒvƒ‰ƒCƒ“ƒf[ƒ^‚Ì—LŒø$/;"	p	line:44	module:id_reg
+id_en	src/cpu/rtl/id_stage.v	/^	output wire					 id_en,			 \/\/ ƒpƒCƒvƒ‰ƒCƒ“ƒf[ƒ^‚Ì—LŒø$/;"	p	line:56	module:id_stage
+id_exp_code	src/cpu/rtl/cpu.v	/^	wire [`IsaExpBus]			 id_exp_code;	 \/\/ —áŠOƒR[ƒh$/;"	n	line:74	module:cpu
+id_exp_code	src/cpu/rtl/ex_reg.v	/^	input  wire [`IsaExpBus]   id_exp_code,	   \/\/ —áŠOƒR[ƒh$/;"	p	line:41	module:ex_reg
+id_exp_code	src/cpu/rtl/ex_stage.v	/^	input  wire [`IsaExpBus]   id_exp_code,	   \/\/ —áŠOƒR[ƒh$/;"	p	line:45	module:ex_stage
+id_exp_code	src/cpu/rtl/id_reg.v	/^	output reg [`IsaExpBus]	   id_exp_code	   \/\/ —áŠOƒR[ƒh$/;"	p	line:54	module:id_reg
+id_exp_code	src/cpu/rtl/id_stage.v	/^	output wire [`IsaExpBus]	 id_exp_code	 \/\/ —áŠOƒR[ƒh$/;"	p	line:66	module:id_stage
+id_flush	src/cpu/rtl/cpu.v	/^	wire						 id_flush;		 \/\/ IDƒXƒe[ƒW$/;"	n	line:103	module:cpu
+id_flush	src/cpu/rtl/ctrl.v	/^	output wire					  id_flush,		\/\/ IDƒXƒe[ƒWƒtƒ‰ƒbƒVƒ…$/;"	p	line:56	module:ctrl
+id_gpr_we_	src/cpu/rtl/cpu.v	/^	wire						 id_gpr_we_;	 \/\/ GPR‘‚«‚İ—LŒø$/;"	n	line:73	module:cpu
+id_gpr_we_	src/cpu/rtl/ex_reg.v	/^	input  wire				   id_gpr_we_,	   \/\/ ”Ä—pƒŒƒWƒXƒ^‘‚«‚İ—LŒø$/;"	p	line:40	module:ex_reg
+id_gpr_we_	src/cpu/rtl/ex_stage.v	/^	input  wire				   id_gpr_we_,	   \/\/ ”Ä—pƒŒƒWƒXƒ^‘‚«‚İ—LŒø$/;"	p	line:44	module:ex_stage
+id_gpr_we_	src/cpu/rtl/id_decoder.v	/^	input  wire					 id_gpr_we_,	\/\/ ‘‚«‚İ—LŒø$/;"	p	line:35	module:decoder
+id_gpr_we_	src/cpu/rtl/id_reg.v	/^	output reg				   id_gpr_we_,	   \/\/ ”Ä—pƒŒƒWƒXƒ^‘‚«‚İ—LŒø$/;"	p	line:53	module:id_reg
+id_gpr_we_	src/cpu/rtl/id_stage.v	/^	output wire					 id_gpr_we_,	 \/\/ GPR‘‚«‚İ—LŒø$/;"	p	line:65	module:id_stage
+id_mem_op	src/cpu/rtl/cpu.v	/^	wire [`MemOpBus]			 id_mem_op;		 \/\/ ƒƒ‚ƒŠƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	n	line:69	module:cpu
+id_mem_op	src/cpu/rtl/ex_reg.v	/^	input  wire [`MemOpBus]	   id_mem_op,	   \/\/ ƒƒ‚ƒŠƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:36	module:ex_reg
+id_mem_op	src/cpu/rtl/ex_stage.v	/^	input  wire [`MemOpBus]	   id_mem_op,	   \/\/ ƒƒ‚ƒŠƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:40	module:ex_stage
+id_mem_op	src/cpu/rtl/id_decoder.v	/^	input  wire [`MemOpBus]		 id_mem_op,		\/\/ ƒƒ‚ƒŠƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:36	module:decoder
+id_mem_op	src/cpu/rtl/id_reg.v	/^	output reg	[`MemOpBus]	   id_mem_op,	   \/\/ ƒƒ‚ƒŠƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:49	module:id_reg
+id_mem_op	src/cpu/rtl/id_stage.v	/^	output wire [`MemOpBus]		 id_mem_op,		 \/\/ ƒƒ‚ƒŠƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:61	module:id_stage
+id_mem_wr_data	src/cpu/rtl/cpu.v	/^	wire [`WordDataBus]			 id_mem_wr_data; \/\/ ƒƒ‚ƒŠ‘‚«‚İƒf[ƒ^$/;"	n	line:70	module:cpu
+id_mem_wr_data	src/cpu/rtl/ex_reg.v	/^	input  wire [`WordDataBus] id_mem_wr_data, \/\/ ƒƒ‚ƒŠ‘‚«‚İƒf[ƒ^$/;"	p	line:37	module:ex_reg
+id_mem_wr_data	src/cpu/rtl/ex_stage.v	/^	input  wire [`WordDataBus] id_mem_wr_data, \/\/ ƒƒ‚ƒŠ‘‚«‚İƒf[ƒ^$/;"	p	line:41	module:ex_stage
+id_mem_wr_data	src/cpu/rtl/id_reg.v	/^	output reg	[`WordDataBus] id_mem_wr_data, \/\/ ƒƒ‚ƒŠ‘‚«‚İƒf[ƒ^$/;"	p	line:50	module:id_reg
+id_mem_wr_data	src/cpu/rtl/id_stage.v	/^	output wire [`WordDataBus]	 id_mem_wr_data, \/\/ ƒƒ‚ƒŠ‘‚«‚İƒf[ƒ^$/;"	p	line:62	module:id_stage
+id_pc	src/cpu/rtl/cpu.v	/^	wire [`WordAddrBus]			 id_pc;			 \/\/ ƒvƒƒOƒ‰ƒ€ƒJƒEƒ“ƒ^$/;"	n	line:63	module:cpu
+id_pc	src/cpu/rtl/ctrl.v	/^	input  wire [`WordAddrBus]	  id_pc,		\/\/ ƒvƒƒOƒ‰ƒ€ƒJƒEƒ“ƒ^$/;"	p	line:35	module:ctrl
+id_pc	src/cpu/rtl/ex_reg.v	/^	input  wire [`WordAddrBus] id_pc,		   \/\/ ƒvƒƒOƒ‰ƒ€ƒJƒEƒ“ƒ^$/;"	p	line:33	module:ex_reg
+id_pc	src/cpu/rtl/ex_stage.v	/^	input  wire [`WordAddrBus] id_pc,		   \/\/ ƒvƒƒOƒ‰ƒ€ƒJƒEƒ“ƒ^$/;"	p	line:34	module:ex_stage
+id_pc	src/cpu/rtl/id_reg.v	/^	output reg	[`WordAddrBus] id_pc,		   \/\/ ƒvƒƒOƒ‰ƒ€ƒJƒEƒ“ƒ^$/;"	p	line:43	module:id_reg
+id_pc	src/cpu/rtl/id_stage.v	/^	output wire [`WordAddrBus]	 id_pc,			 \/\/ ƒvƒƒOƒ‰ƒ€ƒJƒEƒ“ƒ^$/;"	p	line:55	module:id_stage
+id_reg	src/cpu/rtl/id_reg.v	/^module id_reg ($/;"	m	line:21
+id_stage	src/cpu/rtl/id_stage.v	/^module id_stage ($/;"	m	line:23
+id_stall	src/cpu/rtl/cpu.v	/^	wire						 id_stall;		 \/\/ IDƒXƒe[$/;"	n	line:98	module:cpu
+id_stall	src/cpu/rtl/ctrl.v	/^	output wire					  id_stall,		\/\/ IDƒXƒe[ƒWƒXƒg[ƒ‹$/;"	p	line:51	module:ctrl
+if_bus_addr	src/cpu/rtl/cpu.v	/^	output wire [`WordAddrBus]	  if_bus_addr,	   \/\/ ƒAƒhƒŒƒX$/;"	p	line:40	module:cpu
+if_bus_as_	src/cpu/rtl/cpu.v	/^	output wire					  if_bus_as_,	   \/\/ ƒAƒhƒŒƒXƒXƒgƒ[ƒu$/;"	p	line:41	module:cpu
+if_bus_grnt_	src/cpu/rtl/cpu.v	/^	input  wire					  if_bus_grnt_,	   \/\/ ƒoƒXƒOƒ‰ƒ“ƒg$/;"	p	line:38	module:cpu
+if_bus_rd_data	src/cpu/rtl/cpu.v	/^	input  wire [`WordDataBus]	  if_bus_rd_data,  \/\/ “Ç‚İo‚µƒf[ƒ^$/;"	p	line:36	module:cpu
+if_bus_rdy_	src/cpu/rtl/cpu.v	/^	input  wire					  if_bus_rdy_,	   \/\/ ƒŒƒfƒB$/;"	p	line:37	module:cpu
+if_bus_req_	src/cpu/rtl/cpu.v	/^	output wire					  if_bus_req_,	   \/\/ ƒoƒXƒŠƒNƒGƒXƒg$/;"	p	line:39	module:cpu
+if_bus_rw	src/cpu/rtl/cpu.v	/^	output wire					  if_bus_rw,	   \/\/ “Ç‚İ^‘‚«$/;"	p	line:42	module:cpu
+if_bus_wr_data	src/cpu/rtl/cpu.v	/^	output wire [`WordDataBus]	  if_bus_wr_data,  \/\/ ‘‚«‚İƒf[ƒ^$/;"	p	line:43	module:cpu
+if_busy	src/cpu/rtl/cpu.v	/^	wire						 if_busy;		 \/\/ IFƒXƒe[ƒW$/;"	n	line:107	module:cpu
+if_busy	src/cpu/rtl/ctrl.v	/^	input  wire					  if_busy,		\/\/ IFƒXƒe[ƒWƒrƒW[$/;"	p	line:46	module:ctrl
+if_en	src/cpu/rtl/cpu.v	/^	wire						 if_en;			 \/\/ ƒpƒCƒvƒ‰ƒCƒ“ƒf[ƒ^‚Ì—LŒø$/;"	n	line:61	module:cpu
+if_en	src/cpu/rtl/id_decoder.v	/^	input  wire					 if_en,			 \/\/ ƒpƒCƒvƒ‰ƒCƒ“ƒf[ƒ^‚Ì—LŒø$/;"	p	line:25	module:decoder
+if_en	src/cpu/rtl/id_reg.v	/^	input  wire				   if_en,		   \/\/ ƒpƒCƒvƒ‰ƒCƒ“ƒf[ƒ^‚Ì—LŒø$/;"	p	line:41	module:id_reg
+if_en	src/cpu/rtl/id_stage.v	/^	input  wire					 if_en,			 \/\/ ƒpƒCƒvƒ‰ƒCƒ“ƒf[ƒ^‚Ì—LŒø$/;"	p	line:53	module:id_stage
+if_en	src/cpu/rtl/if_reg.v	/^	output reg				   if_en	   \/\/ ƒpƒCƒvƒ‰ƒCƒ“ƒf[ƒ^‚Ì—LŒø$/;"	p	line:36	module:if_reg
+if_en	src/cpu/rtl/if_stage.v	/^	output wire				   if_en		\/\/ ƒpƒCƒvƒ‰ƒCƒ“ƒf[ƒ^‚Ì—LŒø$/;"	p	line:51	module:if_stage
+if_flush	src/cpu/rtl/cpu.v	/^	wire						 if_flush;		 \/\/ IFƒXƒe[ƒW$/;"	n	line:102	module:cpu
+if_flush	src/cpu/rtl/ctrl.v	/^	output wire					  if_flush,		\/\/ IFƒXƒe[ƒWƒtƒ‰ƒbƒVƒ…$/;"	p	line:55	module:ctrl
+if_insn	src/cpu/rtl/cpu.v	/^	wire [`WordDataBus]			 if_insn;		 \/\/ –½—ß$/;"	n	line:60	module:cpu
+if_insn	src/cpu/rtl/id_decoder.v	/^	input  wire [`WordDataBus]	 if_insn,		 \/\/ –½—ß$/;"	p	line:24	module:decoder
+if_insn	src/cpu/rtl/id_stage.v	/^	input  wire [`WordDataBus]	 if_insn,		 \/\/ –½—ß$/;"	p	line:52	module:id_stage
+if_insn	src/cpu/rtl/if_reg.v	/^	output reg	[`WordDataBus] if_insn,	   \/\/ –½—ß$/;"	p	line:35	module:if_reg
+if_insn	src/cpu/rtl/if_stage.v	/^	output wire [`WordDataBus] if_insn,		\/\/ –½—ß$/;"	p	line:50	module:if_stage
+if_pc	src/cpu/rtl/cpu.v	/^	wire [`WordAddrBus]			 if_pc;			 \/\/ ƒvƒƒOƒ‰ƒ€ƒJƒEƒ“ƒ^$/;"	n	line:59	module:cpu
+if_pc	src/cpu/rtl/id_decoder.v	/^	input  wire [`WordAddrBus]	 if_pc,			 \/\/ ƒvƒƒOƒ‰ƒ€ƒJƒEƒ“ƒ^$/;"	p	line:23	module:decoder
+if_pc	src/cpu/rtl/id_reg.v	/^	input  wire [`WordAddrBus] if_pc,		   \/\/ ƒvƒƒOƒ‰ƒ€ƒJƒEƒ“ƒ^$/;"	p	line:40	module:id_reg
+if_pc	src/cpu/rtl/id_stage.v	/^	input  wire [`WordAddrBus]	 if_pc,			 \/\/ ƒvƒƒOƒ‰ƒ€ƒJƒEƒ“ƒ^$/;"	p	line:51	module:id_stage
+if_pc	src/cpu/rtl/if_reg.v	/^	output reg	[`WordAddrBus] if_pc,	   \/\/ ƒvƒƒOƒ‰ƒ€ƒJƒEƒ“ƒ^$/;"	p	line:34	module:if_reg
+if_pc	src/cpu/rtl/if_stage.v	/^	output wire [`WordAddrBus] if_pc,		\/\/ ƒvƒƒOƒ‰ƒ€ƒJƒEƒ“ƒ^$/;"	p	line:49	module:if_stage
+if_reg	src/cpu/rtl/if_reg.v	/^module if_reg ($/;"	m	line:21
+if_spm_addr	src/cpu/rtl/cpu.v	/^	wire [`WordAddrBus]			 if_spm_addr;	  \/\/ ƒAƒhƒŒƒX$/;"	n	line:128	module:cpu
+if_spm_addr	src/cpu/rtl/spm.v	/^	input  wire [`SpmAddrBus]  if_spm_addr,		\/\/ ƒAƒhƒŒƒX$/;"	p	line:25	module:spm
+if_spm_as_	src/cpu/rtl/cpu.v	/^	wire						 if_spm_as_;	  \/\/ ƒAƒhƒŒƒXƒXƒgƒ[ƒu$/;"	n	line:129	module:cpu
+if_spm_as_	src/cpu/rtl/spm.v	/^	input  wire				   if_spm_as_,		\/\/ ƒAƒhƒŒƒXƒXƒgƒ[ƒu$/;"	p	line:26	module:spm
+if_spm_rd_data	src/cpu/rtl/cpu.v	/^	wire [`WordDataBus]			 if_spm_rd_data;  \/\/ “Ç‚İo‚µƒf[ƒ^$/;"	n	line:127	module:cpu
+if_spm_rd_data	src/cpu/rtl/spm.v	/^	output wire [`WordDataBus] if_spm_rd_data,	\/\/ “Ç‚İo‚µƒf[ƒ^$/;"	p	line:29	module:spm
+if_spm_rw	src/cpu/rtl/cpu.v	/^	wire						 if_spm_rw;		  \/\/ “Ç‚İ^‘‚«$/;"	n	line:130	module:cpu
+if_spm_rw	src/cpu/rtl/spm.v	/^	input  wire				   if_spm_rw,		\/\/ “Ç‚İ^‘‚«$/;"	p	line:27	module:spm
+if_spm_wr_data	src/cpu/rtl/cpu.v	/^	wire [`WordDataBus]			 if_spm_wr_data;  \/\/ ‘‚«‚İƒf[ƒ^$/;"	n	line:131	module:cpu
+if_spm_wr_data	src/cpu/rtl/spm.v	/^	input  wire [`WordDataBus] if_spm_wr_data,	\/\/ ‘‚«‚İƒf[ƒ^$/;"	p	line:28	module:spm
+if_stage	src/cpu/rtl/if_stage.v	/^module if_stage ($/;"	m	line:22
+if_stall	src/cpu/rtl/cpu.v	/^	wire						 if_stall;		 \/\/ IFƒXƒe[ƒW$/;"	n	line:97	module:cpu
+if_stall	src/cpu/rtl/ctrl.v	/^	output wire					  if_stall,		\/\/ IFƒXƒe[ƒWƒXƒg[ƒ‹$/;"	p	line:50	module:ctrl
+imm	src/cpu/rtl/id_decoder.v	/^	wire [`IsaImmBus]	imm		= if_insn[`IsaImmLoc];	  \/\/ ‘¦’l$/;"	n	line:69	module:decoder
+imm_s	src/cpu/rtl/id_decoder.v	/^	wire [`WordDataBus] imm_s = {{`ISA_EXT_W{imm[`ISA_IMM_MSB]}}, imm};$/;"	n	line:72	module:decoder
+imm_u	src/cpu/rtl/id_decoder.v	/^	wire [`WordDataBus] imm_u = {{`ISA_EXT_W{1'b0}}, imm};$/;"	n	line:74	module:decoder
+in_0	src/cpu/rtl/ex_alu.v	/^	input  wire [`WordDataBus] in_0,  \/\/ å…¥åŠ› 0$/;"	p	line:21	module:alu
+in_1	src/cpu/rtl/ex_alu.v	/^	input  wire [`WordDataBus] in_1,  \/\/ å…¥åŠ› 1$/;"	p	line:22	module:alu
+insn	src/cpu/rtl/if_reg.v	/^	input  wire [`WordDataBus] insn,	   \/\/ ƒtƒFƒbƒ`‚µ‚½–½—ß$/;"	p	line:26	module:if_reg
+insn	src/cpu/rtl/if_stage.v	/^	wire [`WordDataBus]		   insn;		\/\/ ƒtƒFƒbƒ`‚µ‚½–½—ß$/;"	n	line:55	module:if_stage
+int_detect	src/cpu/rtl/cpu.v	/^	wire						 int_detect;	  \/\/ Š„‚è‚İŒŸo$/;"	n	line:124	module:cpu
+int_detect	src/cpu/rtl/ctrl.v	/^	output reg					  int_detect,	\/\/ Š„‚è‚İŒŸo$/;"	p	line:33	module:ctrl
+int_detect	src/cpu/rtl/ex_reg.v	/^	input  wire				   int_detect,	   \/\/ Š„‚è‚İŒŸo$/;"	p	line:31	module:ex_reg
+int_detect	src/cpu/rtl/ex_stage.v	/^	input  wire				   int_detect,	   \/\/ Š„‚è‚İŒŸo$/;"	p	line:30	module:ex_stage
+int_en	src/cpu/rtl/ctrl.v	/^	reg							 int_en;		\/\/ 0”Ô : Š„‚è‚İ—LŒø$/;"	r	line:63	module:ctrl
+io	src/io/gpio/rtl/gpio.v	/^	reg	 [`GPIO_IO_CH-1:0]			io;		 \/\/ å…¥å‡ºåŠ›$/;"	r	line:49	module:gpio
+io_dir	src/io/gpio/rtl/gpio.v	/^	reg	 [`GPIO_IO_CH-1:0]			io_dir;	 \/\/ å…¥å‡ºåŠ›æ–¹å‘ï¼ˆåˆ¶å¾¡ãƒ¬ã‚¸ã‚¹ã‚¿3ï¼‰$/;"	r	line:48	module:gpio
+io_in	src/io/gpio/rtl/gpio.v	/^	wire [`GPIO_IO_CH-1:0]			io_in;	 \/\/ å…¥åŠ›ãƒ‡ãƒ¼ã‚¿$/;"	n	line:46	module:gpio
+io_out	src/io/gpio/rtl/gpio.v	/^	reg	 [`GPIO_IO_CH-1:0]			io_out;	 \/\/ å‡ºåŠ›ãƒ‡ãƒ¼ã‚¿$/;"	r	line:47	module:gpio
+irq	src/cpu/rtl/ctrl.v	/^	input  wire [`CPU_IRQ_CH-1:0] irq,			\/\/ Š„‚è‚İ—v‹$/;"	p	line:32	module:ctrl
+irq	src/io/timer/rtl/timer.v	/^	output reg					irq		   \/\/ å‰²ã‚Šè¾¼ã¿è¦æ±‚ï¼ˆåˆ¶å¾¡ãƒ¬ã‚¸ã‚¹ã‚¿ 1ï¼‰$/;"	p	line:33	module:timer
+irq_rx	src/io/uart/rtl/uart.v	/^	output wire				   irq_rx,	 \/\/ å—ä¿¡å®Œäº†å‰²ã‚Šè¾¼ã¿$/;"	p	line:36	module:uart
+irq_rx	src/io/uart/rtl/uart_ctrl.v	/^	output reg				   irq_rx,	 \/\/ å—ä¿¡å®Œäº†å‰²ã‚Šè¾¼ã¿ï¼ˆåˆ¶å¾¡ãƒ¬ã‚¸ã‚¹ã‚¿ 0ï¼‰$/;"	p	line:33	module:uart_ctrl
+irq_timer	src/top/rtl/chip.v	/^	wire				   irq_timer;			  \/\/ ã‚¿ã‚¤ãƒIRQ$/;"	n	line:122	module:chip
+irq_tx	src/io/uart/rtl/uart.v	/^	output wire				   irq_tx,	 \/\/ é€ä¿¡å®Œäº†å‰²ã‚Šè¾¼ã¿$/;"	p	line:37	module:uart
+irq_tx	src/io/uart/rtl/uart_ctrl.v	/^	output reg				   irq_tx,	 \/\/ é€ä¿¡å®Œäº†å‰²ã‚Šè¾¼ã¿ï¼ˆåˆ¶å¾¡ãƒ¬ã‚¸ã‚¹ã‚¿ 0ï¼‰$/;"	p	line:34	module:uart_ctrl
+irq_uart_rx	src/top/rtl/chip.v	/^	wire				   irq_uart_rx;			  \/\/ UART IRQï¼ˆå—ä¿¡ï¼‰$/;"	n	line:123	module:chip
+irq_uart_tx	src/top/rtl/chip.v	/^	wire				   irq_uart_tx;			  \/\/ UART IRQï¼ˆé€ä¿¡ï¼‰$/;"	n	line:124	module:chip
+jr_target	src/cpu/rtl/id_decoder.v	/^	wire [`WordAddrBus] jr_target = ra_data[`WordAddrLoc];		   \/\/ ƒWƒƒƒ“ƒvæ$/;"	n	line:88	module:decoder
+ld_hazard	src/cpu/rtl/cpu.v	/^	wire						 ld_hazard;		 \/\/ ƒ[ƒhƒnƒU[ƒh$/;"	n	line:113	module:cpu
+ld_hazard	src/cpu/rtl/ctrl.v	/^	input  wire					  ld_hazard,	\/\/ ƒ[ƒhƒnƒU[ƒh$/;"	p	line:47	module:ctrl
+ld_hazard	src/cpu/rtl/id_decoder.v	/^	output reg					 ld_hazard		\/\/ ƒ[ƒhƒnƒU[ƒh$/;"	p	line:61	module:decoder
+ld_hazard	src/cpu/rtl/id_stage.v	/^	output wire					 ld_hazard,		 \/\/ ƒ[ƒhƒnƒU[ƒh$/;"	p	line:49	module:id_stage
+locked	src/top/rtl/clk_gen.v	/^	wire		locked;	   \/\/ ãƒ­ãƒƒã‚¯$/;"	n	line:31	module:clk_gen
+m0_addr	src/bus/rtl/bus.v	/^	input  wire [`WordAddrBus] m0_addr,	   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹$/;"	p	line:34	module:bus
+m0_addr	src/bus/rtl/bus_master_mux.v	/^	input  wire [`WordAddrBus] m0_addr,	   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹$/;"	p	line:23	module:bus_master_mux
+m0_addr	src/top/rtl/chip.v	/^	wire [`WordAddrBus] m0_addr;				  \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹$/;"	n	line:57	module:chip
+m0_as_	src/bus/rtl/bus.v	/^	input  wire				   m0_as_,	   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–$/;"	p	line:35	module:bus
+m0_as_	src/bus/rtl/bus_master_mux.v	/^	input  wire				   m0_as_,	   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–$/;"	p	line:24	module:bus_master_mux
+m0_as_	src/top/rtl/chip.v	/^	wire				m0_as_;					  \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–$/;"	n	line:58	module:chip
+m0_grnt_	src/bus/rtl/bus.v	/^	output wire				   m0_grnt_,   \/\/ ãƒã‚¹ã‚°ãƒ©ãƒ³ãƒˆ$/;"	p	line:38	module:bus
+m0_grnt_	src/bus/rtl/bus_arbiter.v	/^	output reg		   m0_grnt_, \/\/ ãƒã‚¹ã‚°ãƒ©ãƒ³ãƒˆ$/;"	p	line:27	module:bus_arbiter
+m0_grnt_	src/bus/rtl/bus_master_mux.v	/^	input  wire				   m0_grnt_,   \/\/ ãƒã‚¹ã‚°ãƒ©ãƒ³ãƒˆ$/;"	p	line:27	module:bus_master_mux
+m0_grnt_	src/top/rtl/chip.v	/^	wire				m0_grnt_;				  \/\/ ãƒã‚¹ã‚°ãƒ©ãƒ³ãƒˆ$/;"	n	line:61	module:chip
+m0_req_	src/bus/rtl/bus.v	/^	input  wire				   m0_req_,	   \/\/ ãƒã‚¹ãƒªã‚¯ã‚¨ã‚¹ãƒˆ$/;"	p	line:33	module:bus
+m0_req_	src/bus/rtl/bus_arbiter.v	/^	input  wire		   m0_req_,	 \/\/ ãƒã‚¹ãƒªã‚¯ã‚¨ã‚¹ãƒˆ$/;"	p	line:26	module:bus_arbiter
+m0_req_	src/top/rtl/chip.v	/^	wire				m0_req_;				  \/\/ ãƒã‚¹ãƒªã‚¯ã‚¨ã‚¹ãƒˆ$/;"	n	line:56	module:chip
+m0_rw	src/bus/rtl/bus.v	/^	input  wire				   m0_rw,	   \/\/ èª­ã¿ï¼æ›¸ã$/;"	p	line:36	module:bus
+m0_rw	src/bus/rtl/bus_master_mux.v	/^	input  wire				   m0_rw,	   \/\/ èª­ã¿ï¼æ›¸ã$/;"	p	line:25	module:bus_master_mux
+m0_rw	src/top/rtl/chip.v	/^	wire				m0_rw;					  \/\/ èª­ã¿ï¼æ›¸ã$/;"	n	line:59	module:chip
+m0_wr_data	src/bus/rtl/bus.v	/^	input  wire [`WordDataBus] m0_wr_data, \/\/ æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿$/;"	p	line:37	module:bus
+m0_wr_data	src/bus/rtl/bus_master_mux.v	/^	input  wire [`WordDataBus] m0_wr_data, \/\/ æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿$/;"	p	line:26	module:bus_master_mux
+m0_wr_data	src/top/rtl/chip.v	/^	wire [`WordDataBus] m0_wr_data;				  \/\/ æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿$/;"	n	line:60	module:chip
+m1_addr	src/bus/rtl/bus.v	/^	input  wire [`WordAddrBus] m1_addr,	   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹$/;"	p	line:41	module:bus
+m1_addr	src/bus/rtl/bus_master_mux.v	/^	input  wire [`WordAddrBus] m1_addr,	   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹$/;"	p	line:29	module:bus_master_mux
+m1_addr	src/top/rtl/chip.v	/^	wire [`WordAddrBus] m1_addr;				  \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹$/;"	n	line:64	module:chip
+m1_as_	src/bus/rtl/bus.v	/^	input  wire				   m1_as_,	   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–$/;"	p	line:42	module:bus
+m1_as_	src/bus/rtl/bus_master_mux.v	/^	input  wire				   m1_as_,	   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–$/;"	p	line:30	module:bus_master_mux
+m1_as_	src/top/rtl/chip.v	/^	wire				m1_as_;					  \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–$/;"	n	line:65	module:chip
+m1_grnt_	src/bus/rtl/bus.v	/^	output wire				   m1_grnt_,   \/\/ ãƒã‚¹ã‚°ãƒ©ãƒ³ãƒˆ$/;"	p	line:45	module:bus
+m1_grnt_	src/bus/rtl/bus_arbiter.v	/^	output reg		   m1_grnt_, \/\/ ãƒã‚¹ã‚°ãƒ©ãƒ³ãƒˆ$/;"	p	line:30	module:bus_arbiter
+m1_grnt_	src/bus/rtl/bus_master_mux.v	/^	input  wire				   m1_grnt_,   \/\/ ãƒã‚¹ã‚°ãƒ©ãƒ³ãƒˆ$/;"	p	line:33	module:bus_master_mux
+m1_grnt_	src/top/rtl/chip.v	/^	wire				m1_grnt_;				  \/\/ ãƒã‚¹ã‚°ãƒ©ãƒ³ãƒˆ$/;"	n	line:68	module:chip
+m1_req_	src/bus/rtl/bus.v	/^	input  wire				   m1_req_,	   \/\/ ãƒã‚¹ãƒªã‚¯ã‚¨ã‚¹ãƒˆ$/;"	p	line:40	module:bus
+m1_req_	src/bus/rtl/bus_arbiter.v	/^	input  wire		   m1_req_,	 \/\/ ãƒã‚¹ãƒªã‚¯ã‚¨ã‚¹ãƒˆ$/;"	p	line:29	module:bus_arbiter
+m1_req_	src/top/rtl/chip.v	/^	wire				m1_req_;				  \/\/ ãƒã‚¹ãƒªã‚¯ã‚¨ã‚¹ãƒˆ$/;"	n	line:63	module:chip
+m1_rw	src/bus/rtl/bus.v	/^	input  wire				   m1_rw,	   \/\/ èª­ã¿ï¼æ›¸ã$/;"	p	line:43	module:bus
+m1_rw	src/bus/rtl/bus_master_mux.v	/^	input  wire				   m1_rw,	   \/\/ èª­ã¿ï¼æ›¸ã$/;"	p	line:31	module:bus_master_mux
+m1_rw	src/top/rtl/chip.v	/^	wire				m1_rw;					  \/\/ èª­ã¿ï¼æ›¸ã$/;"	n	line:66	module:chip
+m1_wr_data	src/bus/rtl/bus.v	/^	input  wire [`WordDataBus] m1_wr_data, \/\/ æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿$/;"	p	line:44	module:bus
+m1_wr_data	src/bus/rtl/bus_master_mux.v	/^	input  wire [`WordDataBus] m1_wr_data, \/\/ æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿$/;"	p	line:32	module:bus_master_mux
+m1_wr_data	src/top/rtl/chip.v	/^	wire [`WordDataBus] m1_wr_data;				  \/\/ æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿$/;"	n	line:67	module:chip
+m2_addr	src/bus/rtl/bus.v	/^	input  wire [`WordAddrBus] m2_addr,	   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹$/;"	p	line:48	module:bus
+m2_addr	src/bus/rtl/bus_master_mux.v	/^	input  wire [`WordAddrBus] m2_addr,	   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹$/;"	p	line:35	module:bus_master_mux
+m2_addr	src/top/rtl/chip.v	/^	wire [`WordAddrBus] m2_addr;				  \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹$/;"	n	line:71	module:chip
+m2_as_	src/bus/rtl/bus.v	/^	input  wire				   m2_as_,	   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–$/;"	p	line:49	module:bus
+m2_as_	src/bus/rtl/bus_master_mux.v	/^	input  wire				   m2_as_,	   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–$/;"	p	line:36	module:bus_master_mux
+m2_as_	src/top/rtl/chip.v	/^	wire				m2_as_;					  \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–$/;"	n	line:72	module:chip
+m2_grnt_	src/bus/rtl/bus.v	/^	output wire				   m2_grnt_,   \/\/ ãƒã‚¹ã‚°ãƒ©ãƒ³ãƒˆ$/;"	p	line:52	module:bus
+m2_grnt_	src/bus/rtl/bus_arbiter.v	/^	output reg		   m2_grnt_, \/\/ ãƒã‚¹ã‚°ãƒ©ãƒ³ãƒˆ$/;"	p	line:33	module:bus_arbiter
+m2_grnt_	src/bus/rtl/bus_master_mux.v	/^	input  wire				   m2_grnt_,   \/\/ ãƒã‚¹ã‚°ãƒ©ãƒ³ãƒˆ$/;"	p	line:39	module:bus_master_mux
+m2_grnt_	src/top/rtl/chip.v	/^	wire				m2_grnt_;				  \/\/ ãƒã‚¹ã‚°ãƒ©ãƒ³ãƒˆ$/;"	n	line:75	module:chip
+m2_req_	src/bus/rtl/bus.v	/^	input  wire				   m2_req_,	   \/\/ ãƒã‚¹ãƒªã‚¯ã‚¨ã‚¹ãƒˆ$/;"	p	line:47	module:bus
+m2_req_	src/bus/rtl/bus_arbiter.v	/^	input  wire		   m2_req_,	 \/\/ ãƒã‚¹ãƒªã‚¯ã‚¨ã‚¹ãƒˆ$/;"	p	line:32	module:bus_arbiter
+m2_req_	src/top/rtl/chip.v	/^	wire				m2_req_;				  \/\/ ãƒã‚¹ãƒªã‚¯ã‚¨ã‚¹ãƒˆ$/;"	n	line:70	module:chip
+m2_rw	src/bus/rtl/bus.v	/^	input  wire				   m2_rw,	   \/\/ èª­ã¿ï¼æ›¸ã$/;"	p	line:50	module:bus
+m2_rw	src/bus/rtl/bus_master_mux.v	/^	input  wire				   m2_rw,	   \/\/ èª­ã¿ï¼æ›¸ã$/;"	p	line:37	module:bus_master_mux
+m2_rw	src/top/rtl/chip.v	/^	wire				m2_rw;					  \/\/ èª­ã¿ï¼æ›¸ã$/;"	n	line:73	module:chip
+m2_wr_data	src/bus/rtl/bus.v	/^	input  wire [`WordDataBus] m2_wr_data, \/\/ æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿$/;"	p	line:51	module:bus
+m2_wr_data	src/bus/rtl/bus_master_mux.v	/^	input  wire [`WordDataBus] m2_wr_data, \/\/ æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿$/;"	p	line:38	module:bus_master_mux
+m2_wr_data	src/top/rtl/chip.v	/^	wire [`WordDataBus] m2_wr_data;				  \/\/ æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿$/;"	n	line:74	module:chip
+m3_addr	src/bus/rtl/bus.v	/^	input  wire [`WordAddrBus] m3_addr,	   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹$/;"	p	line:55	module:bus
+m3_addr	src/bus/rtl/bus_master_mux.v	/^	input  wire [`WordAddrBus] m3_addr,	   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹$/;"	p	line:41	module:bus_master_mux
+m3_addr	src/top/rtl/chip.v	/^	wire [`WordAddrBus] m3_addr;				  \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹$/;"	n	line:78	module:chip
+m3_as_	src/bus/rtl/bus.v	/^	input  wire				   m3_as_,	   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–$/;"	p	line:56	module:bus
+m3_as_	src/bus/rtl/bus_master_mux.v	/^	input  wire				   m3_as_,	   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–$/;"	p	line:42	module:bus_master_mux
+m3_as_	src/top/rtl/chip.v	/^	wire				m3_as_;					  \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–$/;"	n	line:79	module:chip
+m3_grnt_	src/bus/rtl/bus.v	/^	output wire				   m3_grnt_,   \/\/ ãƒã‚¹ã‚°ãƒ©ãƒ³ãƒˆ$/;"	p	line:59	module:bus
+m3_grnt_	src/bus/rtl/bus_arbiter.v	/^	output reg		   m3_grnt_	 \/\/ ãƒã‚¹ã‚°ãƒ©ãƒ³ãƒˆ$/;"	p	line:36	module:bus_arbiter
+m3_grnt_	src/bus/rtl/bus_master_mux.v	/^	input  wire				   m3_grnt_,   \/\/ ãƒã‚¹ã‚°ãƒ©ãƒ³ãƒˆ$/;"	p	line:45	module:bus_master_mux
+m3_grnt_	src/top/rtl/chip.v	/^	wire				m3_grnt_;				  \/\/ ãƒã‚¹ã‚°ãƒ©ãƒ³ãƒˆ$/;"	n	line:82	module:chip
+m3_req_	src/bus/rtl/bus.v	/^	input  wire				   m3_req_,	   \/\/ ãƒã‚¹ãƒªã‚¯ã‚¨ã‚¹ãƒˆ$/;"	p	line:54	module:bus
+m3_req_	src/bus/rtl/bus_arbiter.v	/^	input  wire		   m3_req_,	 \/\/ ãƒã‚¹ãƒªã‚¯ã‚¨ã‚¹ãƒˆ$/;"	p	line:35	module:bus_arbiter
+m3_req_	src/top/rtl/chip.v	/^	wire				m3_req_;				  \/\/ ãƒã‚¹ãƒªã‚¯ã‚¨ã‚¹ãƒˆ$/;"	n	line:77	module:chip
+m3_rw	src/bus/rtl/bus.v	/^	input  wire				   m3_rw,	   \/\/ èª­ã¿ï¼æ›¸ã$/;"	p	line:57	module:bus
+m3_rw	src/bus/rtl/bus_master_mux.v	/^	input  wire				   m3_rw,	   \/\/ èª­ã¿ï¼æ›¸ã$/;"	p	line:43	module:bus_master_mux
+m3_rw	src/top/rtl/chip.v	/^	wire				m3_rw;					  \/\/ èª­ã¿ï¼æ›¸ã$/;"	n	line:80	module:chip
+m3_wr_data	src/bus/rtl/bus.v	/^	input  wire [`WordDataBus] m3_wr_data, \/\/ æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿$/;"	p	line:58	module:bus
+m3_wr_data	src/bus/rtl/bus_master_mux.v	/^	input  wire [`WordDataBus] m3_wr_data, \/\/ æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿$/;"	p	line:44	module:bus_master_mux
+m3_wr_data	src/top/rtl/chip.v	/^	wire [`WordDataBus] m3_wr_data;				  \/\/ æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿$/;"	n	line:81	module:chip
+m_rd_data	src/bus/rtl/bus.v	/^	output wire [`WordDataBus] m_rd_data,  \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	p	line:30	module:bus
+m_rd_data	src/bus/rtl/bus_slave_mux.v	/^	output reg	[`WordDataBus] m_rd_data,  \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	p	line:56	module:bus_slave_mux
+m_rd_data	src/top/rtl/chip.v	/^	wire [`WordDataBus] m_rd_data;				  \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	n	line:53	module:chip
+m_rdy_	src/bus/rtl/bus.v	/^	output wire				   m_rdy_,	   \/\/ ãƒ¬ãƒ‡ã‚£$/;"	p	line:31	module:bus
+m_rdy_	src/bus/rtl/bus_slave_mux.v	/^	output reg				   m_rdy_	   \/\/ ãƒ¬ãƒ‡ã‚£$/;"	p	line:57	module:bus_slave_mux
+m_rdy_	src/top/rtl/chip.v	/^	wire				m_rdy_;					  \/\/ ãƒ¬ãƒ‡ã‚£$/;"	n	line:54	module:chip
+mask	src/cpu/rtl/ctrl.v	/^	reg	 [`CPU_IRQ_CH-1:0]		 mask;			\/\/ 7”Ô : Š„‚è‚İƒ}ƒXƒN$/;"	r	line:70	module:ctrl
+mem	src/top/lib/x_s3e_dpram.v	/^	reg [`WordDataBus] mem [0:`SPM_DEPTH-1];$/;"	r	line:36	module:x_s3e_dpram
+mem	src/top/lib/x_s3e_sprom.v	/^	reg [`WordDataBus] mem [0:`ROM_DEPTH-1];$/;"	r	line:27	module:x_s3e_sprom
+mem_br_flag	src/cpu/rtl/cpu.v	/^	wire						 mem_br_flag;	 \/\/ •ªŠòƒtƒ‰ƒO$/;"	n	line:89	module:cpu
+mem_br_flag	src/cpu/rtl/ctrl.v	/^	input  wire					  mem_br_flag,	\/\/ •ªŠòƒtƒ‰ƒO$/;"	p	line:39	module:ctrl
+mem_br_flag	src/cpu/rtl/mem_reg.v	/^	output reg				   mem_br_flag,	 \/\/ •ªŠòƒtƒ‰ƒO$/;"	p	line:42	module:mem_reg
+mem_br_flag	src/cpu/rtl/mem_stage.v	/^	output wire				   mem_br_flag,	   \/\/ •ªŠòƒtƒ‰ƒO$/;"	p	line:63	module:mem_stage
+mem_bus_addr	src/cpu/rtl/cpu.v	/^	output wire [`WordAddrBus]	  mem_bus_addr,	   \/\/ ƒAƒhƒŒƒX$/;"	p	line:49	module:cpu
+mem_bus_as_	src/cpu/rtl/cpu.v	/^	output wire					  mem_bus_as_,	   \/\/ ƒAƒhƒŒƒXƒXƒgƒ[ƒu$/;"	p	line:50	module:cpu
+mem_bus_grnt_	src/cpu/rtl/cpu.v	/^	input  wire					  mem_bus_grnt_,   \/\/ ƒoƒXƒOƒ‰ƒ“ƒg$/;"	p	line:47	module:cpu
+mem_bus_rd_data	src/cpu/rtl/cpu.v	/^	input  wire [`WordDataBus]	  mem_bus_rd_data, \/\/ “Ç‚İo‚µƒf[ƒ^$/;"	p	line:45	module:cpu
+mem_bus_rdy_	src/cpu/rtl/cpu.v	/^	input  wire					  mem_bus_rdy_,	   \/\/ ƒŒƒfƒB$/;"	p	line:46	module:cpu
+mem_bus_req_	src/cpu/rtl/cpu.v	/^	output wire					  mem_bus_req_,	   \/\/ ƒoƒXƒŠƒNƒGƒXƒg$/;"	p	line:48	module:cpu
+mem_bus_rw	src/cpu/rtl/cpu.v	/^	output wire					  mem_bus_rw,	   \/\/ “Ç‚İ^‘‚«$/;"	p	line:51	module:cpu
+mem_bus_wr_data	src/cpu/rtl/cpu.v	/^	output wire [`WordDataBus]	  mem_bus_wr_data, \/\/ ‘‚«‚İƒf[ƒ^$/;"	p	line:52	module:cpu
+mem_busy	src/cpu/rtl/cpu.v	/^	wire						 mem_busy;		 \/\/ MEMƒXƒe[ƒW$/;"	n	line:108	module:cpu
+mem_busy	src/cpu/rtl/ctrl.v	/^	input  wire					  mem_busy,		\/\/ MEMƒXƒe[ƒWƒrƒW[$/;"	p	line:48	module:ctrl
+mem_ctrl	src/cpu/rtl/mem_ctrl.v	/^module mem_ctrl ($/;"	m	line:22
+mem_ctrl_op	src/cpu/rtl/cpu.v	/^	wire [`CtrlOpBus]			 mem_ctrl_op;	 \/\/ §ŒäƒŒƒWƒXƒ^ƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	n	line:90	module:cpu
+mem_ctrl_op	src/cpu/rtl/ctrl.v	/^	input  wire [`CtrlOpBus]	  mem_ctrl_op,	\/\/ §ŒäƒŒƒWƒXƒ^ƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:40	module:ctrl
+mem_ctrl_op	src/cpu/rtl/mem_reg.v	/^	output reg	[`CtrlOpBus]   mem_ctrl_op,	 \/\/ §ŒäƒŒƒWƒXƒ^ƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:43	module:mem_reg
+mem_ctrl_op	src/cpu/rtl/mem_stage.v	/^	output wire [`CtrlOpBus]   mem_ctrl_op,	   \/\/ §ŒäƒŒƒWƒXƒ^ƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:64	module:mem_stage
+mem_dst_addr	src/cpu/rtl/cpu.v	/^	wire [`RegAddrBus]			 mem_dst_addr;	 \/\/ ”Ä—pƒŒƒWƒXƒ^‘‚«‚İƒAƒhƒŒƒX$/;"	n	line:91	module:cpu
+mem_dst_addr	src/cpu/rtl/ctrl.v	/^	input  wire [`RegAddrBus]	  mem_dst_addr, \/\/ ‘‚«‚İƒAƒhƒŒƒX$/;"	p	line:41	module:ctrl
+mem_dst_addr	src/cpu/rtl/mem_reg.v	/^	output reg	[`RegAddrBus]  mem_dst_addr, \/\/ ”Ä—pƒŒƒWƒXƒ^‘‚«‚İƒAƒhƒŒƒX$/;"	p	line:44	module:mem_reg
+mem_dst_addr	src/cpu/rtl/mem_stage.v	/^	output wire [`RegAddrBus]  mem_dst_addr,   \/\/ ”Ä—pƒŒƒWƒXƒ^‘‚«‚İƒAƒhƒŒƒX$/;"	p	line:65	module:mem_stage
+mem_en	src/cpu/rtl/cpu.v	/^	wire						 mem_en;		 \/\/ ƒpƒCƒvƒ‰ƒCƒ“ƒf[ƒ^‚Ì—LŒø$/;"	n	line:88	module:cpu
+mem_en	src/cpu/rtl/ctrl.v	/^	input  wire					  mem_en,		\/\/ ƒpƒCƒvƒ‰ƒCƒ“ƒf[ƒ^‚Ì—LŒø$/;"	p	line:38	module:ctrl
+mem_en	src/cpu/rtl/mem_reg.v	/^	output reg				   mem_en,		 \/\/ ƒpƒCƒvƒ‰ƒCƒ“ƒf[ƒ^‚Ì—LŒø$/;"	p	line:41	module:mem_reg
+mem_en	src/cpu/rtl/mem_stage.v	/^	output wire				   mem_en,		   \/\/ ƒpƒCƒvƒ‰ƒCƒ“ƒf[ƒ^‚Ì—LŒø$/;"	p	line:62	module:mem_stage
+mem_exp_code	src/cpu/rtl/cpu.v	/^	wire [`IsaExpBus]			 mem_exp_code;	 \/\/ —áŠOƒR[ƒh$/;"	n	line:93	module:cpu
+mem_exp_code	src/cpu/rtl/ctrl.v	/^	input  wire [`IsaExpBus]	  mem_exp_code, \/\/ —áŠOƒR[ƒh$/;"	p	line:42	module:ctrl
+mem_exp_code	src/cpu/rtl/mem_reg.v	/^	output reg	[`IsaExpBus]   mem_exp_code, \/\/ —áŠOƒR[ƒh$/;"	p	line:46	module:mem_reg
+mem_exp_code	src/cpu/rtl/mem_stage.v	/^	output wire [`IsaExpBus]   mem_exp_code,   \/\/ —áŠOƒR[ƒh$/;"	p	line:67	module:mem_stage
+mem_flush	src/cpu/rtl/cpu.v	/^	wire						 mem_flush;		 \/\/ MEMƒXƒe[ƒW$/;"	n	line:105	module:cpu
+mem_flush	src/cpu/rtl/ctrl.v	/^	output wire					  mem_flush,	\/\/ MEMƒXƒe[ƒWƒtƒ‰ƒbƒVƒ…$/;"	p	line:58	module:ctrl
+mem_fwd_data	src/cpu/rtl/cpu.v	/^	wire [`WordDataBus]			 mem_fwd_data;	  \/\/ MEMƒXƒe[ƒW$/;"	n	line:140	module:cpu
+mem_fwd_data	src/cpu/rtl/id_decoder.v	/^	input  wire [`WordDataBus]	 mem_fwd_data,	\/\/ ƒtƒHƒ[ƒfƒBƒ“ƒOƒf[ƒ^$/;"	p	line:43	module:decoder
+mem_fwd_data	src/cpu/rtl/id_stage.v	/^	input  wire [`WordDataBus]	 mem_fwd_data,	 \/\/ ƒtƒHƒ[ƒfƒBƒ“ƒOƒf[ƒ^$/;"	p	line:39	module:id_stage
+mem_gpr_we_	src/cpu/rtl/cpu.v	/^	wire						 mem_gpr_we_;	 \/\/ ”Ä—pƒŒƒWƒXƒ^‘‚«‚İ—LŒø$/;"	n	line:92	module:cpu
+mem_gpr_we_	src/cpu/rtl/mem_reg.v	/^	output reg				   mem_gpr_we_,	 \/\/ ”Ä—pƒŒƒWƒXƒ^‘‚«‚İ—LŒø$/;"	p	line:45	module:mem_reg
+mem_gpr_we_	src/cpu/rtl/mem_stage.v	/^	output wire				   mem_gpr_we_,	   \/\/ ”Ä—pƒŒƒWƒXƒ^‘‚«‚İ—LŒø$/;"	p	line:66	module:mem_stage
+mem_op	src/cpu/rtl/id_decoder.v	/^	output reg	[`MemOpBus]		 mem_op,		\/\/ ƒƒ‚ƒŠƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:55	module:decoder
+mem_op	src/cpu/rtl/id_reg.v	/^	input  wire [`MemOpBus]	   mem_op,		   \/\/ ƒƒ‚ƒŠƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	p	line:30	module:id_reg
+mem_op	src/cpu/rtl/id_stage.v	/^	wire  [`MemOpBus]			 mem_op;		 \/\/ ƒƒ‚ƒŠƒIƒyƒŒ[ƒVƒ‡ƒ“$/;"	n	line:74	module:id_stage
+mem_out	src/cpu/rtl/cpu.v	/^	wire [`WordDataBus]			 mem_out;		 \/\/ ˆ—Œ‹‰Ê$/;"	n	line:94	module:cpu
+mem_out	src/cpu/rtl/ctrl.v	/^	input  wire [`WordDataBus]	  mem_out,		\/\/ ˆ—Œ‹‰Ê$/;"	p	line:43	module:ctrl
+mem_out	src/cpu/rtl/mem_reg.v	/^	output reg	[`WordDataBus] mem_out		 \/\/ ˆ—Œ‹‰Ê$/;"	p	line:47	module:mem_reg
+mem_out	src/cpu/rtl/mem_stage.v	/^	output wire [`WordDataBus] mem_out		   \/\/ ˆ—Œ‹‰Ê$/;"	p	line:68	module:mem_stage
+mem_pc	src/cpu/rtl/cpu.v	/^	wire [`WordAddrBus]			 mem_pc;		 \/\/ ƒvƒƒOƒ‰ƒ“ƒJƒEƒ“ƒ^$/;"	n	line:87	module:cpu
+mem_pc	src/cpu/rtl/ctrl.v	/^	input  wire [`WordAddrBus]	  mem_pc,		\/\/ ƒvƒƒOƒ‰ƒ“ƒJƒEƒ“ƒ^$/;"	p	line:37	module:ctrl
+mem_pc	src/cpu/rtl/mem_reg.v	/^	output reg	[`WordAddrBus] mem_pc,		 \/\/ ƒvƒƒOƒ‰ƒ“ƒJƒEƒ“ƒ^$/;"	p	line:40	module:mem_reg
+mem_pc	src/cpu/rtl/mem_stage.v	/^	output wire [`WordAddrBus] mem_pc,		   \/\/ ƒvƒƒOƒ‰ƒ“ƒJƒEƒ“ƒ^$/;"	p	line:61	module:mem_stage
+mem_reg	src/cpu/rtl/mem_reg.v	/^module mem_reg ($/;"	m	line:21
+mem_spm_addr	src/cpu/rtl/cpu.v	/^	wire [`WordAddrBus]			 mem_spm_addr;	  \/\/ ƒAƒhƒŒƒX$/;"	n	line:134	module:cpu
+mem_spm_addr	src/cpu/rtl/spm.v	/^	input  wire [`SpmAddrBus]  mem_spm_addr,	\/\/ ƒAƒhƒŒƒX$/;"	p	line:31	module:spm
+mem_spm_as_	src/cpu/rtl/cpu.v	/^	wire						 mem_spm_as_;	  \/\/ ƒAƒhƒŒƒXƒXƒgƒ[ƒu$/;"	n	line:135	module:cpu
+mem_spm_as_	src/cpu/rtl/spm.v	/^	input  wire				   mem_spm_as_,		\/\/ ƒAƒhƒŒƒXƒXƒgƒ[ƒu$/;"	p	line:32	module:spm
+mem_spm_rd_data	src/cpu/rtl/cpu.v	/^	wire [`WordDataBus]			 mem_spm_rd_data; \/\/ “Ç‚İo‚µƒf[ƒ^$/;"	n	line:133	module:cpu
+mem_spm_rd_data	src/cpu/rtl/spm.v	/^	output wire [`WordDataBus] mem_spm_rd_data	\/\/ “Ç‚İo‚µƒf[ƒ^$/;"	p	line:35	module:spm
+mem_spm_rw	src/cpu/rtl/cpu.v	/^	wire						 mem_spm_rw;	  \/\/ “Ç‚İ^‘‚«$/;"	n	line:136	module:cpu
+mem_spm_rw	src/cpu/rtl/spm.v	/^	input  wire				   mem_spm_rw,		\/\/ “Ç‚İ^‘‚«$/;"	p	line:33	module:spm
+mem_spm_wr_data	src/cpu/rtl/cpu.v	/^	wire [`WordDataBus]			 mem_spm_wr_data; \/\/ ‘‚«‚İƒf[ƒ^$/;"	n	line:137	module:cpu
+mem_spm_wr_data	src/cpu/rtl/spm.v	/^	input  wire [`WordDataBus] mem_spm_wr_data, \/\/ ‘‚«‚İƒf[ƒ^$/;"	p	line:34	module:spm
+mem_stage	src/cpu/rtl/mem_stage.v	/^module mem_stage ($/;"	m	line:24
+mem_stall	src/cpu/rtl/cpu.v	/^	wire						 mem_stall;		 \/\/ MEMƒXƒe[ƒW$/;"	n	line:100	module:cpu
+mem_stall	src/cpu/rtl/ctrl.v	/^	output wire					  mem_stall,	\/\/ MEMƒXƒe[ƒWƒXƒg[ƒ‹$/;"	p	line:53	module:ctrl
+mem_wr_data	src/cpu/rtl/id_decoder.v	/^	output wire [`WordDataBus]	 mem_wr_data,	\/\/ ƒƒ‚ƒŠ‘‚«‚İƒf[ƒ^$/;"	p	line:56	module:decoder
+mem_wr_data	src/cpu/rtl/id_reg.v	/^	input  wire [`WordDataBus] mem_wr_data,	   \/\/ ƒƒ‚ƒŠ‘‚«‚İƒf[ƒ^$/;"	p	line:31	module:id_reg
+mem_wr_data	src/cpu/rtl/id_stage.v	/^	wire  [`WordDataBus]		 mem_wr_data;	 \/\/ ƒƒ‚ƒŠ‘‚«‚İƒf[ƒ^$/;"	n	line:75	module:id_stage
+miss_align	src/cpu/rtl/mem_ctrl.v	/^	output reg				   miss_align	   \/\/ ƒ~ƒXƒAƒ‰ƒCƒ“$/;"	p	line:36	module:mem_ctrl
+miss_align	src/cpu/rtl/mem_reg.v	/^	input  wire				   miss_align,	 \/\/ ƒ~ƒXƒAƒ‰ƒCƒ“$/;"	p	line:27	module:mem_reg
+miss_align	src/cpu/rtl/mem_stage.v	/^	wire					   miss_align;	   \/\/ ƒ~ƒXƒAƒ‰ƒCƒ“$/;"	n	line:78	module:mem_stage
+mode	src/io/timer/rtl/timer.v	/^	reg							mode;	   \/\/ ãƒ¢ãƒ¼ãƒ‰ãƒ“ãƒƒãƒˆ$/;"	r	line:38	module:timer
+new_pc	src/cpu/rtl/cpu.v	/^	wire [`WordAddrBus]			 new_pc;		 \/\/ V‚µ‚¢PC$/;"	n	line:110	module:cpu
+new_pc	src/cpu/rtl/ctrl.v	/^	output reg	[`WordAddrBus]	  new_pc		\/\/ V‚µ‚¢ƒvƒƒOƒ‰ƒ€ƒJƒEƒ“ƒ^$/;"	p	line:59	module:ctrl
+new_pc	src/cpu/rtl/if_reg.v	/^	input  wire [`WordAddrBus] new_pc,	   \/\/ V‚µ‚¢ƒvƒƒOƒ‰ƒ€ƒJƒEƒ“ƒ^$/;"	p	line:30	module:if_reg
+new_pc	src/cpu/rtl/if_stage.v	/^	input  wire [`WordAddrBus] new_pc,		\/\/ V‚µ‚¢ƒvƒƒOƒ‰ƒ€ƒJƒEƒ“ƒ^$/;"	p	line:44	module:if_stage
+of	src/cpu/rtl/ex_alu.v	/^	output reg				   of	  \/\/ ã‚ªãƒ¼ãƒãƒ•ãƒ­ãƒ¼$/;"	p	line:25	module:alu
+offset	src/cpu/rtl/mem_ctrl.v	/^	wire [`ByteOffsetBus]	 offset;		   \/\/ ƒIƒtƒZƒbƒg$/;"	n	line:40	module:mem_ctrl
+op	src/cpu/rtl/ex_alu.v	/^	input  wire [`AluOpBus]	   op,	  \/\/ ã‚ªãƒšãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³$/;"	p	line:23	module:alu
+op	src/cpu/rtl/id_decoder.v	/^	wire [`IsaOpBus]	op		= if_insn[`IsaOpLoc];	  \/\/ ƒIƒyƒR[ƒh$/;"	n	line:65	module:decoder
+out	src/cpu/rtl/ex_alu.v	/^	output reg	[`WordDataBus] out,	  \/\/ å‡ºåŠ›$/;"	p	line:24	module:alu
+out	src/cpu/rtl/mem_ctrl.v	/^	output reg [`WordDataBus]  out	 ,		   \/\/ ƒƒ‚ƒŠƒAƒNƒZƒXŒ‹‰Ê$/;"	p	line:35	module:mem_ctrl
+out	src/cpu/rtl/mem_reg.v	/^	input  wire [`WordDataBus] out,			 \/\/ ƒƒ‚ƒŠƒAƒNƒZƒXŒ‹‰Ê$/;"	p	line:26	module:mem_reg
+out	src/cpu/rtl/mem_stage.v	/^	wire [`WordDataBus]		   out;			   \/\/ ƒƒ‚ƒŠƒAƒNƒZƒXŒ‹‰Ê$/;"	n	line:77	module:mem_stage
+out	src/top/temp/counter.v	/^    output[7:0]  out; $/;"	p	line:3	module:counter
+out	src/top/temp/counter.v	/^    reg[7:0] out;$/;"	r	line:5	module:counter
+out	src/top/temp/counter_tb.v	/^    wire [7:0] out; $/;"	n	line:7	module:counter_tb
+owner	src/bus/rtl/bus_arbiter.v	/^	reg [`BusOwnerBus] owner;	 \/\/ ãƒã‚¹æ¨©ã®æ‰€æœ‰è€…$/;"	r	line:40	module:bus_arbiter
+pre_exe_mode	src/cpu/rtl/ctrl.v	/^	reg	 [`CpuExeModeBus]		 pre_exe_mode;	\/\/ 1”Ô : Àsƒ‚[ƒh$/;"	r	line:64	module:ctrl
+pre_int_en	src/cpu/rtl/ctrl.v	/^	reg							 pre_int_en;	\/\/ 1”Ô : Š„‚è‚İ—LŒø$/;"	r	line:65	module:ctrl
+pre_pc	src/cpu/rtl/ctrl.v	/^	reg [`WordAddrBus]		  pre_pc;			\/\/ ‘O‚ÌƒvƒƒOƒ‰ƒ€ƒJƒEƒ“ƒ^$/;"	r	line:73	module:ctrl
+ra_addr	src/cpu/rtl/id_decoder.v	/^	wire [`RegAddrBus]	ra_addr = if_insn[`IsaRaAddrLoc]; \/\/ RaƒAƒhƒŒƒX$/;"	n	line:66	module:decoder
+ra_data	src/cpu/rtl/id_decoder.v	/^	reg			[`WordDataBus]	ra_data;						  \/\/ •„†‚È‚µRa$/;"	r	line:80	module:decoder
+rb_addr	src/cpu/rtl/id_decoder.v	/^	wire [`RegAddrBus]	rb_addr = if_insn[`IsaRbAddrLoc]; \/\/ RbƒAƒhƒŒƒX$/;"	n	line:67	module:decoder
+rb_data	src/cpu/rtl/id_decoder.v	/^	reg			[`WordDataBus]	rb_data;						  \/\/ •„†‚È‚µRb$/;"	r	line:82	module:decoder
+rc_addr	src/cpu/rtl/id_decoder.v	/^	wire [`RegAddrBus]	rc_addr = if_insn[`IsaRcAddrLoc]; \/\/ RcƒAƒhƒŒƒX$/;"	n	line:68	module:decoder
+rd_addr_0	src/cpu/rtl/gpr.v	/^	input  wire [`RegAddrBus]  rd_addr_0,		   \/\/ “Ç‚İo‚µƒAƒhƒŒƒX$/;"	p	line:25	module:gpr
+rd_addr_1	src/cpu/rtl/gpr.v	/^	input  wire [`RegAddrBus]  rd_addr_1,		   \/\/ “Ç‚İo‚µƒAƒhƒŒƒX$/;"	p	line:28	module:gpr
+rd_buf	src/cpu/rtl/bus_if.v	/^	reg	 [`WordDataBus]		   rd_buf;		   \/\/ èª­ã¿å‡ºã—ãƒãƒƒãƒ•ã‚¡$/;"	r	line:57	module:bus_if
+rd_data	src/cpu/rtl/bus_if.v	/^	output reg	[`WordDataBus] rd_data,		   \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	p	line:37	module:bus_if
+rd_data	src/cpu/rtl/mem_ctrl.v	/^	input  wire [`WordDataBus] rd_data,		   \/\/ “Ç‚İo‚µƒf[ƒ^$/;"	p	line:29	module:mem_ctrl
+rd_data	src/cpu/rtl/mem_stage.v	/^	wire [`WordDataBus]		   rd_data;		   \/\/ “Ç‚İo‚µƒf[ƒ^$/;"	n	line:72	module:mem_stage
+rd_data	src/io/gpio/rtl/gpio.v	/^	output reg	[`WordDataBus]		rd_data, \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	p	line:30	module:gpio
+rd_data	src/io/rom/rtl/rom.v	/^	output wire [`WordDataBus] rd_data, \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	p	line:29	module:rom
+rd_data	src/io/timer/rtl/timer.v	/^	output reg	[`WordDataBus]	rd_data,   \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	p	line:30	module:timer
+rd_data	src/io/uart/rtl/uart.v	/^	output wire [`WordDataBus] rd_data,	 \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	p	line:33	module:uart
+rd_data	src/io/uart/rtl/uart_ctrl.v	/^	output reg	[`WordDataBus] rd_data,	 \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	p	line:30	module:uart_ctrl
+rd_data_0	src/cpu/rtl/gpr.v	/^	output wire [`WordDataBus] rd_data_0,		   \/\/ “Ç‚İo‚µƒf[ƒ^$/;"	p	line:26	module:gpr
+rd_data_1	src/cpu/rtl/gpr.v	/^	output wire [`WordDataBus] rd_data_1,		   \/\/ “Ç‚İo‚µƒf[ƒ^$/;"	p	line:29	module:gpr
+rdy_	src/io/gpio/rtl/gpio.v	/^	output reg						rdy_	 \/\/ ãƒ¬ãƒ‡ã‚£$/;"	p	line:31	module:gpio
+rdy_	src/io/rom/rtl/rom.v	/^	output reg				   rdy_		\/\/ ãƒ¬ãƒ‡ã‚£$/;"	p	line:30	module:rom
+rdy_	src/io/timer/rtl/timer.v	/^	output reg					rdy_,	   \/\/ ãƒ¬ãƒ‡ã‚£$/;"	p	line:31	module:timer
+rdy_	src/io/uart/rtl/uart.v	/^	output wire				   rdy_,	 \/\/ ãƒ¬ãƒ‡ã‚£$/;"	p	line:34	module:uart
+rdy_	src/io/uart/rtl/uart_ctrl.v	/^	output reg				   rdy_,	 \/\/ ãƒ¬ãƒ‡ã‚£$/;"	p	line:31	module:uart_ctrl
+reset	src/bus/rtl/bus.v	/^	input  wire				   reset,	   \/\/ éåŒæœŸãƒªã‚»ãƒƒãƒˆ$/;"	p	line:27	module:bus
+reset	src/bus/rtl/bus_arbiter.v	/^	input  wire		   reset,	 \/\/ éåŒæœŸãƒªã‚»ãƒƒãƒˆ$/;"	p	line:23	module:bus_arbiter
+reset	src/cpu/rtl/bus_if.v	/^	input  wire				   reset,		   \/\/ éåŒæœŸãƒªã‚»ãƒƒãƒˆ$/;"	p	line:27	module:bus_if
+reset	src/cpu/rtl/cpu.v	/^	input  wire					  reset,		   \/\/ ”ñ“¯ŠúƒŠƒZƒbƒg$/;"	p	line:33	module:cpu
+reset	src/cpu/rtl/ctrl.v	/^	input  wire					  reset,		\/\/ ”ñ“¯ŠúƒŠƒZƒbƒg$/;"	p	line:26	module:ctrl
+reset	src/cpu/rtl/ex_reg.v	/^	input  wire				   reset,		   \/\/ ”ñ“¯ŠúƒŠƒZƒbƒg$/;"	p	line:24	module:ex_reg
+reset	src/cpu/rtl/ex_stage.v	/^	input  wire				   reset,		   \/\/ ”ñ“¯ŠúƒŠƒZƒbƒg$/;"	p	line:26	module:ex_stage
+reset	src/cpu/rtl/gpr.v	/^	input  wire				   reset,			   \/\/ ”ñ“¯ŠúƒŠƒZƒbƒg$/;"	p	line:23	module:gpr
+reset	src/cpu/rtl/id_reg.v	/^	input  wire				   reset,		   \/\/ ”ñ“¯ŠúƒŠƒZƒbƒg$/;"	p	line:24	module:id_reg
+reset	src/cpu/rtl/id_stage.v	/^	input  wire					 reset,			 \/\/ ”ñ“¯ŠúƒŠƒZƒbƒg$/;"	p	line:26	module:id_stage
+reset	src/cpu/rtl/if_reg.v	/^	input  wire				   reset,	   \/\/ ”ñ“¯ŠúƒŠƒZƒbƒg$/;"	p	line:24	module:if_reg
+reset	src/cpu/rtl/if_stage.v	/^	input  wire				   reset,		\/\/ ”ñ“¯ŠúƒŠƒZƒbƒg$/;"	p	line:25	module:if_stage
+reset	src/cpu/rtl/mem_reg.v	/^	input  wire				   reset,		 \/\/ ”ñ“¯ŠúƒŠƒZƒbƒg$/;"	p	line:24	module:mem_reg
+reset	src/cpu/rtl/mem_stage.v	/^	input  wire				   reset,		   \/\/ ”ñ“¯ŠúƒŠƒZƒbƒg$/;"	p	line:27	module:mem_stage
+reset	src/io/gpio/rtl/gpio.v	/^	input  wire						reset,	 \/\/ ãƒªã‚»ãƒƒãƒˆ$/;"	p	line:23	module:gpio
+reset	src/io/rom/rtl/rom.v	/^	input  wire				   reset,	\/\/ éåŒæœŸãƒªã‚»ãƒƒãƒˆ$/;"	p	line:24	module:rom
+reset	src/io/timer/rtl/timer.v	/^	input  wire					reset,	   \/\/ éåŒæœŸãƒªã‚»ãƒƒãƒˆ$/;"	p	line:23	module:timer
+reset	src/io/uart/rtl/uart.v	/^	input  wire				   reset,	 \/\/ éåŒæœŸãƒªã‚»ãƒƒãƒˆ$/;"	p	line:26	module:uart
+reset	src/io/uart/rtl/uart_ctrl.v	/^	input  wire				   reset,	 \/\/ éåŒæœŸãƒªã‚»ãƒƒãƒˆ$/;"	p	line:23	module:uart_ctrl
+reset	src/io/uart/rtl/uart_rx.v	/^	input  wire				   reset,	\/\/ éåŒæœŸãƒªã‚»ãƒƒãƒˆ$/;"	p	line:23	module:uart_rx
+reset	src/io/uart/rtl/uart_tx.v	/^	input  wire				   reset,	 \/\/ éåŒæœŸãƒªã‚»ãƒƒãƒˆ$/;"	p	line:23	module:uart_tx
+reset	src/top/rtl/chip.v	/^	input  wire						 reset		  \/\/ ãƒªã‚»ãƒƒãƒˆ$/;"	p	line:31	module:chip
+reset	src/top/temp/counter.v	/^    input clk, reset, enable;$/;"	p	line:4	module:counter
+reset	src/top/temp/counter_tb.v	/^    reg clk, enable, reset; $/;"	r	line:6	module:counter_tb
+reset_sw	src/top/rtl/chip_top.v	/^	input wire				   reset_sw		  \/\/ ã‚°ãƒ­ãƒ¼ãƒãƒ«ãƒªã‚»ãƒƒãƒˆ$/;"	p	line:26	module:chip_top
+reset_sw	src/top/rtl/clk_gen.v	/^	input wire	reset_sw,  \/\/ ãƒªã‚»ãƒƒãƒˆã‚¹ã‚¤ãƒƒãƒ$/;"	p	line:22	module:clk_gen
+reset_sw	src/top/test/chip_top_test.v	/^	reg						reset_sw;	   \/\/ ã‚°ãƒ­ãƒ¼ãƒãƒ«ãƒªã‚»ãƒƒãƒˆ$/;"	r	line:30	module:chip_top_test
+ret_addr	src/cpu/rtl/id_decoder.v	/^	wire [`WordAddrBus] ret_addr  = if_pc + 1'b1;					 \/\/ –ß‚è”Ô’n$/;"	n	line:86	module:decoder
+rom	src/io/rom/rtl/rom.v	/^module rom ($/;"	m	line:21
+rw	src/cpu/rtl/bus_if.v	/^	input  wire				   rw,			   \/\/ èª­ã¿ï¼æ›¸ã$/;"	p	line:35	module:bus_if
+rw	src/cpu/rtl/mem_ctrl.v	/^	output reg				   rw,			   \/\/ “Ç‚İ^‘‚«$/;"	p	line:32	module:mem_ctrl
+rw	src/cpu/rtl/mem_stage.v	/^	wire					   rw;			   \/\/ “Ç‚İ^‘‚«$/;"	n	line:75	module:mem_stage
+rw	src/io/gpio/rtl/gpio.v	/^	input  wire						rw,		 \/\/ Read \/ Write$/;"	p	line:27	module:gpio
+rw	src/io/timer/rtl/timer.v	/^	input  wire					rw,		   \/\/ Read \/ Write$/;"	p	line:27	module:timer
+rw	src/io/uart/rtl/uart.v	/^	input  wire				   rw,		 \/\/ Read \/ Write$/;"	p	line:30	module:uart
+rw	src/io/uart/rtl/uart_ctrl.v	/^	input  wire				   rw,		 \/\/ Read \/ Write$/;"	p	line:27	module:uart_ctrl
+rx	src/io/uart/rtl/uart.v	/^	input  wire				   rx,		 \/\/ UARTå—ä¿¡ä¿¡å·$/;"	p	line:39	module:uart
+rx	src/io/uart/rtl/uart_rx.v	/^	input  wire				   rx		\/\/ UARTå—ä¿¡ä¿¡å·$/;"	p	line:29	module:uart_rx
+rx_buf	src/io/uart/rtl/uart_ctrl.v	/^	reg [`ByteDataBus]		   rx_buf;	 \/\/ å—ä¿¡ãƒãƒƒãƒ•ã‚¡$/;"	r	line:49	module:uart_ctrl
+rx_busy	src/io/uart/rtl/uart.v	/^	wire					   rx_busy;	 \/\/ å—ä¿¡ä¸­ãƒ•ãƒ©ã‚°$/;"	n	line:45	module:uart
+rx_busy	src/io/uart/rtl/uart_ctrl.v	/^	input  wire				   rx_busy,	 \/\/ å—ä¿¡ä¸­ãƒ•ãƒ©ã‚°ï¼ˆåˆ¶å¾¡ãƒ¬ã‚¸ã‚¹ã‚¿ 0ï¼‰$/;"	p	line:37	module:uart_ctrl
+rx_busy	src/io/uart/rtl/uart_rx.v	/^	output wire				   rx_busy, \/\/ å—ä¿¡ä¸­ãƒ•ãƒ©ã‚°$/;"	p	line:25	module:uart_rx
+rx_busy	src/top/test/chip_top_test.v	/^	wire					 rx_busy;		  \/\/ å—ä¿¡ä¸­ãƒ•ãƒ©ã‚°$/;"	n	line:51	module:chip_top_test
+rx_data	src/io/uart/rtl/uart.v	/^	wire [`ByteDataBus]		   rx_data;	 \/\/ å—ä¿¡ãƒ‡ãƒ¼ã‚¿$/;"	n	line:47	module:uart
+rx_data	src/io/uart/rtl/uart_ctrl.v	/^	input  wire [`ByteDataBus] rx_data,	 \/\/ å—ä¿¡ãƒ‡ãƒ¼ã‚¿$/;"	p	line:39	module:uart_ctrl
+rx_data	src/io/uart/rtl/uart_rx.v	/^	output reg	[`ByteDataBus] rx_data, \/\/ å—ä¿¡ãƒ‡ãƒ¼ã‚¿$/;"	p	line:27	module:uart_rx
+rx_data	src/top/test/chip_top_test.v	/^	wire [`ByteDataBus]		 rx_data;		  \/\/ å—ä¿¡ãƒ‡ãƒ¼ã‚¿$/;"	n	line:53	module:chip_top_test
+rx_end	src/io/uart/rtl/uart.v	/^	wire					   rx_end;	 \/\/ å—ä¿¡å®Œäº†ä¿¡å·$/;"	n	line:46	module:uart
+rx_end	src/io/uart/rtl/uart_ctrl.v	/^	input  wire				   rx_end,	 \/\/ å—ä¿¡å®Œäº†ä¿¡å·$/;"	p	line:38	module:uart_ctrl
+rx_end	src/io/uart/rtl/uart_rx.v	/^	output reg				   rx_end,	\/\/ å—ä¿¡å®Œäº†ä¿¡å·$/;"	p	line:26	module:uart_rx
+rx_end	src/top/test/chip_top_test.v	/^	wire					 rx_end;		  \/\/ å—ä¿¡å®Œäº†ä¿¡å·$/;"	n	line:52	module:chip_top_test
+s0_cs_	src/bus/rtl/bus.v	/^	output wire				   s0_cs_,	   \/\/ ãƒãƒƒãƒ—ã‚»ãƒ¬ã‚¯ãƒˆ$/;"	p	line:69	module:bus
+s0_cs_	src/bus/rtl/bus_addr_dec.v	/^	output reg				   s0_cs_, \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–0ç•ª$/;"	p	line:24	module:bus_addr_dec
+s0_cs_	src/bus/rtl/bus_slave_mux.v	/^	input  wire				   s0_cs_,	   \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–0ç•ª$/;"	p	line:22	module:bus_slave_mux
+s0_cs_	src/top/rtl/chip.v	/^	wire				s0_cs_;					  \/\/ ãƒãƒƒãƒ—ã‚»ãƒ¬ã‚¯ãƒˆ$/;"	n	line:92	module:chip
+s0_rd_data	src/bus/rtl/bus.v	/^	input  wire [`WordDataBus] s0_rd_data, \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	p	line:67	module:bus
+s0_rd_data	src/bus/rtl/bus_slave_mux.v	/^	input  wire [`WordDataBus] s0_rd_data, \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	p	line:32	module:bus_slave_mux
+s0_rd_data	src/top/rtl/chip.v	/^	wire [`WordDataBus] s0_rd_data;				  \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	n	line:90	module:chip
+s0_rdy_	src/bus/rtl/bus.v	/^	input  wire				   s0_rdy_,	   \/\/ ãƒ¬ãƒ‡ã‚£$/;"	p	line:68	module:bus
+s0_rdy_	src/bus/rtl/bus_slave_mux.v	/^	input  wire				   s0_rdy_,	   \/\/ ãƒ¬ãƒ‡ã‚£$/;"	p	line:33	module:bus_slave_mux
+s0_rdy_	src/top/rtl/chip.v	/^	wire				s0_rdy_;				  \/\/ ãƒ¬ãƒ‡ã‚£$/;"	n	line:91	module:chip
+s1_cs_	src/bus/rtl/bus.v	/^	output wire				   s1_cs_,	   \/\/ ãƒãƒƒãƒ—ã‚»ãƒ¬ã‚¯ãƒˆ$/;"	p	line:73	module:bus
+s1_cs_	src/bus/rtl/bus_addr_dec.v	/^	output reg				   s1_cs_, \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–1ç•ª$/;"	p	line:25	module:bus_addr_dec
+s1_cs_	src/bus/rtl/bus_slave_mux.v	/^	input  wire				   s1_cs_,	   \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–1ç•ª$/;"	p	line:23	module:bus_slave_mux
+s1_cs_	src/top/rtl/chip.v	/^	wire				s1_cs_;					  \/\/ ãƒãƒƒãƒ—ã‚»ãƒ¬ã‚¯ãƒˆ$/;"	n	line:96	module:chip
+s1_rd_data	src/bus/rtl/bus.v	/^	input  wire [`WordDataBus] s1_rd_data, \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	p	line:71	module:bus
+s1_rd_data	src/bus/rtl/bus_slave_mux.v	/^	input  wire [`WordDataBus] s1_rd_data, \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	p	line:35	module:bus_slave_mux
+s1_rd_data	src/top/rtl/chip.v	/^	wire [`WordDataBus] s1_rd_data;				  \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	n	line:94	module:chip
+s1_rdy_	src/bus/rtl/bus.v	/^	input  wire				   s1_rdy_,	   \/\/ ãƒ¬ãƒ‡ã‚£$/;"	p	line:72	module:bus
+s1_rdy_	src/bus/rtl/bus_slave_mux.v	/^	input  wire				   s1_rdy_,	   \/\/ ãƒ¬ãƒ‡ã‚£$/;"	p	line:36	module:bus_slave_mux
+s1_rdy_	src/top/rtl/chip.v	/^	wire				s1_rdy_;				  \/\/ ãƒ¬ãƒ‡ã‚£$/;"	n	line:95	module:chip
+s2_cs_	src/bus/rtl/bus.v	/^	output wire				   s2_cs_,	   \/\/ ãƒãƒƒãƒ—ã‚»ãƒ¬ã‚¯ãƒˆ$/;"	p	line:77	module:bus
+s2_cs_	src/bus/rtl/bus_addr_dec.v	/^	output reg				   s2_cs_, \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–2ç•ª$/;"	p	line:26	module:bus_addr_dec
+s2_cs_	src/bus/rtl/bus_slave_mux.v	/^	input  wire				   s2_cs_,	   \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–2ç•ª$/;"	p	line:24	module:bus_slave_mux
+s2_cs_	src/top/rtl/chip.v	/^	wire				s2_cs_;					  \/\/ ãƒãƒƒãƒ—ã‚»ãƒ¬ã‚¯ãƒˆ$/;"	n	line:100	module:chip
+s2_rd_data	src/bus/rtl/bus.v	/^	input  wire [`WordDataBus] s2_rd_data, \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	p	line:75	module:bus
+s2_rd_data	src/bus/rtl/bus_slave_mux.v	/^	input  wire [`WordDataBus] s2_rd_data, \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	p	line:38	module:bus_slave_mux
+s2_rd_data	src/top/rtl/chip.v	/^	wire [`WordDataBus] s2_rd_data;				  \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	n	line:98	module:chip
+s2_rdy_	src/bus/rtl/bus.v	/^	input  wire				   s2_rdy_,	   \/\/ ãƒ¬ãƒ‡ã‚£$/;"	p	line:76	module:bus
+s2_rdy_	src/bus/rtl/bus_slave_mux.v	/^	input  wire				   s2_rdy_,	   \/\/ ãƒ¬ãƒ‡ã‚£$/;"	p	line:39	module:bus_slave_mux
+s2_rdy_	src/top/rtl/chip.v	/^	wire				s2_rdy_;				  \/\/ ãƒ¬ãƒ‡ã‚£$/;"	n	line:99	module:chip
+s3_cs_	src/bus/rtl/bus.v	/^	output wire				   s3_cs_,	   \/\/ ãƒãƒƒãƒ—ã‚»ãƒ¬ã‚¯ãƒˆ$/;"	p	line:81	module:bus
+s3_cs_	src/bus/rtl/bus_addr_dec.v	/^	output reg				   s3_cs_, \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–3ç•ª$/;"	p	line:27	module:bus_addr_dec
+s3_cs_	src/bus/rtl/bus_slave_mux.v	/^	input  wire				   s3_cs_,	   \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–3ç•ª$/;"	p	line:25	module:bus_slave_mux
+s3_cs_	src/top/rtl/chip.v	/^	wire				s3_cs_;					  \/\/ ãƒãƒƒãƒ—ã‚»ãƒ¬ã‚¯ãƒˆ$/;"	n	line:104	module:chip
+s3_rd_data	src/bus/rtl/bus.v	/^	input  wire [`WordDataBus] s3_rd_data, \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	p	line:79	module:bus
+s3_rd_data	src/bus/rtl/bus_slave_mux.v	/^	input  wire [`WordDataBus] s3_rd_data, \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	p	line:41	module:bus_slave_mux
+s3_rd_data	src/top/rtl/chip.v	/^	wire [`WordDataBus] s3_rd_data;				  \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	n	line:102	module:chip
+s3_rdy_	src/bus/rtl/bus.v	/^	input  wire				   s3_rdy_,	   \/\/ ãƒ¬ãƒ‡ã‚£$/;"	p	line:80	module:bus
+s3_rdy_	src/bus/rtl/bus_slave_mux.v	/^	input  wire				   s3_rdy_,	   \/\/ ãƒ¬ãƒ‡ã‚£$/;"	p	line:42	module:bus_slave_mux
+s3_rdy_	src/top/rtl/chip.v	/^	wire				s3_rdy_;				  \/\/ ãƒ¬ãƒ‡ã‚£$/;"	n	line:103	module:chip
+s4_cs_	src/bus/rtl/bus.v	/^	output wire				   s4_cs_,	   \/\/ ãƒãƒƒãƒ—ã‚»ãƒ¬ã‚¯ãƒˆ$/;"	p	line:85	module:bus
+s4_cs_	src/bus/rtl/bus_addr_dec.v	/^	output reg				   s4_cs_, \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–4ç•ª$/;"	p	line:28	module:bus_addr_dec
+s4_cs_	src/bus/rtl/bus_slave_mux.v	/^	input  wire				   s4_cs_,	   \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–4ç•ª$/;"	p	line:26	module:bus_slave_mux
+s4_cs_	src/top/rtl/chip.v	/^	wire				s4_cs_;					  \/\/ ãƒãƒƒãƒ—ã‚»ãƒ¬ã‚¯ãƒˆ$/;"	n	line:108	module:chip
+s4_rd_data	src/bus/rtl/bus.v	/^	input  wire [`WordDataBus] s4_rd_data, \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	p	line:83	module:bus
+s4_rd_data	src/bus/rtl/bus_slave_mux.v	/^	input  wire [`WordDataBus] s4_rd_data, \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	p	line:44	module:bus_slave_mux
+s4_rd_data	src/top/rtl/chip.v	/^	wire [`WordDataBus] s4_rd_data;				  \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	n	line:106	module:chip
+s4_rdy_	src/bus/rtl/bus.v	/^	input  wire				   s4_rdy_,	   \/\/ ãƒ¬ãƒ‡ã‚£$/;"	p	line:84	module:bus
+s4_rdy_	src/bus/rtl/bus_slave_mux.v	/^	input  wire				   s4_rdy_,	   \/\/ ãƒ¬ãƒ‡ã‚£$/;"	p	line:45	module:bus_slave_mux
+s4_rdy_	src/top/rtl/chip.v	/^	wire				s4_rdy_;				  \/\/ ãƒ¬ãƒ‡ã‚£$/;"	n	line:107	module:chip
+s5_cs_	src/bus/rtl/bus.v	/^	output wire				   s5_cs_,	   \/\/ ãƒãƒƒãƒ—ã‚»ãƒ¬ã‚¯ãƒˆ$/;"	p	line:89	module:bus
+s5_cs_	src/bus/rtl/bus_addr_dec.v	/^	output reg				   s5_cs_, \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–5ç•ª$/;"	p	line:29	module:bus_addr_dec
+s5_cs_	src/bus/rtl/bus_slave_mux.v	/^	input  wire				   s5_cs_,	   \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–5ç•ª$/;"	p	line:27	module:bus_slave_mux
+s5_cs_	src/top/rtl/chip.v	/^	wire				s5_cs_;					  \/\/ ãƒãƒƒãƒ—ã‚»ãƒ¬ã‚¯ãƒˆ$/;"	n	line:112	module:chip
+s5_rd_data	src/bus/rtl/bus.v	/^	input  wire [`WordDataBus] s5_rd_data, \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	p	line:87	module:bus
+s5_rd_data	src/bus/rtl/bus_slave_mux.v	/^	input  wire [`WordDataBus] s5_rd_data, \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	p	line:47	module:bus_slave_mux
+s5_rd_data	src/top/rtl/chip.v	/^	wire [`WordDataBus] s5_rd_data;				  \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	n	line:110	module:chip
+s5_rdy_	src/bus/rtl/bus.v	/^	input  wire				   s5_rdy_,	   \/\/ ãƒ¬ãƒ‡ã‚£$/;"	p	line:88	module:bus
+s5_rdy_	src/bus/rtl/bus_slave_mux.v	/^	input  wire				   s5_rdy_,	   \/\/ ãƒ¬ãƒ‡ã‚£$/;"	p	line:48	module:bus_slave_mux
+s5_rdy_	src/top/rtl/chip.v	/^	wire				s5_rdy_;				  \/\/ ãƒ¬ãƒ‡ã‚£$/;"	n	line:111	module:chip
+s6_cs_	src/bus/rtl/bus.v	/^	output wire				   s6_cs_,	   \/\/ ãƒãƒƒãƒ—ã‚»ãƒ¬ã‚¯ãƒˆ$/;"	p	line:93	module:bus
+s6_cs_	src/bus/rtl/bus_addr_dec.v	/^	output reg				   s6_cs_, \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–6ç•ª$/;"	p	line:30	module:bus_addr_dec
+s6_cs_	src/bus/rtl/bus_slave_mux.v	/^	input  wire				   s6_cs_,	   \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–6ç•ª$/;"	p	line:28	module:bus_slave_mux
+s6_cs_	src/top/rtl/chip.v	/^	wire				s6_cs_;					  \/\/ ãƒãƒƒãƒ—ã‚»ãƒ¬ã‚¯ãƒˆ$/;"	n	line:116	module:chip
+s6_rd_data	src/bus/rtl/bus.v	/^	input  wire [`WordDataBus] s6_rd_data, \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	p	line:91	module:bus
+s6_rd_data	src/bus/rtl/bus_slave_mux.v	/^	input  wire [`WordDataBus] s6_rd_data, \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	p	line:50	module:bus_slave_mux
+s6_rd_data	src/top/rtl/chip.v	/^	wire [`WordDataBus] s6_rd_data;				  \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	n	line:114	module:chip
+s6_rdy_	src/bus/rtl/bus.v	/^	input  wire				   s6_rdy_,	   \/\/ ãƒ¬ãƒ‡ã‚£$/;"	p	line:92	module:bus
+s6_rdy_	src/bus/rtl/bus_slave_mux.v	/^	input  wire				   s6_rdy_,	   \/\/ ãƒ¬ãƒ‡ã‚£$/;"	p	line:51	module:bus_slave_mux
+s6_rdy_	src/top/rtl/chip.v	/^	wire				s6_rdy_;				  \/\/ ãƒ¬ãƒ‡ã‚£$/;"	n	line:115	module:chip
+s7_cs_	src/bus/rtl/bus.v	/^	output wire				   s7_cs_	   \/\/ ãƒãƒƒãƒ—ã‚»ãƒ¬ã‚¯ãƒˆ$/;"	p	line:97	module:bus
+s7_cs_	src/bus/rtl/bus_addr_dec.v	/^	output reg				   s7_cs_  \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–7ç•ª$/;"	p	line:31	module:bus_addr_dec
+s7_cs_	src/bus/rtl/bus_slave_mux.v	/^	input  wire				   s7_cs_,	   \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–7ç•ª$/;"	p	line:29	module:bus_slave_mux
+s7_cs_	src/top/rtl/chip.v	/^	wire				s7_cs_;					  \/\/ ãƒãƒƒãƒ—ã‚»ãƒ¬ã‚¯ãƒˆ$/;"	n	line:120	module:chip
+s7_rd_data	src/bus/rtl/bus.v	/^	input  wire [`WordDataBus] s7_rd_data, \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	p	line:95	module:bus
+s7_rd_data	src/bus/rtl/bus_slave_mux.v	/^	input  wire [`WordDataBus] s7_rd_data, \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	p	line:53	module:bus_slave_mux
+s7_rd_data	src/top/rtl/chip.v	/^	wire [`WordDataBus] s7_rd_data;				  \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	n	line:118	module:chip
+s7_rdy_	src/bus/rtl/bus.v	/^	input  wire				   s7_rdy_,	   \/\/ ãƒ¬ãƒ‡ã‚£$/;"	p	line:96	module:bus
+s7_rdy_	src/bus/rtl/bus_slave_mux.v	/^	input  wire				   s7_rdy_,	   \/\/ ãƒ¬ãƒ‡ã‚£$/;"	p	line:54	module:bus_slave_mux
+s7_rdy_	src/top/rtl/chip.v	/^	wire				s7_rdy_;				  \/\/ ãƒ¬ãƒ‡ã‚£$/;"	n	line:119	module:chip
+s_addr	src/bus/rtl/bus.v	/^	output wire [`WordAddrBus] s_addr,	   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹$/;"	p	line:62	module:bus
+s_addr	src/bus/rtl/bus_addr_dec.v	/^	input  wire [`WordAddrBus] s_addr, \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹$/;"	p	line:22	module:bus_addr_dec
+s_addr	src/bus/rtl/bus_master_mux.v	/^	output reg	[`WordAddrBus] s_addr,	   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹$/;"	p	line:47	module:bus_master_mux
+s_addr	src/top/rtl/chip.v	/^	wire [`WordAddrBus] s_addr;					  \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹$/;"	n	line:85	module:chip
+s_as_	src/bus/rtl/bus.v	/^	output wire				   s_as_,	   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–$/;"	p	line:63	module:bus
+s_as_	src/bus/rtl/bus_master_mux.v	/^	output reg				   s_as_,	   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–$/;"	p	line:48	module:bus_master_mux
+s_as_	src/top/rtl/chip.v	/^	wire				s_as_;					  \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–$/;"	n	line:86	module:chip
+s_in_0	src/cpu/rtl/ex_alu.v	/^	wire signed [`WordDataBus] s_in_0 = $signed(in_0); \/\/ ç¬¦å·ä»˜ãå…¥åŠ› 0$/;"	n	line:29	module:alu
+s_in_1	src/cpu/rtl/ex_alu.v	/^	wire signed [`WordDataBus] s_in_1 = $signed(in_1); \/\/ ç¬¦å·ä»˜ãå…¥åŠ› 1$/;"	n	line:30	module:alu
+s_index	src/bus/rtl/bus_addr_dec.v	/^	wire [`BusSlaveIndexBus] s_index = s_addr[`BusSlaveIndexLoc];$/;"	n	line:35	module:bus_addr_dec
+s_index	src/cpu/rtl/bus_if.v	/^	wire [`BusSlaveIndexBus]   s_index;		   \/\/ ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–ã‚¤ãƒ³ãƒ‡ãƒƒã‚¯ã‚¹$/;"	n	line:58	module:bus_if
+s_out	src/cpu/rtl/ex_alu.v	/^	wire signed [`WordDataBus] s_out  = $signed(out);  \/\/ ç¬¦å·ä»˜ãå‡ºåŠ›$/;"	n	line:31	module:alu
+s_ra_data	src/cpu/rtl/id_decoder.v	/^	wire signed [`WordDataBus]	s_ra_data = $signed(ra_data);	  \/\/ •„†•t‚«Ra$/;"	n	line:81	module:decoder
+s_rb_data	src/cpu/rtl/id_decoder.v	/^	wire signed [`WordDataBus]	s_rb_data = $signed(rb_data);	  \/\/ •„†•t‚«Rb$/;"	n	line:83	module:decoder
+s_rw	src/bus/rtl/bus.v	/^	output wire				   s_rw,	   \/\/ èª­ã¿ï¼æ›¸ã$/;"	p	line:64	module:bus
+s_rw	src/bus/rtl/bus_master_mux.v	/^	output reg				   s_rw,	   \/\/ èª­ã¿ï¼æ›¸ã$/;"	p	line:49	module:bus_master_mux
+s_rw	src/top/rtl/chip.v	/^	wire				s_rw;					  \/\/ èª­ã¿ï¼æ›¸ã$/;"	n	line:87	module:chip
+s_wr_data	src/bus/rtl/bus.v	/^	output wire [`WordDataBus] s_wr_data,  \/\/ æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿$/;"	p	line:65	module:bus
+s_wr_data	src/bus/rtl/bus_master_mux.v	/^	output reg	[`WordDataBus] s_wr_data   \/\/ æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿$/;"	p	line:50	module:bus_master_mux
+s_wr_data	src/top/rtl/chip.v	/^	wire [`WordDataBus] s_wr_data;				  \/\/ æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿$/;"	n	line:88	module:chip
+sh_reg	src/io/uart/rtl/uart_tx.v	/^	reg [`ByteDataBus]		   sh_reg;	 \/\/ é€ä¿¡ç”¨ã‚·ãƒ•ãƒˆãƒ¬ã‚¸ã‚¹ã‚¿$/;"	r	line:37	module:uart_tx
+spm	src/cpu/rtl/spm.v	/^module spm ($/;"	m	line:21
+spm_addr	src/cpu/rtl/bus_if.v	/^	output wire [`WordAddrBus] spm_addr,	   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹$/;"	p	line:40	module:bus_if
+spm_addr	src/cpu/rtl/if_stage.v	/^	output wire [`WordAddrBus] spm_addr,	\/\/ ƒAƒhƒŒƒX$/;"	p	line:28	module:if_stage
+spm_addr	src/cpu/rtl/mem_stage.v	/^	output wire [`WordAddrBus] spm_addr,	   \/\/ ƒAƒhƒŒƒX$/;"	p	line:36	module:mem_stage
+spm_as_	src/cpu/rtl/bus_if.v	/^	output reg				   spm_as_,		   \/\/ ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–$/;"	p	line:41	module:bus_if
+spm_as_	src/cpu/rtl/if_stage.v	/^	output wire				   spm_as_,		\/\/ ƒAƒhƒŒƒXƒXƒgƒ[ƒu$/;"	p	line:29	module:if_stage
+spm_as_	src/cpu/rtl/mem_stage.v	/^	output wire				   spm_as_,		   \/\/ ƒAƒhƒŒƒXƒXƒgƒ[ƒu$/;"	p	line:37	module:mem_stage
+spm_rd_data	src/cpu/rtl/bus_if.v	/^	input  wire [`WordDataBus] spm_rd_data,	   \/\/ èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿$/;"	p	line:39	module:bus_if
+spm_rd_data	src/cpu/rtl/if_stage.v	/^	input  wire [`WordDataBus] spm_rd_data, \/\/ “Ç‚İo‚µƒf[ƒ^$/;"	p	line:27	module:if_stage
+spm_rd_data	src/cpu/rtl/mem_stage.v	/^	input  wire [`WordDataBus] spm_rd_data,	   \/\/ “Ç‚İo‚µƒf[ƒ^$/;"	p	line:35	module:mem_stage
+spm_rw	src/cpu/rtl/bus_if.v	/^	output wire				   spm_rw,		   \/\/ èª­ã¿ï¼æ›¸ã$/;"	p	line:42	module:bus_if
+spm_rw	src/cpu/rtl/if_stage.v	/^	output wire				   spm_rw,		\/\/ “Ç‚İ^‘‚«$/;"	p	line:30	module:if_stage
+spm_rw	src/cpu/rtl/mem_stage.v	/^	output wire				   spm_rw,		   \/\/ “Ç‚İ^‘‚«$/;"	p	line:38	module:mem_stage
+spm_wr_data	src/cpu/rtl/bus_if.v	/^	output wire [`WordDataBus] spm_wr_data,	   \/\/ æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿$/;"	p	line:43	module:bus_if
+spm_wr_data	src/cpu/rtl/if_stage.v	/^	output wire [`WordDataBus] spm_wr_data, \/\/ ‘‚«‚İƒf[ƒ^$/;"	p	line:31	module:if_stage
+spm_wr_data	src/cpu/rtl/mem_stage.v	/^	output wire [`WordDataBus] spm_wr_data,	   \/\/ ‘‚«‚İƒf[ƒ^$/;"	p	line:39	module:mem_stage
+stall	src/cpu/rtl/bus_if.v	/^	input  wire				   stall,		   \/\/ ã‚¹ãƒˆãƒ¼ãƒ«$/;"	p	line:29	module:bus_if
+stall	src/cpu/rtl/ctrl.v	/^	wire   stall	 = if_busy | mem_busy;$/;"	n	line:78	module:ctrl
+stall	src/cpu/rtl/ex_reg.v	/^	input  wire				   stall,		   \/\/ ƒXƒg[ƒ‹$/;"	p	line:29	module:ex_reg
+stall	src/cpu/rtl/ex_stage.v	/^	input  wire				   stall,		   \/\/ ƒXƒg[ƒ‹$/;"	p	line:28	module:ex_stage
+stall	src/cpu/rtl/id_reg.v	/^	input  wire				   stall,		   \/\/ ƒXƒg[ƒ‹$/;"	p	line:37	module:id_reg
+stall	src/cpu/rtl/id_stage.v	/^	input  wire					 stall,			 \/\/ ƒXƒg[ƒ‹$/;"	p	line:45	module:id_stage
+stall	src/cpu/rtl/if_reg.v	/^	input  wire				   stall,	   \/\/ ƒXƒg[ƒ‹$/;"	p	line:28	module:if_reg
+stall	src/cpu/rtl/if_stage.v	/^	input  wire				   stall,		\/\/ ƒXƒg[ƒ‹$/;"	p	line:42	module:if_stage
+stall	src/cpu/rtl/mem_reg.v	/^	input  wire				   stall,		 \/\/ ƒXƒg[ƒ‹$/;"	p	line:29	module:mem_reg
+stall	src/cpu/rtl/mem_stage.v	/^	input  wire				   stall,		   \/\/ ƒXƒg[ƒ‹$/;"	p	line:29	module:mem_stage
+start	src/io/timer/rtl/timer.v	/^	reg							start;	   \/\/ ã‚¹ã‚¿ãƒ¼ãƒˆãƒ“ãƒƒãƒˆ$/;"	r	line:39	module:timer
+state	src/cpu/rtl/bus_if.v	/^	reg	 [`BusIfStateBus]	   state;		   \/\/ ãƒã‚¹ã‚¤ãƒ³ã‚¿ãƒ•ã‚§ãƒ¼ã‚¹ã®çŠ¶æ…‹$/;"	r	line:56	module:bus_if
+state	src/io/uart/rtl/uart_rx.v	/^	reg [`UartStateBus]		   state;	 \/\/ ã‚¹ãƒ†ãƒ¼ãƒˆ$/;"	r	line:33	module:uart_rx
+state	src/io/uart/rtl/uart_tx.v	/^	reg [`UartStateBus]		   state;	 \/\/ ã‚¹ãƒ†ãƒ¼ãƒˆ$/;"	r	line:34	module:uart_tx
+timer	src/io/timer/rtl/timer.v	/^module timer ($/;"	m	line:20
+tx	src/io/uart/rtl/uart.v	/^	output wire				   tx		 \/\/ UARTé€ä¿¡ä¿¡å·$/;"	p	line:40	module:uart
+tx	src/io/uart/rtl/uart_tx.v	/^	output reg				   tx		 \/\/ UARTé€ä¿¡ä¿¡å·$/;"	p	line:30	module:uart_tx
+tx_busy	src/io/uart/rtl/uart.v	/^	wire					   tx_busy;	 \/\/ é€ä¿¡ä¸­ãƒ•ãƒ©ã‚°$/;"	n	line:49	module:uart
+tx_busy	src/io/uart/rtl/uart_ctrl.v	/^	input  wire				   tx_busy,	 \/\/ é€ä¿¡ä¸­ãƒ•ãƒ©ã‚°ï¼ˆåˆ¶å¾¡ãƒ¬ã‚¸ã‚¹ã‚¿ 0ï¼‰$/;"	p	line:41	module:uart_ctrl
+tx_busy	src/io/uart/rtl/uart_tx.v	/^	output wire				   tx_busy,	 \/\/ é€ä¿¡ä¸­ãƒ•ãƒ©ã‚°$/;"	p	line:27	module:uart_tx
+tx_data	src/io/uart/rtl/uart.v	/^	wire [`ByteDataBus]		   tx_data;	 \/\/ é€ä¿¡ãƒ‡ãƒ¼ã‚¿$/;"	n	line:52	module:uart
+tx_data	src/io/uart/rtl/uart_ctrl.v	/^	output reg	[`ByteDataBus] tx_data	 \/\/ é€ä¿¡ãƒ‡ãƒ¼ã‚¿$/;"	p	line:44	module:uart_ctrl
+tx_data	src/io/uart/rtl/uart_tx.v	/^	input  wire [`ByteDataBus] tx_data,	 \/\/ é€ä¿¡ãƒ‡ãƒ¼ã‚¿$/;"	p	line:26	module:uart_tx
+tx_end	src/io/uart/rtl/uart.v	/^	wire					   tx_end;	 \/\/ é€ä¿¡å®Œäº†ä¿¡å·$/;"	n	line:50	module:uart
+tx_end	src/io/uart/rtl/uart_ctrl.v	/^	input  wire				   tx_end,	 \/\/ é€ä¿¡å®Œäº†ä¿¡å·$/;"	p	line:42	module:uart_ctrl
+tx_end	src/io/uart/rtl/uart_tx.v	/^	output reg				   tx_end,	 \/\/ é€ä¿¡å®Œäº†ä¿¡å·$/;"	p	line:28	module:uart_tx
+tx_start	src/io/uart/rtl/uart.v	/^	wire					   tx_start; \/\/ é€ä¿¡é–‹å§‹ä¿¡å·$/;"	n	line:51	module:uart
+tx_start	src/io/uart/rtl/uart_ctrl.v	/^	output reg				   tx_start, \/\/ é€ä¿¡é–‹å§‹ä¿¡å·$/;"	p	line:43	module:uart_ctrl
+tx_start	src/io/uart/rtl/uart_tx.v	/^	input  wire				   tx_start, \/\/ é€ä¿¡é–‹å§‹ä¿¡å·$/;"	p	line:25	module:uart_tx
+uart	src/io/uart/rtl/uart.v	/^module uart ($/;"	m	line:23
+uart_ctrl	src/io/uart/rtl/uart_ctrl.v	/^module uart_ctrl ($/;"	m	line:20
+uart_rx	src/io/uart/rtl/uart_rx.v	/^module uart_rx ($/;"	m	line:20
+uart_rx	src/top/rtl/chip.v	/^	, input	 wire					 uart_rx	  \/\/ UARTå—ä¿¡ä¿¡å·$/;"	p	line:34	module:chip
+uart_rx	src/top/rtl/chip_top.v	/^	, input wire			   uart_rx		  \/\/ UARTå—ä¿¡ä¿¡å·$/;"	p	line:29	module:chip_top
+uart_rx	src/top/test/chip_top_test.v	/^	wire					uart_rx;	   \/\/ UARTå—ä¿¡ä¿¡å·$/;"	n	line:33	module:chip_top_test
+uart_tx	src/io/uart/rtl/uart_tx.v	/^module uart_tx ($/;"	m	line:20
+uart_tx	src/top/test/chip_top_test.v	/^	wire					uart_tx;	   \/\/ UARTé€ä¿¡ä¿¡å·$/;"	n	line:34	module:chip_top_test
+we_	src/cpu/rtl/gpr.v	/^	input  wire				   we_,				   \/\/ ‘‚«‚İ—LŒø$/;"	p	line:31	module:gpr
+wea	src/cpu/rtl/spm.v	/^	reg						   wea;			\/\/ ƒ|[ƒg A$/;"	r	line:39	module:spm
+wea	src/top/lib/x_s3e_dpram.v	/^	input  wire				   wea,	  \/\/ ‘‚«‚İ—LŒø$/;"	p	line:25	module:x_s3e_dpram
+web	src/cpu/rtl/spm.v	/^	reg						   web;			\/\/ ƒ|[ƒg B$/;"	r	line:40	module:spm
+web	src/top/lib/x_s3e_dpram.v	/^	input  wire				   web,	  \/\/ ‘‚«‚İ—LŒø$/;"	p	line:31	module:x_s3e_dpram
+wr_addr	src/cpu/rtl/gpr.v	/^	input  wire [`RegAddrBus]  wr_addr,			   \/\/ ‘‚«‚İƒAƒhƒŒƒX$/;"	p	line:32	module:gpr
+wr_data	src/cpu/rtl/bus_if.v	/^	input  wire [`WordDataBus] wr_data,		   \/\/ æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿$/;"	p	line:36	module:bus_if
+wr_data	src/cpu/rtl/gpr.v	/^	input  wire [`WordDataBus] wr_data			   \/\/ ‘‚«‚İƒf[ƒ^$/;"	p	line:33	module:gpr
+wr_data	src/cpu/rtl/mem_ctrl.v	/^	output wire [`WordDataBus] wr_data,		   \/\/ ‘‚«‚İƒf[ƒ^$/;"	p	line:33	module:mem_ctrl
+wr_data	src/cpu/rtl/mem_stage.v	/^	wire [`WordDataBus]		   wr_data;		   \/\/ ‘‚«‚İƒf[ƒ^$/;"	n	line:76	module:mem_stage
+wr_data	src/io/gpio/rtl/gpio.v	/^	input  wire [`WordDataBus]		wr_data, \/\/ æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿$/;"	p	line:29	module:gpio
+wr_data	src/io/timer/rtl/timer.v	/^	input  wire [`WordDataBus]	wr_data,   \/\/ æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿$/;"	p	line:29	module:timer
+wr_data	src/io/uart/rtl/uart.v	/^	input  wire [`WordDataBus] wr_data,	 \/\/ æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿$/;"	p	line:32	module:uart
+wr_data	src/io/uart/rtl/uart_ctrl.v	/^	input  wire [`WordDataBus] wr_data,	 \/\/ æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿$/;"	p	line:29	module:uart_ctrl
+x_s3e_dcm	src/top/lib/x_s3e_dcm.v	/^module x_s3e_dcm ($/;"	m	line:15
+x_s3e_dpram	src/top/lib/x_s3e_dpram.v	/^module x_s3e_dpram ($/;"	m	line:20
+x_s3e_sprom	src/top/lib/x_s3e_sprom.v	/^module x_s3e_sprom ($/;"	m	line:20

@@ -1,108 +1,108 @@
 /*
  -- ============================================================================
  -- FILE NAME	: if_stage.v
- -- DESCRIPTION : IFƒXƒe[ƒW
+ -- DESCRIPTION : IFã‚¹ãƒ†ãƒ¼ã‚¸
  -- ----------------------------------------------------------------------------
  -- Revision  Date		  Coding_by	 Comment
- -- 1.0.0	  2011/06/27  suito		 V‹Kì¬
+ -- 1.0.0	  2011/06/27  suito		 æ–°è¦ä½œæˆ
  -- ============================================================================
 */
 
-/********** ‹¤’Êƒwƒbƒ_ƒtƒ@ƒCƒ‹ **********/
+/********** å…±é€šãƒ˜ãƒƒãƒ€ãƒ•ã‚¡ã‚¤ãƒ« **********/
 `include "nettype.vh"
 `include "global_config.vh"
 `include "stddef.vh"
 
-/********** ŒÂ•Êƒwƒbƒ_ƒtƒ@ƒCƒ‹ **********/
+/********** å€‹åˆ¥ãƒ˜ãƒƒãƒ€ãƒ•ã‚¡ã‚¤ãƒ« **********/
 `include "cpu.vh"
 // `include "bus_if.v"
 // `include "if_reg.v"
 
-/********** ƒ‚ƒWƒ…[ƒ‹ **********/
+/********** ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ« **********/
 module if_stage (
-	/********** ƒNƒƒbƒN & ƒŠƒZƒbƒg **********/
-	input  wire				   clk,			// ƒNƒƒbƒN
-	input  wire				   reset,		// ”ñ“¯ŠúƒŠƒZƒbƒg
-	/********** SPMƒCƒ“ƒ^ƒtƒF[ƒX **********/
-	input  wire [`WordDataBus] spm_rd_data, // “Ç‚İo‚µƒf[ƒ^
-	output wire [`WordAddrBus] spm_addr,	// ƒAƒhƒŒƒX
-	output wire				   spm_as_,		// ƒAƒhƒŒƒXƒXƒgƒ[ƒu
-	output wire				   spm_rw,		// “Ç‚İ^‘‚«
-	output wire [`WordDataBus] spm_wr_data, // ‘‚«‚İƒf[ƒ^
-	/********** ƒoƒXƒCƒ“ƒ^ƒtƒF[ƒX **********/
-	input  wire [`WordDataBus] bus_rd_data, // “Ç‚İo‚µƒf[ƒ^
-	input  wire				   bus_rdy_,	// ƒŒƒfƒB
-	input  wire				   bus_grnt_,	// ƒoƒXƒOƒ‰ƒ“ƒg
-	output wire				   bus_req_,	// ƒoƒXƒŠƒNƒGƒXƒg
-	output wire [`WordAddrBus] bus_addr,	// ƒAƒhƒŒƒX
-	output wire				   bus_as_,		// ƒAƒhƒŒƒXƒXƒgƒ[ƒu
-	output wire				   bus_rw,		// “Ç‚İ^‘‚«
-	output wire [`WordDataBus] bus_wr_data, // ‘‚«‚İƒf[ƒ^
-	/********** ƒpƒCƒvƒ‰ƒCƒ“§ŒäM† **********/
-	input  wire				   stall,		// ƒXƒg[ƒ‹
-	input  wire				   flush,		// ƒtƒ‰ƒbƒVƒ…
-	input  wire [`WordAddrBus] new_pc,		// V‚µ‚¢ƒvƒƒOƒ‰ƒ€ƒJƒEƒ“ƒ^
-	input  wire				   br_taken,	// •ªŠò‚Ì¬—§
-	input  wire [`WordAddrBus] br_addr,		// •ªŠòæƒAƒhƒŒƒX
-	output wire				   busy,		// ƒrƒW[M†
-	/********** IF/IDƒpƒCƒvƒ‰ƒCƒ“ƒŒƒWƒXƒ^ **********/
-	output wire [`WordAddrBus] if_pc,		// ƒvƒƒOƒ‰ƒ€ƒJƒEƒ“ƒ^
-	output wire [`WordDataBus] if_insn,		// –½—ß
-	output wire				   if_en		// ƒpƒCƒvƒ‰ƒCƒ“ƒf[ƒ^‚Ì—LŒø
+	/********** ã‚¯ãƒ­ãƒƒã‚¯ & ãƒªã‚»ãƒƒãƒˆ **********/
+	input  wire				   clk,			// ã‚¯ãƒ­ãƒƒã‚¯
+	input  wire				   reset,		// éåŒæœŸãƒªã‚»ãƒƒãƒˆ
+	/********** SPMã‚¤ãƒ³ã‚¿ãƒ•ã‚§ãƒ¼ã‚¹ **********/
+	input  wire [`WordDataBus] spm_rd_data, // èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿
+	output wire [`WordAddrBus] spm_addr,	// ã‚¢ãƒ‰ãƒ¬ã‚¹
+	output wire				   spm_as_,		// ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–
+	output wire				   spm_rw,		// èª­ã¿ï¼æ›¸ã
+	output wire [`WordDataBus] spm_wr_data, // æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿
+	/********** ãƒã‚¹ã‚¤ãƒ³ã‚¿ãƒ•ã‚§ãƒ¼ã‚¹ **********/
+	input  wire [`WordDataBus] bus_rd_data, // èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿
+	input  wire				   bus_rdy_,	// ãƒ¬ãƒ‡ã‚£
+	input  wire				   bus_grnt_,	// ãƒã‚¹ã‚°ãƒ©ãƒ³ãƒˆ
+	output wire				   bus_req_,	// ãƒã‚¹ãƒªã‚¯ã‚¨ã‚¹ãƒˆ
+	output wire [`WordAddrBus] bus_addr,	// ã‚¢ãƒ‰ãƒ¬ã‚¹
+	output wire				   bus_as_,		// ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–
+	output wire				   bus_rw,		// èª­ã¿ï¼æ›¸ã
+	output wire [`WordDataBus] bus_wr_data, // æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿
+	/********** ãƒ‘ã‚¤ãƒ—ãƒ©ã‚¤ãƒ³åˆ¶å¾¡ä¿¡å· **********/
+	input  wire				   stall,		// ã‚¹ãƒˆãƒ¼ãƒ«
+	input  wire				   flush,		// ãƒ•ãƒ©ãƒƒã‚·ãƒ¥
+	input  wire [`WordAddrBus] new_pc,		// æ–°ã—ã„ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚«ã‚¦ãƒ³ã‚¿
+	input  wire				   br_taken,	// åˆ†å²ã®æˆç«‹
+	input  wire [`WordAddrBus] br_addr,		// åˆ†å²å…ˆã‚¢ãƒ‰ãƒ¬ã‚¹
+	output wire				   busy,		// ãƒ“ã‚¸ãƒ¼ä¿¡å·
+	/********** IF/IDãƒ‘ã‚¤ãƒ—ãƒ©ã‚¤ãƒ³ãƒ¬ã‚¸ã‚¹ã‚¿ **********/
+	output wire [`WordAddrBus] if_pc,		// ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚«ã‚¦ãƒ³ã‚¿
+	output wire [`WordDataBus] if_insn,		// å‘½ä»¤
+	output wire				   if_en		// ãƒ‘ã‚¤ãƒ—ãƒ©ã‚¤ãƒ³ãƒ‡ãƒ¼ã‚¿ã®æœ‰åŠ¹
 );
 
-	/********** “à•”Ú‘±M† **********/
-	wire [`WordDataBus]		   insn;		// ƒtƒFƒbƒ`‚µ‚½–½—ß
+	/********** å†…éƒ¨æ¥ç¶šä¿¡å· **********/
+	wire [`WordDataBus]		   insn;		// ãƒ•ã‚§ãƒƒãƒã—ãŸå‘½ä»¤
 
-	/********** ƒoƒXƒCƒ“ƒ^ƒtƒF[ƒX **********/
+	/********** ãƒã‚¹ã‚¤ãƒ³ã‚¿ãƒ•ã‚§ãƒ¼ã‚¹ **********/
 	bus_if bus_if (
-		/********** ƒNƒƒbƒN & ƒŠƒZƒbƒg **********/
-		.clk		 (clk),					// ƒNƒƒbƒN
-		.reset		 (reset),				// ”ñ“¯ŠúƒŠƒZƒbƒg
-		/********** ƒpƒCƒvƒ‰ƒCƒ“§ŒäM† **********/
-		.stall		 (stall),				// ƒXƒg[ƒ‹
-		.flush		 (flush),				// ƒtƒ‰ƒbƒVƒ…M†
-		.busy		 (busy),				// ƒrƒW[M†
-		/********** CPUƒCƒ“ƒ^ƒtƒF[ƒX **********/
-		.addr		 (if_pc),				// ƒAƒhƒŒƒX
-		.as_		 (`ENABLE_),			// ƒAƒhƒŒƒX—LŒø
-		.rw			 (`READ),				// “Ç‚İ^‘‚«
-		.wr_data	 (`WORD_DATA_W'h0),		// ‘‚«‚İƒf[ƒ^
-		.rd_data	 (insn),				// “Ç‚İo‚µƒf[ƒ^
-		/********** ƒXƒNƒ‰ƒbƒ`ƒpƒbƒhƒƒ‚ƒŠƒCƒ“ƒ^ƒtƒF[ƒX **********/
-		.spm_rd_data (spm_rd_data),			// “Ç‚İo‚µƒf[ƒ^
-		.spm_addr	 (spm_addr),			// ƒAƒhƒŒƒX
-		.spm_as_	 (spm_as_),				// ƒAƒhƒŒƒXƒXƒgƒ[ƒu
-		.spm_rw		 (spm_rw),				// “Ç‚İ^‘‚«
-		.spm_wr_data (spm_wr_data),			// ‘‚«‚İƒf[ƒ^
-		/********** ƒoƒXƒCƒ“ƒ^ƒtƒF[ƒX **********/
-		.bus_rd_data (bus_rd_data),			// “Ç‚İo‚µƒf[ƒ^
-		.bus_rdy_	 (bus_rdy_),			// ƒŒƒfƒB
-		.bus_grnt_	 (bus_grnt_),			// ƒoƒXƒOƒ‰ƒ“ƒg
-		.bus_req_	 (bus_req_),			// ƒoƒXƒŠƒNƒGƒXƒg
-		.bus_addr	 (bus_addr),			// ƒAƒhƒŒƒX
-		.bus_as_	 (bus_as_),				// ƒAƒhƒŒƒXƒXƒgƒ[ƒu
-		.bus_rw		 (bus_rw),				// “Ç‚İ^‘‚«
-		.bus_wr_data (bus_wr_data)			// ‘‚«‚İƒf[ƒ^
+		/********** ã‚¯ãƒ­ãƒƒã‚¯ & ãƒªã‚»ãƒƒãƒˆ **********/
+		.clk		 (clk),					// ã‚¯ãƒ­ãƒƒã‚¯
+		.reset		 (reset),				// éåŒæœŸãƒªã‚»ãƒƒãƒˆ
+		/********** ãƒ‘ã‚¤ãƒ—ãƒ©ã‚¤ãƒ³åˆ¶å¾¡ä¿¡å· **********/
+		.stall		 (stall),				// ã‚¹ãƒˆãƒ¼ãƒ«
+		.flush		 (flush),				// ãƒ•ãƒ©ãƒƒã‚·ãƒ¥ä¿¡å·
+		.busy		 (busy),				// ãƒ“ã‚¸ãƒ¼ä¿¡å·
+		/********** CPUã‚¤ãƒ³ã‚¿ãƒ•ã‚§ãƒ¼ã‚¹ **********/
+		.addr		 (if_pc),				// ã‚¢ãƒ‰ãƒ¬ã‚¹
+		.as_		 (`ENABLE_),			// ã‚¢ãƒ‰ãƒ¬ã‚¹æœ‰åŠ¹
+		.rw			 (`READ),				// èª­ã¿ï¼æ›¸ã
+		.wr_data	 (`WORD_DATA_W'h0),		// æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿
+		.rd_data	 (insn),				// èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿
+		/********** ã‚¹ã‚¯ãƒ©ãƒƒãƒãƒ‘ãƒƒãƒ‰ãƒ¡ãƒ¢ãƒªã‚¤ãƒ³ã‚¿ãƒ•ã‚§ãƒ¼ã‚¹ **********/
+		.spm_rd_data (spm_rd_data),			// èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿
+		.spm_addr	 (spm_addr),			// ã‚¢ãƒ‰ãƒ¬ã‚¹
+		.spm_as_	 (spm_as_),				// ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–
+		.spm_rw		 (spm_rw),				// èª­ã¿ï¼æ›¸ã
+		.spm_wr_data (spm_wr_data),			// æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿
+		/********** ãƒã‚¹ã‚¤ãƒ³ã‚¿ãƒ•ã‚§ãƒ¼ã‚¹ **********/
+		.bus_rd_data (bus_rd_data),			// èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿
+		.bus_rdy_	 (bus_rdy_),			// ãƒ¬ãƒ‡ã‚£
+		.bus_grnt_	 (bus_grnt_),			// ãƒã‚¹ã‚°ãƒ©ãƒ³ãƒˆ
+		.bus_req_	 (bus_req_),			// ãƒã‚¹ãƒªã‚¯ã‚¨ã‚¹ãƒˆ
+		.bus_addr	 (bus_addr),			// ã‚¢ãƒ‰ãƒ¬ã‚¹
+		.bus_as_	 (bus_as_),				// ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚¹ãƒˆãƒ­ãƒ¼ãƒ–
+		.bus_rw		 (bus_rw),				// èª­ã¿ï¼æ›¸ã
+		.bus_wr_data (bus_wr_data)			// æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿
 	);
    
-	/********** IFƒXƒe[ƒWƒpƒCƒvƒ‰ƒCƒ“ƒŒƒWƒXƒ^ **********/
+	/********** IFã‚¹ãƒ†ãƒ¼ã‚¸ãƒ‘ã‚¤ãƒ—ãƒ©ã‚¤ãƒ³ãƒ¬ã‚¸ã‚¹ã‚¿ **********/
 	if_reg if_reg (
-		/********** ƒNƒƒbƒN & ƒŠƒZƒbƒg **********/
-		.clk		 (clk),					// ƒNƒƒbƒN
-		.reset		 (reset),				// ”ñ“¯ŠúƒŠƒZƒbƒg
-		/********** ƒtƒFƒbƒ`ƒf[ƒ^ **********/
-		.insn		 (insn),				// ƒtƒFƒbƒ`‚µ‚½–½—ß
-		/********** ƒpƒCƒvƒ‰ƒCƒ“§ŒäM† **********/
-		.stall		 (stall),				// ƒXƒg[ƒ‹
-		.flush		 (flush),				// ƒtƒ‰ƒbƒVƒ…
-		.new_pc		 (new_pc),				// V‚µ‚¢ƒvƒƒOƒ‰ƒ€ƒJƒEƒ“ƒ^
-		.br_taken	 (br_taken),			// •ªŠò‚Ì¬—§
-		.br_addr	 (br_addr),				// •ªŠòæƒAƒhƒŒƒX
-		/********** IF/IDƒpƒCƒvƒ‰ƒCƒ“ƒŒƒWƒXƒ^ **********/
-		.if_pc		 (if_pc),				// ƒvƒƒOƒ‰ƒ€ƒJƒEƒ“ƒ^
-		.if_insn	 (if_insn),				// –½—ß
-		.if_en		 (if_en)				// ƒpƒCƒvƒ‰ƒCƒ“ƒf[ƒ^‚Ì—LŒø
+		/********** ã‚¯ãƒ­ãƒƒã‚¯ & ãƒªã‚»ãƒƒãƒˆ **********/
+		.clk		 (clk),					// ã‚¯ãƒ­ãƒƒã‚¯
+		.reset		 (reset),				// éåŒæœŸãƒªã‚»ãƒƒãƒˆ
+		/********** ãƒ•ã‚§ãƒƒãƒãƒ‡ãƒ¼ã‚¿ **********/
+		.insn		 (insn),				// ãƒ•ã‚§ãƒƒãƒã—ãŸå‘½ä»¤
+		/********** ãƒ‘ã‚¤ãƒ—ãƒ©ã‚¤ãƒ³åˆ¶å¾¡ä¿¡å· **********/
+		.stall		 (stall),				// ã‚¹ãƒˆãƒ¼ãƒ«
+		.flush		 (flush),				// ãƒ•ãƒ©ãƒƒã‚·ãƒ¥
+		.new_pc		 (new_pc),				// æ–°ã—ã„ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚«ã‚¦ãƒ³ã‚¿
+		.br_taken	 (br_taken),			// åˆ†å²ã®æˆç«‹
+		.br_addr	 (br_addr),				// åˆ†å²å…ˆã‚¢ãƒ‰ãƒ¬ã‚¹
+		/********** IF/IDãƒ‘ã‚¤ãƒ—ãƒ©ã‚¤ãƒ³ãƒ¬ã‚¸ã‚¹ã‚¿ **********/
+		.if_pc		 (if_pc),				// ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚«ã‚¦ãƒ³ã‚¿
+		.if_insn	 (if_insn),				// å‘½ä»¤
+		.if_en		 (if_en)				// ãƒ‘ã‚¤ãƒ—ãƒ©ã‚¤ãƒ³ãƒ‡ãƒ¼ã‚¿ã®æœ‰åŠ¹
 	);
 
 endmodule

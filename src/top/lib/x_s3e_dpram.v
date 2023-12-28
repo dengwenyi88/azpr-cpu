@@ -1,63 +1,63 @@
 /*
  -- ============================================================================
  -- FILE NAME	: x_s3e_dpram.v
- -- DESCRIPTION : Xilinx Spartan-3E Dual Port RAM ‹^—ƒ‚ƒfƒ‹
+ -- DESCRIPTION : Xilinx Spartan-3E Dual Port RAM ç–‘ä¼¼ãƒ¢ãƒ‡ãƒ«
  -- ----------------------------------------------------------------------------
  -- Revision  Date		  Coding_by	 Comment
- -- 1.0.0	  2011/06/27  suito		 V‹Kì¬
+ -- 1.0.0	  2011/06/27  suito		 æ–°è¦ä½œæˆ
  -- ============================================================================
 */
 
-/********** ‹¤’Êƒwƒbƒ_ƒtƒ@ƒCƒ‹ **********/
+/********** å…±é€šãƒ˜ãƒƒãƒ€ãƒ•ã‚¡ã‚¤ãƒ« **********/
 `include "nettype.vh"
 `include "stddef.vh"
 `include "global_config.vh"
 
-/********** ŒÂ•Êƒwƒbƒ_ƒtƒ@ƒCƒ‹ **********/
+/********** å€‹åˆ¥ãƒ˜ãƒƒãƒ€ãƒ•ã‚¡ã‚¤ãƒ« **********/
 `include "spm.vh"
 
-/********** ƒ‚ƒWƒ…[ƒ‹ **********/
+/********** ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ« **********/
 module x_s3e_dpram (
-	/********** ƒ|[ƒg A **********/
-	input  wire				   clka,  // ƒNƒƒbƒN
-	input  wire [`SpmAddrBus]  addra, // ƒAƒhƒŒƒX
-	input  wire [`WordDataBus] dina,  // ‘‚«‚İƒf[ƒ^
-	input  wire				   wea,	  // ‘‚«‚İ—LŒø
-	output reg	[`WordDataBus] douta, // “Ç‚İo‚µƒf[ƒ^
-	/********** ƒ|[ƒg B **********/
-	input  wire				   clkb,  // ƒNƒƒbƒN
-	input  wire [`SpmAddrBus]  addrb, // ƒAƒhƒŒƒX
-	input  wire [`WordDataBus] dinb,  // ‘‚«‚İƒf[ƒ^
-	input  wire				   web,	  // ‘‚«‚İ—LŒø
-	output reg	[`WordDataBus] doutb  // “Ç‚İo‚µƒf[ƒ^
+	/********** ãƒãƒ¼ãƒˆ A **********/
+	input  wire				   clka,  // ã‚¯ãƒ­ãƒƒã‚¯
+	input  wire [`SpmAddrBus]  addra, // ã‚¢ãƒ‰ãƒ¬ã‚¹
+	input  wire [`WordDataBus] dina,  // æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿
+	input  wire				   wea,	  // æ›¸ãè¾¼ã¿æœ‰åŠ¹
+	output reg	[`WordDataBus] douta, // èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿
+	/********** ãƒãƒ¼ãƒˆ B **********/
+	input  wire				   clkb,  // ã‚¯ãƒ­ãƒƒã‚¯
+	input  wire [`SpmAddrBus]  addrb, // ã‚¢ãƒ‰ãƒ¬ã‚¹
+	input  wire [`WordDataBus] dinb,  // æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿
+	input  wire				   web,	  // æ›¸ãè¾¼ã¿æœ‰åŠ¹
+	output reg	[`WordDataBus] doutb  // èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿
 );
 
-	/********** ƒƒ‚ƒŠ **********/
+	/********** ãƒ¡ãƒ¢ãƒª **********/
 	reg [`WordDataBus] mem [0:`SPM_DEPTH-1];
 
-	/********** ƒƒ‚ƒŠƒAƒNƒZƒXiƒ|[ƒg Aj **********/
+	/********** ãƒ¡ãƒ¢ãƒªã‚¢ã‚¯ã‚»ã‚¹ï¼ˆãƒãƒ¼ãƒˆ Aï¼‰ **********/
 	always @(posedge clka) begin
-		// “Ç‚İo‚µƒAƒNƒZƒX
+		// èª­ã¿å‡ºã—ã‚¢ã‚¯ã‚»ã‚¹
 		if ((web == `ENABLE) && (addra == addrb)) begin
 			douta	  <= #1 dinb;
 		end else begin
 			douta	  <= #1 mem[addra];
 		end
-		// ‘‚«‚İƒAƒNƒZƒX
+		// æ›¸ãè¾¼ã¿ã‚¢ã‚¯ã‚»ã‚¹
 		if (wea == `ENABLE) begin
 			mem[addra]<= #1 dina;
 		end
 	end
 
-	/********** ƒƒ‚ƒŠƒAƒNƒZƒXiƒ|[ƒg Bj **********/
+	/********** ãƒ¡ãƒ¢ãƒªã‚¢ã‚¯ã‚»ã‚¹ï¼ˆãƒãƒ¼ãƒˆ Bï¼‰ **********/
 	always @(posedge clkb) begin
-		// “Ç‚İo‚µƒAƒNƒZƒX
+		// èª­ã¿å‡ºã—ã‚¢ã‚¯ã‚»ã‚¹
 		if ((wea == `ENABLE) && (addrb == addra)) begin
 			doutb	  <= #1 dina;
 		end else begin
 			doutb	  <= #1 mem[addrb];
 		end
-		// ‘‚«‚İƒAƒNƒZƒX
+		// æ›¸ãè¾¼ã¿ã‚¢ã‚¯ã‚»ã‚¹
 		if (web == `ENABLE) begin
 			mem[addrb]<= #1 dinb;
 		end

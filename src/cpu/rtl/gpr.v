@@ -1,59 +1,59 @@
 /* 
  -- ============================================================================
  -- FILE NAME	: gpr.v
- -- DESCRIPTION : ”Ä—pƒŒƒWƒXƒ^
+ -- DESCRIPTION : æ±ç”¨ãƒ¬ã‚¸ã‚¹ã‚¿
  -- ----------------------------------------------------------------------------
  -- Revision  Date		  Coding_by	 Comment
- -- 1.0.0	  2011/06/27  suito		 V‹Kì¬
+ -- 1.0.0	  2011/06/27  suito		 æ–°è¦ä½œæˆ
  -- ============================================================================
 */
 
-/********** ‹¤’Êƒwƒbƒ_ƒtƒ@ƒCƒ‹ **********/
+/********** å…±é€šãƒ˜ãƒƒãƒ€ãƒ•ã‚¡ã‚¤ãƒ« **********/
 `include "nettype.vh"
 `include "global_config.vh"
 `include "stddef.vh"
 
-/********** ŒÂ•Êƒwƒbƒ_ƒtƒ@ƒCƒ‹ **********/
+/********** å€‹åˆ¥ãƒ˜ãƒƒãƒ€ãƒ•ã‚¡ã‚¤ãƒ« **********/
 `include "cpu.vh"
 
-/********** ƒ‚ƒWƒ…[ƒ‹ **********/
+/********** ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ« **********/
 module gpr (
-	/********** ƒNƒƒbƒN & ƒŠƒZƒbƒg **********/
-	input  wire				   clk,				   // ƒNƒƒbƒN
-	input  wire				   reset,			   // ”ñ“¯ŠúƒŠƒZƒbƒg
-	/********** “Ç‚İo‚µƒ|[ƒg 0 **********/
-	input  wire [`RegAddrBus]  rd_addr_0,		   // “Ç‚İo‚µƒAƒhƒŒƒX
-	output wire [`WordDataBus] rd_data_0,		   // “Ç‚İo‚µƒf[ƒ^
-	/********** “Ç‚İo‚µƒ|[ƒg 1 **********/
-	input  wire [`RegAddrBus]  rd_addr_1,		   // “Ç‚İo‚µƒAƒhƒŒƒX
-	output wire [`WordDataBus] rd_data_1,		   // “Ç‚İo‚µƒf[ƒ^
-	/********** ‘‚«‚İƒ|[ƒg **********/
-	input  wire				   we_,				   // ‘‚«‚İ—LŒø
-	input  wire [`RegAddrBus]  wr_addr,			   // ‘‚«‚İƒAƒhƒŒƒX
-	input  wire [`WordDataBus] wr_data			   // ‘‚«‚İƒf[ƒ^
+	/********** ã‚¯ãƒ­ãƒƒã‚¯ & ãƒªã‚»ãƒƒãƒˆ **********/
+	input  wire				   clk,				   // ã‚¯ãƒ­ãƒƒã‚¯
+	input  wire				   reset,			   // éåŒæœŸãƒªã‚»ãƒƒãƒˆ
+	/********** èª­ã¿å‡ºã—ãƒãƒ¼ãƒˆ 0 **********/
+	input  wire [`RegAddrBus]  rd_addr_0,		   // èª­ã¿å‡ºã—ã‚¢ãƒ‰ãƒ¬ã‚¹
+	output wire [`WordDataBus] rd_data_0,		   // èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿
+	/********** èª­ã¿å‡ºã—ãƒãƒ¼ãƒˆ 1 **********/
+	input  wire [`RegAddrBus]  rd_addr_1,		   // èª­ã¿å‡ºã—ã‚¢ãƒ‰ãƒ¬ã‚¹
+	output wire [`WordDataBus] rd_data_1,		   // èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿
+	/********** æ›¸ãè¾¼ã¿ãƒãƒ¼ãƒˆ **********/
+	input  wire				   we_,				   // æ›¸ãè¾¼ã¿æœ‰åŠ¹
+	input  wire [`RegAddrBus]  wr_addr,			   // æ›¸ãè¾¼ã¿ã‚¢ãƒ‰ãƒ¬ã‚¹
+	input  wire [`WordDataBus] wr_data			   // æ›¸ãè¾¼ã¿ãƒ‡ãƒ¼ã‚¿
 );
 
-	/********** “à•”M† **********/
-	reg [`WordDataBus]		   gpr [`REG_NUM-1:0]; // ƒŒƒWƒXƒ^”z—ñ
-	integer					   i;				   // ƒCƒeƒŒ[ƒ^
+	/********** å†…éƒ¨ä¿¡å· **********/
+	reg [`WordDataBus]		   gpr [`REG_NUM-1:0]; // ãƒ¬ã‚¸ã‚¹ã‚¿é…åˆ—
+	integer					   i;				   // ã‚¤ãƒ†ãƒ¬ãƒ¼ã‚¿
 
-	/********** “Ç‚İo‚µƒAƒNƒZƒX (Write After Read) **********/
-	// “Ç‚İo‚µƒ|[ƒg 0
+	/********** èª­ã¿å‡ºã—ã‚¢ã‚¯ã‚»ã‚¹ (Write After Read) **********/
+	// èª­ã¿å‡ºã—ãƒãƒ¼ãƒˆ 0
 	assign rd_data_0 = ((we_ == `ENABLE_) && (wr_addr == rd_addr_0)) ? 
 					   wr_data : gpr[rd_addr_0];
-	// “Ç‚İo‚µƒ|[ƒg 1
+	// èª­ã¿å‡ºã—ãƒãƒ¼ãƒˆ 1
 	assign rd_data_1 = ((we_ == `ENABLE_) && (wr_addr == rd_addr_1)) ? 
 					   wr_data : gpr[rd_addr_1];
    
-	/********** ‘‚«‚İƒAƒNƒZƒX **********/
+	/********** æ›¸ãè¾¼ã¿ã‚¢ã‚¯ã‚»ã‚¹ **********/
 	always @ (posedge clk or `RESET_EDGE reset) begin
 		if (reset == `RESET_ENABLE) begin 
-			/* ”ñ“¯ŠúƒŠƒZƒbƒg */
+			/* éåŒæœŸãƒªã‚»ãƒƒãƒˆ */
 			for (i = 0; i < `REG_NUM; i = i + 1) begin
 				gpr[i]		 <= #1 `WORD_DATA_W'h0;
 			end
 		end else begin
-			/* ‘‚«‚İƒAƒNƒZƒX */
+			/* æ›¸ãè¾¼ã¿ã‚¢ã‚¯ã‚»ã‚¹ */
 			if (we_ == `ENABLE_) begin 
 				gpr[wr_addr] <= #1 wr_data;
 			end

@@ -1,32 +1,32 @@
 /*
  -- ============================================================================
  -- FILE NAME	: x_s3e_sprom.v
- -- DESCRIPTION : Xilinx Spartan-3E Single Port ROM ‹^Ž—ƒ‚ƒfƒ‹
+ -- DESCRIPTION : Xilinx Spartan-3E Single Port ROM ç–‘ä¼¼ãƒ¢ãƒ‡ãƒ«
  -- ----------------------------------------------------------------------------
  -- Revision  Date		  Coding_by	 Comment
- -- 1.0.0	  2011/06/27  suito		 V‹Kì¬
+ -- 1.0.0	  2011/06/27  suito		 æ–°è¦ä½œæˆ
  -- ============================================================================
 */
 
-/********** ‹¤’Êƒwƒbƒ_ƒtƒ@ƒCƒ‹ **********/
+/********** å…±é€šãƒ˜ãƒƒãƒ€ãƒ•ã‚¡ã‚¤ãƒ« **********/
 `include "nettype.vh"
 `include "stddef.vh"
 `include "global_config.vh"
 
-/********** ŒÂ•Êƒwƒbƒ_ƒtƒ@ƒCƒ‹ **********/
+/********** å€‹åˆ¥ãƒ˜ãƒƒãƒ€ãƒ•ã‚¡ã‚¤ãƒ« **********/
 `include "rom.vh"
 
-/********** ƒ‚ƒWƒ…[ƒ‹ **********/
+/********** ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ« **********/
 module x_s3e_sprom (
-	input wire				  clka,	 // ƒNƒƒbƒN
-	input wire [`RomAddrBus]  addra, // ƒAƒhƒŒƒX
-	output reg [`WordDataBus] douta	 // “Ç‚Ýo‚µƒf[ƒ^
+	input wire				  clka,	 // ã‚¯ãƒ­ãƒƒã‚¯
+	input wire [`RomAddrBus]  addra, // ã‚¢ãƒ‰ãƒ¬ã‚¹
+	output reg [`WordDataBus] douta	 // èª­ã¿å‡ºã—ãƒ‡ãƒ¼ã‚¿
 );
 
-	/********** ƒƒ‚ƒŠ **********/
+	/********** ãƒ¡ãƒ¢ãƒª **********/
 	reg [`WordDataBus] mem [0:`ROM_DEPTH-1];
 
-	/********** “Ç‚Ýo‚µƒAƒNƒZƒX **********/
+	/********** èª­ã¿å‡ºã—ã‚¢ã‚¯ã‚»ã‚¹ **********/
 	always @(posedge clka) begin
 		douta <= #1 mem[addra];
 	end
